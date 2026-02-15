@@ -67,16 +67,23 @@ export default function Navbar() {
     }
   }, [])
 
+
+const closeMegaMenu = () => {
+    document.querySelector('.megamenu-2')?.classList.remove('active')
+
+}
+
+
   return (
     <header id="header" className="header fixed-top">
       <div className="topbar d-flex align-items-center dark-background">
         <div className="container d-flex justify-content-center justify-content-md-between">
           <div className="contact-info d-flex align-items-center">
             <i className="bi bi-envelope d-flex align-items-center">
-              <a href="mailto:contact@example.com">contact@example.com</a>
+              <a href="mailto:aplexengg@gmail.com">aplexengg@gmail.com</a>
             </i>
             <i className="bi bi-phone d-flex align-items-center ms-4">
-              <span>+1 5589 55488 55</span>
+              <span>+91 98250 95243</span>
             </i>
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
@@ -111,8 +118,15 @@ export default function Navbar() {
               ))}
 
 
-              <li className="megamenu-2">
-                <a href="#">
+              <li className="megamenu-2"  onMouseEnter={() =>
+    document.querySelector('.megamenu-2')?.classList.add('active')
+  }
+  onMouseLeave={() =>
+    document.querySelector('.megamenu-2')?.classList.remove('active')
+  }>
+                <a href="#"  
+                 
+  >
                   <span>Products</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
                 </a>
                 <ul className="mobile-megamenu">
@@ -173,7 +187,8 @@ export default function Navbar() {
                               <div className="row">
                                 {category.items.map((item, index) => (
                                   <div className="col-md-4 col-sm-6 mb-3" key={index}>
-                                    <Link  to={`/products/${category.categorySlug}/${item.slug}`} className="product-link d-block">
+                                    <Link  to={`/products/${category.categorySlug}/${item.slug}`} className="product-link d-block"  onClick={closeMegaMenu}
+>
                                       <i className={`bi ${item.icon} me-2 text-dark`} style={{fontSize: "25px" }}></i>
                                       <span>{item.title}</span>
                                     </Link>

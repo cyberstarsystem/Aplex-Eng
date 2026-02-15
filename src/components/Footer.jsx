@@ -68,12 +68,12 @@ export default function Footer() {
             <p>New York, NY 535022</p>
             <p>United States</p>
             <p className="mt-4">
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              <strong>Phone:</strong> <span>+91 98250 95243</span>
             </p>
             <p>
-              <strong>Email:</strong>{' '}
+              <strong>Email:</strong>
               <span>
-                <a href="mailto:contact@example.com">contact@example.com</a>
+                <a href="mailto:aplexengg@gmail.com"> aplexengg@gmail.com</a>
               </span>
             </p>
           </div>

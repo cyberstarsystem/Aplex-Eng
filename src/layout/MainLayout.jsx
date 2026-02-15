@@ -51,11 +51,11 @@ export default function MainLayout() {
       const selectHeader = document.querySelector('#header')
       if (!selectHeader?.classList.contains('fixed-top')) return
 
-      if (!isHome) {
-        // On all non-home pages, keep navbar in "scrolled" (solid) state
-        document.body.classList.add('scrolled')
-        return
-      }
+      // if (!isHome) {
+      //   // On all non-home pages, keep navbar in "scrolled" (solid) state
+      //   document.body.classList.add('scrolled')
+      //   return
+      // }
 
       if (window.scrollY > 100) {
         document.body.classList.add('scrolled')
