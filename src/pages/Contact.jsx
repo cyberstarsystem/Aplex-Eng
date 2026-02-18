@@ -4,8 +4,10 @@ import CallToAction from '../components/CallToAction'
 export default function Contact() {
   return (
     <>
-      <ContactSection />
-      <CallToAction />
+      <div className="space">
+        <ContactSection />
+        <CallToAction />
+      </div>
     </>
   )
 }

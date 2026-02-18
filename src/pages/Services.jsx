@@ -6,10 +6,12 @@ import CallToAction from '../components/CallToAction'
 export default function Services() {
   return (
     <>
-      <ServicesSection />
-      {/* <Pricing /> */}
-      <Faq />
-      <CallToAction />
+      <div className="space">
+        <ServicesSection />
+        {/* <Pricing /> */}
+        <Faq />
+        <CallToAction />
+      </div>
     </>
   )
 }

@@ -1,12 +1,27 @@
 import { useEffect, useRef } from 'react'
 import Isotope from 'isotope-layout'
 import imagesLoaded from 'imagesloaded'
-import portrait1 from '../assets/img/portfolio/portfolio-portrait-1.webp'
-import portfolio2 from '../assets/img/portfolio/portfolio-2.webp'
-import portrait2 from '../assets/img/portfolio/portfolio-portrait-2.webp'
-import portrait4 from '../assets/img/portfolio/portfolio-portrait-4.webp'
-import portfolio5 from '../assets/img/portfolio/portfolio-5.webp'
-import portfolio6 from '../assets/img/portfolio/portfolio-6.webp'
+import portrait1 from '../assets/img/portfolio/AGITATOR-BLAD-PPH-TANK.jpeg'
+import portfolio2 from '../assets/img/portfolio/CHAMBER CONE.jpeg'
+import portrait2 from '../assets/img/portfolio/CHAMBER SHELL.jpeg'
+import portrait4 from '../assets/img/portfolio/CHAMBER SHELL-2.jpeg'
+import portfolio5 from '../assets/img/portfolio/HAG.jpeg'
+import portfolio6 from '../assets/img/portfolio/HAG SYSTEM.jpeg'
+import portfolio7 from '../assets/img/portfolio/LABORATORY SPRAY DRYER-1.jpeg'
+import portfolio8 from '../assets/img/portfolio/LABORATORY SPRAY DRYER-2.jpeg'
+import portfolio9 from '../assets/img/portfolio/PILOT SPRAY DRYER.jpeg'
+import portfolio10 from '../assets/img/portfolio/PPH SCRUBBER TANK.jpeg'
+import portfolio11 from '../assets/img/portfolio/PPH TANKS.jpeg'
+import portfolio12 from '../assets/img/portfolio/PUMP.jpeg'
+import portfolio13 from '../assets/img/portfolio/REACTOR.jpeg'
+import portfolio14 from '../assets/img/portfolio/SCRRUBER.jpeg'
+import portfolio15 from '../assets/img/portfolio/SCRUBBER PUMP.jpeg'
+import portfolio16 from '../assets/img/portfolio/SFD COLUMN.jpeg'
+import portfolio17 from '../assets/img/portfolio/SPRAY DRYER PLANT.jpeg'
+import portfolio18 from '../assets/img/portfolio/SPRAY DRYER.jpeg'
+import portfolio19 from '../assets/img/portfolio/TWIN SCREW.jpeg'
+import portfolio20 from '../assets/img/portfolio/VIBRO-SHIFTER.jpeg'
+
 
 const portfolioFilters = [
   { filter: '*', label: 'All' },
@@ -23,6 +38,20 @@ const portfolioItems = [
   { img: portrait4, title: 'Natural Growth', category: 'Nature', filter: 'filter-nature' },
   { img: portfolio5, title: 'Urban Stories', category: 'Photography', filter: 'filter-photography' },
   { img: portfolio6, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio7, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio8, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio9, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio10, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio11, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio12, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio13, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio14, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio15, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio16, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio17, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio18, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio19, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portfolio20, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
 ]
 
 export default function Portfolio() {

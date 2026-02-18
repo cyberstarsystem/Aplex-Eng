@@ -1475,7 +1475,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
-  padding-top: 100px;
+  /* padding-top: 150px; */
   padding-bottom: 60px;
 }
 
@@ -2447,7 +2447,7 @@ section,
   background: linear-gradient(135deg, var(--background-color) 0%, color-mix(in srgb, var(--accent-color), transparent 95%) 100%);
   position: relative;
   overflow: hidden;
-  padding-top: 100px;
+  /* padding-top: 150px; */
 }
 
 .services::before {
@@ -3099,6 +3099,16 @@ section,
   background: linear-gradient(170deg, var(--background-color) 0%, color-mix(in srgb, var(--background-color), var(--accent-color) 5%) 100%);
 }
 
+.call-to-action .btn-primary{
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.call-to-action .btn-primary:hover{
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
 .call-to-action .cta-wrapper {
   position: relative;
   border-radius: 20px;
@@ -3541,7 +3551,7 @@ section,
   
 }
 .portfolio {
-  padding-top: 100px;
+  /* padding-top: 150px; */
 }
 
 .portfolio .portfolio-filters {
@@ -3827,7 +3837,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact{
-  padding-top: 100px;
+  /* padding-top: 150px; */
 }
 .contact .contact-main-wrapper {
   position: relative;
@@ -5516,4 +5526,12 @@ background-color: #f2f4f7;
   background-color: var(--accent-color);
   color: #fff;
   font-weight: 600;
+}
+
+.footer-contact a{
+  color: white;
+}
+
+.space{
+  padding-top: 100px;
 }

@@ -1,17 +1,18 @@
 const usefulLinks = [
   { label: 'Home', href: '#hero' },
-  { label: 'About us', href: '#about' },
-  { label: 'Services', href: '#services' },
+  { label: 'About us', href: '/about' },
+  { label: 'Services', href: '/services' },
   { label: 'Terms of service', href: '#' },
   { label: 'Privacy policy', href: '#' },
 ]
 
 const ourServices = [
-  { label: 'Web Design', href: '#' },
-  { label: 'Web Development', href: '#' },
-  { label: 'Product Management', href: '#' },
-  { label: 'Marketing', href: '#' },
-  { label: 'Graphic Design', href: '#' },
+  { label: 'AMC Services', href: '#' },
+  { label: 'System Customization', href: '#' },
+  { label: 'Spares Supply', href: '#' },
+  { label: 'Operation Contracts', href: '#' },
+  { label: 'Product Trial Facility', href: '#' },
+  { label: 'Refurbishment Services', href: '#' },
 ]
 
 const socialIcons = [
@@ -26,7 +27,7 @@ export default function Footer() {
     <footer id="footer" className="footer position-relative dark-background">
       <div className="container footer-top">
         <div className="row gy-4">
-          <div className="col-lg-5 col-md-12 footer-about">
+          <div className="col-lg-3 col-md-12 footer-about">
             <a href="#hero" className="logo d-flex align-items-center">
               <span className="sitename">Passion</span>
             </a>
@@ -62,13 +63,14 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <div className="col-lg-5 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p>United States</p>
+            <h6>Head Office</h6>
+            <p>D-1110, TITANIUM CITY CENTER, 11TH FLOOR, NR. SACHIN – TOWER, 100FT ROAD,</p>
+            <p>SATELLITE, AHMEDABAD – 380015</p>
+
             <p className="mt-4">
-              <strong>Phone:</strong> <span>+91 98250 95243</span>
+              <strong>Phone:</strong> <a href="tel:+91 98250 95243"><span>+91 98250 95243</span></a>
             </p>
             <p>
               <strong>Email:</strong>
@@ -81,10 +83,12 @@ export default function Footer() {
       </div>
       <div className="container copyright text-center mt-4">
         <p>
-          © <span>Copyright</span> <strong className="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span>
+          © {new Date().getFullYear()}{" "}
+          <strong className="px-1 sitename">Aplex</strong>. All Rights Reserved
         </p>
+
         <div className="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Developed by <a href="https://cyberstarsystem.in/">Cyberstar System</a>
         </div>
       </div>
     </footer>

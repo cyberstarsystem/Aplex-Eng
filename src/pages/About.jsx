@@ -7,11 +7,13 @@ import Testimonials from '../components/Testimonials'
 export default function About() {
   return (
     <>
-      <AboutSection />
-      <Team />
-      <Testimonials />
-      <OurMission />
-      <OurVision />
+      <div className='space' >
+        <AboutSection />
+        <Team />
+        <Testimonials />
+        <OurMission />
+        <OurVision />
+      </div>
     </>
   )
 }
