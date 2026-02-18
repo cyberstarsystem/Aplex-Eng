@@ -82,6 +82,18 @@ export default function CallToAction() {
                     />
                   </div>
 
+                  <div className="col-lg-12 mb-3">
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="email"
+                      placeholder="Subject"
+                      // value={formData.email}
+                      // onChange={handleChange}
+                      required
+                    />
+                  </div>
+
                   <div className="mb-3">
                     <textarea
                       className="form-control"

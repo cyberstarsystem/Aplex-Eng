@@ -130,41 +130,46 @@ const productsData = [
         shortDescription:
           "Advanced spray dryer with integrated fluid bed for improved powder density and solubility.",
         fullDescription:
-          "Multistage Spray Dryer combines spray drying and fluid bed drying to improve powder density, solubility, and agglomeration. It is widely used in dairy and food industries for instant powder production.",
-        workingPrinciple: [
-          "Primary spray drying chamber removes initial moisture.",
-          "Integrated fluid bed ensures secondary drying and agglomeration.",
-          "Final cooling improves powder stability."
-        ],
-        mainComponents: [
-          "Drying Chamber",
-          "Integrated Fluid Bed",
-          "Cyclone Separator",
-          "Air Heater",
-          "Control Panel"
-        ],
+          "A Multistage Spray Dryer (MSD) is an advanced spray drying system engineered for high-quality powders, especially those requiring narrow particle size distribution, excellent instant properties, low dusting, and improved bulk density. Unlike single-stage spray dryers, an MSD uses multiple drying zones—typically a primary drying chambercombined with integrated or external fluidized beds—to achieve controlled drying, agglomeration, and superior powder functionality.",
+        // workingPrinciple: [
+        //   "Primary spray drying chamber removes initial moisture.",
+        //   "Integrated fluid bed ensures secondary drying and agglomeration.",
+        //   "Final cooling improves powder stability."
+        // ],
+        // mainComponents: [
+        //   "Drying Chamber",
+        //   "Integrated Fluid Bed",
+        //   "Cyclone Separator",
+        //   "Air Heater",
+        //   "Control Panel"
+        // ],
         features: [
-          "Better powder density",
-          "Improved solubility",
-          "Agglomeration capability",
-          "Energy-efficient design"
+          "High bulk density or low bulk density based on requirement.",
+          "Instantizing options (agglomeration).",
+          "Reduced fines and improved powder structure.",
+          "EBetter solubility, dispersibility, and flowability.",
+          "Suitable for large production capacities."
         ],
         applications: [
           "Milk powder",
-          "Infant formula",
+          "Baby Food",
           "Protein powders",
-          "Instant beverage mixes"
+          "Instant beverage mixes",
+          "Coffee whiteners",
+          "Malt extract",
+          "Cocoa mixes",
+          
         ],
-        advantages: [
-          "High-quality instant powder",
-          "Reduced fines generation",
-          "Better product stability"
-        ],
-        industries: [
-          "Dairy",
-          "Food Processing",
-          "Nutraceutical"
-        ]
+        // advantages: [
+        //   "High-quality instant powder",
+        //   "Reduced fines generation",
+        //   "Better product stability"
+        // ],
+        // industries: [
+        //   "Dairy",
+        //   "Food Processing",
+        //   "Nutraceutical"
+        // ]
       }
       ,
       {
@@ -174,11 +179,16 @@ const productsData = [
         shortDescription:
           "Closed-loop inert gas spray dryer for solvent-based or flammable materials.",
         fullDescription:
-          "Closed-loop spray dryer operates under inert atmosphere using nitrogen, ensuring safe drying of flammable or solvent-based materials.",
+          "A Closed-Loop Spray Dryer is a thermal drying system designed for converting liquid feed (solutions, emulsions, suspensions) into a dry powder under oxygen-free/controlled atmosphere.It operates in a sealed drying chamber, where inert gas (usually nitrogen) circulates in a loop rather thanventing to the atmosphere",
         workingPrinciple: [
-          "Atomization in inert nitrogen environment.",
-          "Solvent vapors recovered via condenser.",
-          "Oxygen level maintained below safety limit."
+          "Feed Preparation : Liquid feed is pumped to the atomizer.",
+          "Atomization : A rotary or nozzle atomizer converts liquid into fine droplets.",
+          "Inert Gas Heating : Nitrogen/inert gas is heated through a heater.",
+          "Droplet Drying (Closed Chamber) : Hot inert gas contacts droplets → moisture evaporates.",
+          "Powder Separation : Cyclone separator, filter, or bag filter collects powder.",
+          "Solvent Recovery : Evaporated solvent condenses in a condenser and is collected.",
+          "Gas Recirculation : Clean inert gas returns to the heater, restarting the loop.",
+
         ],
         mainComponents: [
           "Drying Chamber",
@@ -201,7 +211,8 @@ const productsData = [
           "Pharmaceutical",
           "Chemical",
           "Advanced Materials"
-        ]
+        ],
+        
       }
       ,
       {

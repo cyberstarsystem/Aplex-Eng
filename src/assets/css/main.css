@@ -195,7 +195,10 @@ h6 {
 .header .branding {
   min-height: 60px;
   padding: 10px 0;
-  background: rgba(7, 12, 16, 0.8);
+  /* background: rgba(7, 12, 16, 0.8); */
+  /* box-shadow: 2px 2px 5px #d8d8d8; */
+  border-bottom: 1px solid rgb(216, 212, 212);
+  background-color: white;
 }
 
 .header .logo {
@@ -203,7 +206,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 50px;
   margin-right: 8px;
 }
 
@@ -262,7 +265,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: var(--default-color);
     font-size: 14px;
     padding: 0 2px;
     font-family: var(--nav-font);
@@ -305,7 +308,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: color-mix(in srgb, var(--nav-color) 90%, white 15%);
+    color: color-mix(in srgb, var(--accent-color) 100%, white 15%);
   }
 
   .navmenu .dropdown ul {
@@ -1713,8 +1716,6 @@ section,
 .clients .client-logo img {
   max-width: 90%;
   transition: 0.3s;
-  opacity: 0.5;
-  filter: grayscale(100);
 }
 
 .clients .client-logo img:hover {
@@ -1748,8 +1749,8 @@ section,
 }
 
 .featured-services .services-content h2 {
-  font-size: 42px;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
 }

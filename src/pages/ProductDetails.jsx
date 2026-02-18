@@ -232,12 +232,12 @@ export default function ProductDetails() {
                                             </ul>
                                         </div>
                                     )}
+
+                                    
                                 </div>
 
                             </div>
                         </div>
-
-
 
                     </div>
                 </div>

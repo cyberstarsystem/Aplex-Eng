@@ -1,3 +1,5 @@
+import logo from '../assets/img/logo.jpg'
+
 const usefulLinks = [
   { label: 'Home', href: '#hero' },
   { label: 'About us', href: '/about' },
@@ -29,11 +31,10 @@ export default function Footer() {
         <div className="row gy-4">
           <div className="col-lg-3 col-md-12 footer-about">
             <a href="#hero" className="logo d-flex align-items-center">
-              <span className="sitename">Passion</span>
+              <img src={logo} alt="" />
             </a>
             <p>
-              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
-              darta donna mare fermentum iaculis eu non diam phasellus.
+              We deliver innovative and reliable engineering solutions tailored to meet industrial needs. With a strong commitment to quality, performance, and long-term partnerships, we ensure excellence in every project we undertake.
             </p>
             <div className="social-links d-flex mt-4">
               {socialIcons.map((s, i) => (

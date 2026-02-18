@@ -13,15 +13,6 @@ const socialLinks = [
   { href: '#', className: 'linkedin', icon: 'bi-linkedin' },
 ]
 
-const navItems = [
-  { to: '/', label: 'Home', end: true },
-  { to: '/about', label: 'About' },
-  { to: '/services', label: 'Services' },
-  { to: '/portfolio', label: 'Portfolio' },
-  // { to: '/blog', label: 'Blog' },
-  { to: '/contact', label: 'Contact' },
-]
-
 const megamenuTabs = [
   { id: '2190-tab-1', icon: 'bi-building-gear', label: 'Enterprise Software' },
   { id: '2190-tab-2', icon: 'bi-code-slash', label: 'Development Tools' },
@@ -68,11 +59,10 @@ export default function Navbar() {
   }, [])
 
 
-const closeMegaMenu = () => {
+  const closeMegaMenu = () => {
     document.querySelector('.megamenu-2')?.classList.remove('active')
 
-}
-
+  }
 
   return (
     <header id="header" className="header fixed-top">
@@ -105,28 +95,27 @@ const closeMegaMenu = () => {
 
           <nav id="navmenu" className="navmenu">
             <ul>
-              {navItems.map((item) => (
-                <li key={item.label}>
-                  <NavLink
-                    to={item.to}
-                    end={item.end}
-                    className={({ isActive }) => (isActive ? 'active' : '')}
-                  >
-                    {item.label}
-                  </NavLink>
-                </li>
-              ))}
+              <li>
+                <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>
+                  Home
+                </NavLink>
+              </li>
 
+               <li>
+                <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
+                  About
+                </NavLink>
+              </li>
 
-              <li className="megamenu-2"  onMouseEnter={() =>
-    document.querySelector('.megamenu-2')?.classList.add('active')
-  }
-  onMouseLeave={() =>
-    document.querySelector('.megamenu-2')?.classList.remove('active')
-  }>
-                <a href="#"  
-                 
-  >
+              <li className="megamenu-2" onMouseEnter={() =>
+                document.querySelector('.megamenu-2')?.classList.add('active')
+              }
+                onMouseLeave={() =>
+                  document.querySelector('.megamenu-2')?.classList.remove('active')
+                }>
+                <a href="#"
+
+                >
                   <span>Products</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
                 </a>
                 <ul className="mobile-megamenu">
@@ -139,7 +128,7 @@ const closeMegaMenu = () => {
                       <ul>
                         {category.items.map((item, index) => (
                           <li key={index}>
-                            <Link  to={`/products/${category.categorySlug}/${item.slug}`}
+                            <Link to={`/products/${category.categorySlug}/${item.slug}`}
                             >{item.title}</Link>
                           </li>
                         ))}
@@ -187,9 +176,9 @@ const closeMegaMenu = () => {
                               <div className="row">
                                 {category.items.map((item, index) => (
                                   <div className="col-md-4 col-sm-6 mb-3" key={index}>
-                                    <Link  to={`/products/${category.categorySlug}/${item.slug}`} className="product-link d-block"  onClick={closeMegaMenu}
->
-                                      <i className={`bi ${item.icon} me-2 text-dark`} style={{fontSize: "25px" }}></i>
+                                    <Link to={`/products/${category.categorySlug}/${item.slug}`} className="product-link d-block" onClick={closeMegaMenu}
+                                    >
+                                      <i className={`bi ${item.icon} me-2 text-dark`} style={{ fontSize: "25px" }}></i>
                                       <span>{item.title}</span>
                                     </Link>
                                   </div>
@@ -204,6 +193,27 @@ const closeMegaMenu = () => {
                   </div>
 
                 </div>
+              </li>
+
+              {/* SERVICES */}
+              <li>
+                <NavLink to="/services" className={({ isActive }) => isActive ? 'active' : ''}>
+                  Services
+                </NavLink>
+              </li>
+
+              {/* PORTFOLIO */}
+              <li>
+                <NavLink to="/portfolio" className={({ isActive }) => isActive ? 'active' : ''}>
+                  Portfolio
+                </NavLink>
+              </li>
+
+              {/* CONTACT */}
+              <li>
+                <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>
+                  Contact
+                </NavLink>
               </li>
 
             </ul>
