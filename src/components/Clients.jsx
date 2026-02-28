@@ -3,14 +3,29 @@ import Swiper from "swiper";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
-import c1 from "../assets/img/clients/clients-1.webp";
-import c2 from "../assets/img/clients/clients-2.webp";
-import c3 from "../assets/img/clients/clients-3.webp";
-import c4 from "../assets/img/clients/clients-4.webp";
-import c5 from "../assets/img/clients/clients-5.webp";
-import c6 from "../assets/img/clients/clients-6.webp";
+import c1 from "../assets/img/clients/client-1.svg";
+import c2 from "../assets/img/clients/client-2.jpg";
+import c3 from "../assets/img/clients/client-3.webp";
+import c4 from "../assets/img/clients/client-4.webp";
+import c5 from "../assets/img/clients/client-5.png";
+import c6 from "../assets/img/clients/client-6.png";
+import c7 from "../assets/img/clients/client-7.svg";
+import c8 from "../assets/img/clients/client-8.webp";
+import c9 from "../assets/img/clients/client-9.gif";
+import c10 from "../assets/img/clients/client-10.png";
+import c11 from "../assets/img/clients/client-11.webp";
+import c12 from "../assets/img/clients/client-12.webp";
+import c13 from "../assets/img/clients/client-13.avif";
+import c14 from "../assets/img/clients/client-14.png";
+import c15 from "../assets/img/clients/client-15.png";
+import c16 from "../assets/img/clients/client-16.png";
+import c17 from "../assets/img/clients/client-17.jpg";
+import c18 from "../assets/img/clients/client-18.png";
+import c19 from "../assets/img/clients/client-19.png";
+import c20 from "../assets/img/clients/client-20.svg";
 
-const clientLogos = [c1, c2, c3, c4, c5, c6];
+
+const clientLogos = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20];
 
 export default function Clients() {
   const swiperRef = useRef(null);

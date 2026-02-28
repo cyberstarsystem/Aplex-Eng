@@ -9,8 +9,8 @@ export default function About() {
     <>
       <div className='space' >
         <AboutSection />
-        <Team />
-        <Testimonials />
+        {/* <Team />
+        <Testimonials /> */}
         <OurMission />
         <OurVision />
       </div>

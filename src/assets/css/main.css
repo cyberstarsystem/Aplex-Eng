@@ -371,7 +371,7 @@ h6 {
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color: var(--nav-color);
+    color: var(--nav-dropdown-color);
     font-size: 28px;
     line-height: 0;
     margin-right: 10px;
@@ -1714,7 +1714,7 @@ section,
 }
 
 .clients .client-logo img {
-  max-width: 90%;
+  max-width: 100%;
   transition: 0.3s;
 }
 
@@ -5500,7 +5500,7 @@ section,
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 90%;
+  width: 100%;
 }
 
 .menu-item {

@@ -68,11 +68,11 @@ export default function ProductDetails() {
                                         <div className="contact-info">
                                             <div className="contact-item">
                                                 <i className="bi bi-telephone"></i>
-                                                <span>+91 99999 99999</span>
+                                                <span>+91 98250 95243</span>
                                             </div>
                                             <div className="contact-item">
                                                 <i className="bi bi-envelope"></i>
-                                                <span>info@aplexengg.com</span>
+                                                <span>aplexengg@gmail.com</span>
                                             </div>
                                         </div>
                                         <a href="#" className="btn btn-primary mt-3">
@@ -233,7 +233,129 @@ export default function ProductDetails() {
                                         </div>
                                     )}
 
-                                    
+                                    {/* WHY Use */}
+                                    {product.whyUse && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Why Closed-Loop?</h4>
+                                            <ul>
+                                                {product.whyUse.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* VARIANTS */}
+                                    {product.variants && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Variants / Types</h4>
+                                            <ul>
+                                                {product.variants.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* KEY SELECTION PARAMETERS */}
+                                    {product.keySelectionParameters && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Key Selection Parameters</h4>
+                                            <ul>
+                                                {product.keySelectionParameters.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* HYGIENIC DESIGN FEATURES */}
+                                    {product.hygienicDesignFeatures && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Hygienic Design Features</h4>
+                                            <ul>
+                                                {product.hygienicDesignFeatures.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* HYGIENE & REGULATORY STANDARDS */}
+                                    {product.hygieneStandards && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Hygiene & Regulatory Standards</h4>
+                                            <ul>
+                                                {product.hygieneStandards.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* PRODUCT VARIANTS */}
+                                    {product.productCategories && (
+                                        <div className="col-12 mt-4">
+                                            <h4>Product Variants</h4>
+                                            <div className="row">
+                                                {product.productCategories.map((cat, index) => (
+                                                    <div key={index} className="col-lg-6 mb-3">
+                                                        <h6 className="fw-bold">{cat.name}</h6>
+                                                        <ul>
+                                                            {cat.features.map((item, i) => (
+                                                                <li key={i}>{item}</li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {/* DESIGN FEATURES */}
+                                    {product.designFeatures && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Design Features</h4>
+                                            <ul>
+                                                {product.designFeatures.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* LIMITATIONS */}
+                                    {product.limitations && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Limitations</h4>
+                                            <ul>
+                                                {product.limitations.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* PLANT COMPONENTS */}
+                                    {product.plantComponents && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Plant Components</h4>
+                                            <ul>
+                                                {product.plantComponents.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+
+
+
+
+
+
+
+
                                 </div>
 
                             </div>
