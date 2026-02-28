@@ -1686,7 +1686,7 @@ section,
 .clients .clients-slider {
   overflow: hidden;
   background-color: var(--surface-color);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  /* border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
 }
 
 .clients .swiper-wrapper {
@@ -1697,7 +1697,7 @@ section,
 
 .clients .swiper-slide {
   height: auto;
-  border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  /* border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%); */
 }
 
 .clients .swiper-slide:last-child {
