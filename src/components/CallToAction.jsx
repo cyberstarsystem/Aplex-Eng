@@ -107,7 +107,7 @@ export default function CallToAction() {
                   </div>
                   </div>
 
-                  <button type="submit" className="btn btn-primary w-50">
+                  <button type="submit" className="btn btn-primary" style={{borderRadius: "50px" }}>
                     Submit Feedback
                   </button>
 

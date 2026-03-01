@@ -1,15 +1,15 @@
 import { useEffect, useRef } from 'react'
 import Isotope from 'isotope-layout'
 import imagesLoaded from 'imagesloaded'
-import portrait1 from '../assets/img/portfolio/AGITATOR-BLAD-PPH-TANK.jpeg'
-import portfolio2 from '../assets/img/portfolio/CHAMBER CONE.jpeg'
-import portrait2 from '../assets/img/portfolio/CHAMBER SHELL.jpeg'
-import portrait4 from '../assets/img/portfolio/CHAMBER SHELL-2.jpeg'
-import portfolio5 from '../assets/img/portfolio/HAG.jpeg'
-import portfolio6 from '../assets/img/portfolio/HAG SYSTEM.jpeg'
-import portfolio7 from '../assets/img/portfolio/LABORATORY SPRAY DRYER-1.jpeg'
-import portfolio8 from '../assets/img/portfolio/LABORATORY SPRAY DRYER-2.jpeg'
-import portfolio9 from '../assets/img/portfolio/PILOT SPRAY DRYER.jpeg'
+import portrait1 from '../assets/img/portfolio/spray-dryer.jpg'
+import portfolio2 from '../assets/img/portfolio/evoporator.jpg'
+import portrait2 from '../assets/img/portfolio/spray-2.jpg'
+import portrait4 from '../assets/img/portfolio/jacked.jpg'
+import portfolio5 from '../assets/img/portfolio/evoporator2.jpg'
+import portfolio6 from '../assets/img/portfolio/spray3.jpg'
+import portfolio7 from '../assets/img/portfolio/vessel.jpg'
+import portfolio8 from '../assets/img/portfolio/jacket-vessel.jpg'
+import portfolio9 from '../assets/img/portfolio/evoporator3.jpg'
 import portfolio10 from '../assets/img/portfolio/PPH SCRUBBER TANK.jpeg'
 import portfolio11 from '../assets/img/portfolio/PPH TANKS.jpeg'
 import portfolio12 from '../assets/img/portfolio/PUMP.jpeg'
@@ -25,33 +25,33 @@ import portfolio20 from '../assets/img/portfolio/VIBRO-SHIFTER.jpeg'
 
 const portfolioFilters = [
   { filter: '*', label: 'All' },
-  { filter: '.filter-photography', label: 'Photography' },
-  { filter: '.filter-design', label: 'Design' },
-  { filter: '.filter-automotive', label: 'Automotive' },
-  { filter: '.filter-nature', label: 'Nature' },
+  { filter: '.filter-dryer', label: 'Dryers' },
+  { filter: '.filter-evaporators', label: 'Evaporators' },
+  { filter: '.filter-equipments', label: 'Equipments' },
+  // { filter: '.filter-nature', label: 'Nature' },
 ]
 
 const portfolioItems = [
-  { img: portrait1, title: 'Capturing Moments', category: 'Photography', filter: 'filter-photography' },
-  { img: portfolio2, title: 'Woodcraft Design', category: 'Web Design', filter: 'filter-design' },
-  { img: portrait2, title: 'Classic Beauty', category: 'Automotive', filter: 'filter-automotive' },
-  { img: portrait4, title: 'Natural Growth', category: 'Nature', filter: 'filter-nature' },
-  { img: portfolio5, title: 'Urban Stories', category: 'Photography', filter: 'filter-photography' },
-  { img: portfolio6, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio7, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio8, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio9, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio10, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio11, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio12, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio13, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio14, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio15, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio16, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio17, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio18, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio19, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
-  { img: portfolio20, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  { img: portrait1, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: portfolio2, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
+  { img: portrait2, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: portrait4, title: 'Jacketed Process Vessels', category: 'Equipments', filter: 'filter-equipments' },
+  { img: portfolio5, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
+  { img: portfolio6, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: portfolio7, title: 'SS Chemical Reactor Vessel', category: 'Equipments', filter: 'filter-equipments' },
+  { img: portfolio8, title: 'Dimple Jacket Vessels', category: 'Equipments', filter: 'filter-equipments' },
+  { img: portfolio9, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
+  // { img: portfolio10, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio11, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio12, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio13, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio14, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio15, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio16, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio17, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio18, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio19, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
+  // { img: portfolio20, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
 ]
 
 export default function Portfolio() {

@@ -1,11 +1,12 @@
 import { useState } from 'react'
 
 const contactCards = [
-  { icon: 'bi-geo-alt', title: 'Head Office', content: `D-1110, TITANIUM CITY CENTER, 11TH FLOOR, NR. SACHIN –
- TOWER, 100FT ROAD, SATELLITE, AHMEDABAD – 380015` },
-  { icon: 'bi-geo-alt', title: 'Work Office', content: `FP-59, SHED NO.2, NR. SHRADDHAN IND. ESTATE, BARODA EXP.WAY ROAD, RAMOL HATHIJAN RING-ROAD, AHMDABAD, GUJARAT 382445.Gujarat, India.` },
-  { icon: 'bi-envelope', title: 'Email', content: 'aplexengg@gmail.com', isEmail: true },
-  { icon: 'bi-telephone', title: 'Call', content: '+91 98250 95243' },
+  {
+    icon: 'bi-geo-alt', title: 'Head Office', content: `D-1110, TITANIUM CITY CENTER, 11TH FLOOR, NR. SACHIN –
+ TOWER, 100FT ROAD, SATELLITE, AHMEDABAD – 380015, Gujarat, India `, mobile: '+91 98250 95243'},
+  { icon: 'bi-geo-alt', title: 'Works', content: `FP-59, SHED NO.2, NR. SHRADDHAN IND. ESTATE, BARODA EXP.WAY ROAD, RAMOL HATHIJAN RING-ROAD, AHMEDABAD 382445.Gujarat, India.`,  mobile: '+91 76989 84768' },
+  { icon: 'bi-envelope', title: 'Email', content: 'sales@aplexengg.com', isEmail: true },
+  { icon: 'bi-telephone', title: 'Call', content: '+91 84870 13321 ' },
   // { icon: 'bi-clock', title: 'Open Hours', content: 'Monday-Friday: 9AM - 6PM' },
 ]
 
@@ -28,8 +29,8 @@ export default function Contact() {
   return (
     <section id="contact" className="contact section">
       <div className="container section-title">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Contact Us</h2>
+        <p>We are open for any suggestion or just to have a chat</p>
       </div>
       <div className="container">
         <div className="contact-main-wrapper">
@@ -70,7 +71,11 @@ export default function Contact() {
                         <a href={`mailto:${card.content}`}>{card.content}</a>
                       ) : (
                         card.content
+                       
                       )}
+                      
+                      {card.mobile && <><hr /><i className="bi bi-telephone"></i> {card.mobile}</>}
+                      
                     </p>
                   </div>
                 </div>
@@ -79,8 +84,7 @@ export default function Contact() {
             <div className="contact-form-container">
               <h3>Get in Touch</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua consectetur adipiscing.
+                Send us a message using the form below and we'll get back to you as soon as possible.
               </p>
               <form onSubmit={handleSubmit} className="php-email-form">
                 <div className="row">

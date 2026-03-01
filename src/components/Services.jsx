@@ -83,10 +83,10 @@ export default function Services() {
                     {s.badge && <span className="badge popular">{s.badge}</span>}
                     {s.price && <span className="price">{s.price}</span>}
                   </div>
-                  <a href="#contact" className="btn-cta">
+                  {/* <a href="#contact" className="btn-cta">
                     <span>{s.cta}</span>
                     <i className="bi bi-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </div>
                 <div className="service-bg"></div>
               </div>

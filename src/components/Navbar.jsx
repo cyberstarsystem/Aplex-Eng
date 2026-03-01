@@ -70,7 +70,7 @@ export default function Navbar() {
         <div className="container d-flex justify-content-center justify-content-md-between">
           <div className="contact-info d-flex align-items-center">
             <i className="bi bi-envelope d-flex align-items-center">
-              <a href="mailto:aplexengg@gmail.com">aplexengg@gmail.com</a>
+              <a href="mailto:sales@aplexengg.com">sales@aplexengg.com</a>
             </i>
             <i className="bi bi-phone d-flex align-items-center ms-4">
               <span>+91 98250 95243</span>
@@ -103,7 +103,7 @@ export default function Navbar() {
 
                <li>
                 <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
-                  About
+                  About Us
                 </NavLink>
               </li>
 
@@ -212,7 +212,7 @@ export default function Navbar() {
               {/* CONTACT */}
               <li>
                 <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>
-                  Contact
+                  Contact Us
                 </NavLink>
               </li>
 

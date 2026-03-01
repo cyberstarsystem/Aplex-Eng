@@ -2,7 +2,7 @@ import aboutImg from '../assets/img/about/about-square-8.webp'
 
 const aboutStats = [
   { number: '8+', label: 'Years Experience' },
-  { number: '450+', label: 'Projects Completed' },
+  { number: '500+', label: 'Projects Completed' },
   { number: '25', label: 'Team Members' },
 ]
 
@@ -11,10 +11,14 @@ export default function About() {
     <section id="about" className="about section">
       <div className="container">
         <div className="row align-items-center">
+          <div className="container section-title">
+            <h2>About Us</h2>
+
+          </div>
           <div className="col-lg-6">
             <div className="content">
               <h2>With deep expertise in drying and evaporation technology</h2>
-              
+
               <p className="lead">
                 Aplex Engineering Systems is a leading manufacturer and exporter specializing in Spray Dryers and Evaporators. We also provide complementary process equipment such as Reactors, Crystallizers, and Storage Vessels to deliver complete process solutions
               </p>
@@ -40,7 +44,7 @@ export default function About() {
               </div>
               <div className="cta-wrapper">
                 <a href="#portfolio" className="btn btn-primary">Discover Our Work</a>
-                <a href="#team" className="btn btn-outline">Meet Our Team</a>
+                {/* <a href="#team" className="btn btn-outline">Meet Our Team</a> */}
               </div>
             </div>
           </div>

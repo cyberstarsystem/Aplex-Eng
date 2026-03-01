@@ -76,7 +76,7 @@ export default function Footer() {
             <p>
               <strong>Email:</strong>
               <span>
-                <a href="mailto:aplexengg@gmail.com"> aplexengg@gmail.com</a>
+                <a href="mailto:sales@aplexengg.com"> sales@aplexengg.com</a>
               </span>
             </p>
           </div>

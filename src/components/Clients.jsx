@@ -41,7 +41,7 @@ export default function Clients() {
       autoplay: {
         delay: 0,
         disableOnInteraction: false,
-        
+
       },
       slidesPerView: "auto",
       spaceBetween: 40,
@@ -62,6 +62,9 @@ export default function Clients() {
 
   return (
     <section id="clients" className="clients section">
+      <div className="container section-title">
+        <h2 className="mb-0">Our Valuable Clients</h2>
+      </div>
       <div className="clients-slider swiper" ref={swiperRef}>
         <div className="swiper-wrapper">
           {logos.map((src, i) => (

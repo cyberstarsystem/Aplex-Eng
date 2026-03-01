@@ -5,6 +5,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 
 import services9 from '../assets/img/services/services-9.webp'
+import { Link } from 'react-router-dom'
 
 const featuredServiceCards = [
   {
@@ -78,10 +79,10 @@ export default function FeaturedServices() {
                 Delivering world-class drying and evaporation systems designed for performance, reliability, and efficiency built to meet the most demanding process requirements across industries
               </p>
               <div className="mt-4" data-aos-duration="1100">
-                <a href="#" className="btn-consultation">
+                <Link to="/contact" className="btn-consultation">
                   <span>Request a Consultation</span>
                   <i className="bi bi-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

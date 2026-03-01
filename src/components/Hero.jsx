@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <div className="hero-content">
               <span className="hero-badge">Innovative Solutions</span>
               <h1>Welcome to Aplex Engineering Systems.</h1>
@@ -32,7 +32,7 @@ export default function Hero() {
               </p>
               <div className="hero-actions">
                 <a href="#services" className="btn-primary">Explore Services</a>
-                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="btn-secondary glightbox">
+                <a href="https://www.youtube.com/watch?v=ZKCk7K4Ew7c&t=1s" className="btn-secondary glightbox">
                   <i className="bi bi-play-circle"></i>
                   <span>Watch Demo</span>
                 </a>
@@ -47,7 +47,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <div className="hero-visual">
               <div className="row g-3">
                 <div className="col-6">
@@ -72,7 +72,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ export default function Services() {
       <div className="space">
         <ServicesSection />
         {/* <Pricing /> */}
-        <Faq />
+        {/* <Faq /> */}
         <CallToAction />
       </div>
     </>
