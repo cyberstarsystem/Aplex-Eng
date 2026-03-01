@@ -114,33 +114,12 @@ export default function CallToAction() {
                     )}
                   </div>
 
-                  <div className="col-lg-12 mb-3">
-                    <input
-                      type="text"
-                      className="form-control"
-                      name="email"
-                      placeholder="Subject"
-                      // value={formData.email}
-                      // onChange={handleChange}
-                      required
-                    />
-                  </div>
-
-                  <div className="mb-3">
-                    <textarea
-                      className="form-control"
-                      name="message"
-                      rows="4"
-                      placeholder="Your Message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                    ></textarea>
-                  </div>
-                  </div>
-
-                  <button type="submit" className="btn btn-primary" style={{borderRadius: "50px" }}>
-                    Submit Feedback
+                  <button
+                    type="submit"
+                    className="btn btn-primary"
+                    disabled={status === "loading"}
+                  >
+                    {status === "loading" ? "Sending..." : "Submit Feedback"}
                   </button>
 
                 </form>
