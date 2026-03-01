@@ -89,7 +89,7 @@ export default function Portfolio() {
     <section id="portfolio" className="portfolio section">
       <div className="container section-title">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Explore our completed industrial projects and engineering solutions.</p>
       </div>
       <div className="container">
         <div className="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order" ref={isotopeRef}>
