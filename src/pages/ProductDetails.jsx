@@ -72,7 +72,7 @@ export default function ProductDetails() {
                                             </div>
                                             <div className="contact-item">
                                                 <i className="bi bi-envelope"></i>
-                                                <span>aplexengg@gmail.com</span>
+                                                <span>sales@aplexengg.com</span>
                                             </div>
                                         </div>
                                         <a href="#" className="btn btn-primary mt-3">
