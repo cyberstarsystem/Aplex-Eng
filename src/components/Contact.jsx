@@ -64,7 +64,7 @@ export default function Contact() {
         <div className="contact-main-wrapper">
           <div className="map-wrapper">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.312052707746!2d72.52037332468637!3d23.012311879181006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e857b1e641f55%3A0x340942a1d8267e91!2sTitanium%20City%20Center%20-%20Corporate%20Offices!5e0!3m2!1sen!2sin!4v1771155690203!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.864289712328!2d72.53387992468573!3d22.992017379195165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8538e191ff57%3A0x16e8e8a2bdc3242f!2sRajyash%20Rise!5e0!3m2!1sen!2sin!4v1772536350077!5m2!1sen!2sin"
               width="100%"
               height="50%"
               style={{ border: 0 }}
