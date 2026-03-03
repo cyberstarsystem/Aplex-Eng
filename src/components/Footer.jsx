@@ -67,16 +67,16 @@ export default function Footer() {
           <div className="col-lg-5 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <h6>Head Office</h6>
-            <p>D-1110, TITANIUM CITY CENTER, 11TH FLOOR, NR. SACHIN – TOWER, 100FT ROAD,</p>
-            <p>SATELLITE, AHMEDABAD – 380015</p>
+            <p>BLOCK-A 1207, Rajyash Rise, Rajyash city, South Vasna, nr. Mukta A2 cinema, </p>
+            <p>Vishala, Ahmedabad, Gujarat 380055</p>
 
             <p className="mt-4">
-              <strong>Phone:</strong> <a href="tel:+91 98250 95243"><span>+91 98250 95243</span></a>
+              <strong>Phone:</strong> <a href="tel:+918487013321"><span>+91 84870 13321</span></a>
             </p>
             <p>
               <strong>Email:</strong>
               <span>
-                <a href="mailto:sales@aplexengg.com"> sales@aplexengg.com</a>
+                <a href="mailto:sales@aplexengg.com">sales@aplexengg.com</a>
               </span>
             </p>
           </div>

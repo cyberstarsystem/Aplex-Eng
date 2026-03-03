@@ -47,7 +47,7 @@ export default function CallToAction() {
             <div className="col-lg-7">
               <div className="cta-content p-5">
 
-                <h2 className="mt-4 mb-4">Get in Touch With Our Experts</h2>
+                <h2 className="mt-4 mb-4">Share Your Feedback</h2>
 
                 <form onSubmit={handleSubmit} className="php-email-form">
 

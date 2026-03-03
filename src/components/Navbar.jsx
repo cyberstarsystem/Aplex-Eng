@@ -73,7 +73,7 @@ export default function Navbar() {
               <a href="mailto:sales@aplexengg.com">sales@aplexengg.com</a>
             </i>
             <i className="bi bi-phone d-flex align-items-center ms-4">
-              <span>+91 98250 95243</span>
+              <a href="tel:+918487013321"><span>+91 84870 13321</span></a>
             </i>
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
