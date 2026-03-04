@@ -1,8 +1,8 @@
 import aboutImg from '../assets/img/about/about-square-8.webp'
 
 const aboutStats = [
-  { number: '8+', label: 'Years Experience' },
-  { number: '500+', label: 'Projects Completed' },
+  { number: '15+', label: 'Years Experience' },
+  { number: '120+', label: 'Projects Completed' },
   { number: '25', label: 'Team Members' },
 ]
 

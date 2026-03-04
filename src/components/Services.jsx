@@ -53,10 +53,10 @@ const servicesList = [
 ]
 
 const serviceStats = [
-  { number: '500+', label: 'Projects Completed' },
+  { number: '120+', label: 'Projects Completed' },
   { number: '98%', label: 'Client Satisfaction' },
   { number: '24/7', label: 'Support Available' },
-  { number: '5+', label: 'Years Experience' },
+  { number: '15+', label: 'Years Experience' },
 ]
 
 export default function Services() {

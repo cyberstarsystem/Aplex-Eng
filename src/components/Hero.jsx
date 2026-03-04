@@ -1,7 +1,7 @@
 import bg14 from '../assets/img/bg/banner.jpg'
 
 const heroStats = [
-  { number: '500+', label: 'Projects Completed' },
+  { number: '120+', label: 'Projects Completed' },
   { number: '98%', label: 'Client Satisfaction' },
   { number: '24/7', label: 'Support Available' },
 ]

@@ -33,7 +33,7 @@ const OurMission = () => {
                                 <h2>At Aplex Engineering Systems</h2>
 
                                 <p className="lead">
-                                    Our mission is to be a trusted global partner in providing cutting-edge process engineering solutions through the design, manufacture, and supply of high-performance spray dryers, evaporators, and allied process equipment. With 15 years of experience, Under the headship of our CEO Mr. Zakir Saiyad, we are committed to supporting our customers in achieving operational excellence, energy efficiency, and product quality through reliable and sustainable technologies.
+                                    Our mission is to be a trusted global partner in providing cutting-edge process engineering solutions through the design, manufacture, and supply of high-performance spray dryers, evaporators, and allied process equipment. With 25 years of experience, Under the headship of our CEO Mr. Zakir Saiyad, we are committed to supporting our customers in achieving operational excellence, energy efficiency, and product quality through reliable and sustainable technologies.
                                 </p>
                                 <p>
                                     We aim to continuously innovate and adopt advanced engineering practices that address the evolving demands of industries such as food and dairy, chemical, pharmaceutical, and environmental sectors. By integrating deep technical expertise with modern manufacturing capabilities, we deliver solutions that not only enhance productivity but also contribute to a more sustainable and efficient future.
