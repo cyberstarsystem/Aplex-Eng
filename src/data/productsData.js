@@ -1609,7 +1609,7 @@ const productsData = [
   },
 
   {
-    category: "Spray Dryer Accessories",
+    category: "Spares & Accessories",
     categorySlug: "spray-dryer-accessories",
     icon: "bi bi-chevron-right",
     items: [
@@ -2622,212 +2622,212 @@ const productsData = [
     ],
   },
 
-  {
-    category: "Bio Plant",
-    categorySlug: "bio-plant",
-    icon: "bi bi-chevron-right",
-    items: [
-      {
-        title: "Bio Fertilizer Plant",
-        slug: "bio-fertilizer-plant",
-        icon: "bi bi-chevron-right",
+  // {
+  //   category: "Bio Plant",
+  //   categorySlug: "bio-plant",
+  //   icon: "bi bi-chevron-right",
+  //   items: [
+  //     {
+  //       title: "Bio Fertilizer Plant",
+  //       slug: "bio-fertilizer-plant",
+  //       icon: "bi bi-chevron-right",
 
-        shortDescription:
-          "Complete integrated plant setup for production of high-quality bio fertilizers using controlled fermentation and microbial processing systems.",
+  //       shortDescription:
+  //         "Complete integrated plant setup for production of high-quality bio fertilizers using controlled fermentation and microbial processing systems.",
 
-        fullDescription:
-          "A Bio Fertilizer Plant is a fully integrated production system designed for manufacturing eco-friendly bio fertilizers using beneficial microorganisms. The plant includes fermentation systems, sterilization units, mixing systems, drying units, and packaging solutions. Bio fertilizers improve soil fertility by enhancing nutrient availability, nitrogen fixation, phosphate solubilization, and overall plant growth. These plants are widely used in sustainable agriculture and organic farming initiatives.",
+  //       fullDescription:
+  //         "A Bio Fertilizer Plant is a fully integrated production system designed for manufacturing eco-friendly bio fertilizers using beneficial microorganisms. The plant includes fermentation systems, sterilization units, mixing systems, drying units, and packaging solutions. Bio fertilizers improve soil fertility by enhancing nutrient availability, nitrogen fixation, phosphate solubilization, and overall plant growth. These plants are widely used in sustainable agriculture and organic farming initiatives.",
 
-        workingPrinciple: [
-          "Culture Preparation: Selected beneficial microbial strains are prepared in laboratory conditions.",
-          "Sterilization: Growth media and fermentation vessels are sterilized to prevent contamination.",
-          "Fermentation: Microorganisms are cultivated in fermenters under controlled temperature, pH, and aeration.",
-          "Mass Multiplication: Biomass increases during fermentation process.",
-          "Carrier Mixing: Microbial culture is mixed with suitable carrier material (peat, lignite, compost, etc.).",
-          "Drying (if required): Moisture content is controlled through drying system.",
-          "Packaging: Final bio fertilizer product is packed in moisture-proof packaging."
-        ],
+  //       workingPrinciple: [
+  //         "Culture Preparation: Selected beneficial microbial strains are prepared in laboratory conditions.",
+  //         "Sterilization: Growth media and fermentation vessels are sterilized to prevent contamination.",
+  //         "Fermentation: Microorganisms are cultivated in fermenters under controlled temperature, pH, and aeration.",
+  //         "Mass Multiplication: Biomass increases during fermentation process.",
+  //         "Carrier Mixing: Microbial culture is mixed with suitable carrier material (peat, lignite, compost, etc.).",
+  //         "Drying (if required): Moisture content is controlled through drying system.",
+  //         "Packaging: Final bio fertilizer product is packed in moisture-proof packaging."
+  //       ],
 
-        plantComponents: [
-          "Laboratory setup for culture development",
-          "Fermenters / Bioreactors",
-          "Air compressor and aeration system",
-          "Sterilization unit (Autoclave/Steam sterilizer)",
-          "Mixing & blending system",
-          "Drying unit (optional)",
-          "Sieving and grading system",
-          "Packaging machine",
-          "Utilities (boiler, water treatment, power supply)"
-        ],
+  //       plantComponents: [
+  //         "Laboratory setup for culture development",
+  //         "Fermenters / Bioreactors",
+  //         "Air compressor and aeration system",
+  //         "Sterilization unit (Autoclave/Steam sterilizer)",
+  //         "Mixing & blending system",
+  //         "Drying unit (optional)",
+  //         "Sieving and grading system",
+  //         "Packaging machine",
+  //         "Utilities (boiler, water treatment, power supply)"
+  //       ],
 
-        typesOfBioFertilizersProduced: [
-          "Nitrogen Fixing Bio Fertilizers (Rhizobium, Azotobacter)",
-          "Phosphate Solubilizing Bacteria (PSB)",
-          "Potash Mobilizing Bacteria (KMB)",
-          "Mycorrhiza",
-          "Zinc Solubilizing Bacteria",
-          "Liquid Bio Fertilizers",
-          "Granular Bio Fertilizers"
-        ],
+  //       typesOfBioFertilizersProduced: [
+  //         "Nitrogen Fixing Bio Fertilizers (Rhizobium, Azotobacter)",
+  //         "Phosphate Solubilizing Bacteria (PSB)",
+  //         "Potash Mobilizing Bacteria (KMB)",
+  //         "Mycorrhiza",
+  //         "Zinc Solubilizing Bacteria",
+  //         "Liquid Bio Fertilizers",
+  //         "Granular Bio Fertilizers"
+  //       ],
 
-        applications: {
-          agriculture: [
-            "Crop nutrient enhancement",
-            "Soil fertility improvement",
-            "Yield improvement"
-          ],
-          horticulture: [
-            "Fruit crops",
-            "Vegetable crops",
-            "Plantation crops"
-          ],
-          organicFarming: [
-            "Chemical-free farming",
-            "Sustainable agriculture"
-          ],
-          governmentSchemes: [
-            "Subsidized agriculture programs",
-            "Soil health improvement initiatives"
-          ]
-        },
+  //       applications: {
+  //         agriculture: [
+  //           "Crop nutrient enhancement",
+  //           "Soil fertility improvement",
+  //           "Yield improvement"
+  //         ],
+  //         horticulture: [
+  //           "Fruit crops",
+  //           "Vegetable crops",
+  //           "Plantation crops"
+  //         ],
+  //         organicFarming: [
+  //           "Chemical-free farming",
+  //           "Sustainable agriculture"
+  //         ],
+  //         governmentSchemes: [
+  //           "Subsidized agriculture programs",
+  //           "Soil health improvement initiatives"
+  //         ]
+  //       },
 
-        advantages: [
-          "Eco-friendly and sustainable solution",
-          "Improves soil health naturally",
-          "Reduces chemical fertilizer dependency",
-          "Cost-effective for farmers",
-          "Supports organic farming initiatives",
-          "Lower environmental impact"
-        ],
+  //       advantages: [
+  //         "Eco-friendly and sustainable solution",
+  //         "Improves soil health naturally",
+  //         "Reduces chemical fertilizer dependency",
+  //         "Cost-effective for farmers",
+  //         "Supports organic farming initiatives",
+  //         "Lower environmental impact"
+  //       ],
 
-        limitations: [
-          "Shelf life depends on storage conditions",
-          "Sensitive to high temperature and sunlight",
-          "Requires controlled production environment",
-          "Lower immediate effect compared to chemical fertilizers",
-          "Quality depends on microbial viability"
-        ],
+  //       limitations: [
+  //         "Shelf life depends on storage conditions",
+  //         "Sensitive to high temperature and sunlight",
+  //         "Requires controlled production environment",
+  //         "Lower immediate effect compared to chemical fertilizers",
+  //         "Quality depends on microbial viability"
+  //       ],
 
-        plantCapacityOptions: [
-          "Small-scale bio fertilizer plant",
-          "Medium-scale commercial plant",
-          "Large-scale industrial production plant"
-        ],
+  //       plantCapacityOptions: [
+  //         "Small-scale bio fertilizer plant",
+  //         "Medium-scale commercial plant",
+  //         "Large-scale industrial production plant"
+  //       ],
 
-        keySelectionParameters: [
-          "Required production capacity",
-          "Type of bio fertilizer to be produced",
-          "Fermentation capacity requirement",
-          "Available utilities (power, steam, water)",
-          "Automation level",
-          "Regulatory compliance (FCO guidelines)",
-          "Available space and layout",
-          "Budget and investment planning"
-        ]
-      }
-      ,
-      {
-        title: "Bio Pesticide Plant",
-        slug: "bio-pesticide-plant",
-        icon: "bi bi-chevron-right",
+  //       keySelectionParameters: [
+  //         "Required production capacity",
+  //         "Type of bio fertilizer to be produced",
+  //         "Fermentation capacity requirement",
+  //         "Available utilities (power, steam, water)",
+  //         "Automation level",
+  //         "Regulatory compliance (FCO guidelines)",
+  //         "Available space and layout",
+  //         "Budget and investment planning"
+  //       ]
+  //     }
+  //     ,
+  //     {
+  //       title: "Bio Pesticide Plant",
+  //       slug: "bio-pesticide-plant",
+  //       icon: "bi bi-chevron-right",
 
-        shortDescription:
-          "Integrated production plant for manufacturing eco-friendly bio pesticides using microbial and botanical formulations.",
+  //       shortDescription:
+  //         "Integrated production plant for manufacturing eco-friendly bio pesticides using microbial and botanical formulations.",
 
-        fullDescription:
-          "A Bio Pesticide Plant is a fully integrated manufacturing facility designed to produce environmentally friendly bio pesticides derived from beneficial microorganisms, plant extracts, and biological agents. These plants are engineered to support fermentation, formulation, blending, drying, and packaging processes under controlled hygienic conditions. Bio pesticides provide effective pest control while reducing environmental impact and chemical residue in crops.",
+  //       fullDescription:
+  //         "A Bio Pesticide Plant is a fully integrated manufacturing facility designed to produce environmentally friendly bio pesticides derived from beneficial microorganisms, plant extracts, and biological agents. These plants are engineered to support fermentation, formulation, blending, drying, and packaging processes under controlled hygienic conditions. Bio pesticides provide effective pest control while reducing environmental impact and chemical residue in crops.",
 
-        workingPrinciple: [
-          "Microbial/Active Culture Selection: Beneficial bacteria, fungi, or botanical extracts are selected.",
-          "Sterilization: Media and fermentation systems are sterilized to prevent contamination.",
-          "Fermentation: Active microbial cultures are grown in fermenters under controlled temperature, aeration, and pH.",
-          "Harvesting: Biomass or active ingredients are harvested after fermentation cycle.",
-          "Formulation: Active culture is blended with carriers, stabilizers, or liquid base.",
-          "Drying (for powder type): Moisture is reduced using drying systems if required.",
-          "Quality Testing: Final product undergoes QC checks for potency and viability.",
-          "Packaging: Bio pesticide is packed in liquid or powder form."
-        ],
+  //       workingPrinciple: [
+  //         "Microbial/Active Culture Selection: Beneficial bacteria, fungi, or botanical extracts are selected.",
+  //         "Sterilization: Media and fermentation systems are sterilized to prevent contamination.",
+  //         "Fermentation: Active microbial cultures are grown in fermenters under controlled temperature, aeration, and pH.",
+  //         "Harvesting: Biomass or active ingredients are harvested after fermentation cycle.",
+  //         "Formulation: Active culture is blended with carriers, stabilizers, or liquid base.",
+  //         "Drying (for powder type): Moisture is reduced using drying systems if required.",
+  //         "Quality Testing: Final product undergoes QC checks for potency and viability.",
+  //         "Packaging: Bio pesticide is packed in liquid or powder form."
+  //       ],
 
-        plantComponents: [
-          "Microbiology laboratory setup",
-          "Fermenters / Bioreactors",
-          "Sterilization unit (Autoclave/Steam system)",
-          "Air compressor and aeration system",
-          "Mixing and formulation tanks",
-          "Filtration system",
-          "Drying unit (optional for powder type)",
-          "Filling and packaging machine",
-          "Quality control laboratory",
-          "Utilities (boiler, water treatment, power system)"
-        ],
+  //       plantComponents: [
+  //         "Microbiology laboratory setup",
+  //         "Fermenters / Bioreactors",
+  //         "Sterilization unit (Autoclave/Steam system)",
+  //         "Air compressor and aeration system",
+  //         "Mixing and formulation tanks",
+  //         "Filtration system",
+  //         "Drying unit (optional for powder type)",
+  //         "Filling and packaging machine",
+  //         "Quality control laboratory",
+  //         "Utilities (boiler, water treatment, power system)"
+  //       ],
 
-        typesOfBioPesticidesProduced: [
-          "Bacterial Bio Pesticides (Bacillus thuringiensis)",
-          "Fungal Bio Pesticides (Trichoderma, Beauveria)",
-          "Viral Bio Pesticides (NPV)",
-          "Botanical Extract-Based Pesticides (Neem-based)",
-          "Liquid Bio Pesticides",
-          "Powder Formulations"
-        ],
+  //       typesOfBioPesticidesProduced: [
+  //         "Bacterial Bio Pesticides (Bacillus thuringiensis)",
+  //         "Fungal Bio Pesticides (Trichoderma, Beauveria)",
+  //         "Viral Bio Pesticides (NPV)",
+  //         "Botanical Extract-Based Pesticides (Neem-based)",
+  //         "Liquid Bio Pesticides",
+  //         "Powder Formulations"
+  //       ],
 
-        applications: {
-          agriculture: [
-            "Crop protection from insects and pests",
-            "Soil-borne disease control",
-            "Integrated Pest Management (IPM)"
-          ],
-          horticulture: [
-            "Fruit crop pest control",
-            "Vegetable pest management"
-          ],
-          organicFarming: [
-            "Chemical-free pest management",
-            "Residue-free crop production"
-          ],
-          greenhouseFarming: [
-            "Controlled pest control systems",
-            "High-value crop protection"
-          ]
-        },
+  //       applications: {
+  //         agriculture: [
+  //           "Crop protection from insects and pests",
+  //           "Soil-borne disease control",
+  //           "Integrated Pest Management (IPM)"
+  //         ],
+  //         horticulture: [
+  //           "Fruit crop pest control",
+  //           "Vegetable pest management"
+  //         ],
+  //         organicFarming: [
+  //           "Chemical-free pest management",
+  //           "Residue-free crop production"
+  //         ],
+  //         greenhouseFarming: [
+  //           "Controlled pest control systems",
+  //           "High-value crop protection"
+  //         ]
+  //       },
 
-        advantages: [
-          "Environmentally safe and biodegradable",
-          "Low toxicity to humans and animals",
-          "Suitable for organic farming",
-          "Reduces chemical pesticide usage",
-          "Improves long-term soil health",
-          "Supports sustainable agriculture"
-        ],
+  //       advantages: [
+  //         "Environmentally safe and biodegradable",
+  //         "Low toxicity to humans and animals",
+  //         "Suitable for organic farming",
+  //         "Reduces chemical pesticide usage",
+  //         "Improves long-term soil health",
+  //         "Supports sustainable agriculture"
+  //       ],
 
-        limitations: [
-          "Shorter shelf life compared to chemical pesticides",
-          "Sensitive to storage temperature",
-          "Slower action compared to synthetic pesticides",
-          "Requires proper handling and application",
-          "Quality dependent on microbial viability"
-        ],
+  //       limitations: [
+  //         "Shorter shelf life compared to chemical pesticides",
+  //         "Sensitive to storage temperature",
+  //         "Slower action compared to synthetic pesticides",
+  //         "Requires proper handling and application",
+  //         "Quality dependent on microbial viability"
+  //       ],
 
-        plantCapacityOptions: [
-          "Small-scale bio pesticide unit",
-          "Medium-scale commercial production plant",
-          "Large-scale industrial production facility"
-        ],
+  //       plantCapacityOptions: [
+  //         "Small-scale bio pesticide unit",
+  //         "Medium-scale commercial production plant",
+  //         "Large-scale industrial production facility"
+  //       ],
 
-        keySelectionParameters: [
-          "Type of bio pesticide formulation",
-          "Required production capacity",
-          "Fermentation volume requirement",
-          "Regulatory compliance (CIB & RC guidelines)",
-          "Available utilities (power, steam, water)",
-          "Automation level",
-          "Quality control standards",
-          "Space and layout planning",
-          "Budget and investment requirement"
-        ]
-      }
-      ,
-    ],
-  },
+  //       keySelectionParameters: [
+  //         "Type of bio pesticide formulation",
+  //         "Required production capacity",
+  //         "Fermentation volume requirement",
+  //         "Regulatory compliance (CIB & RC guidelines)",
+  //         "Available utilities (power, steam, water)",
+  //         "Automation level",
+  //         "Quality control standards",
+  //         "Space and layout planning",
+  //         "Budget and investment requirement"
+  //       ]
+  //     }
+  //     ,
+  //   ],
+  // },
 ];
 
 export default productsData;

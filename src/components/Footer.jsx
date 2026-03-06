@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom'
 import logo from '../assets/img/logo.jpg'
+import DownloadCTA from './DownloadCTA'
 
 const usefulLinks = [
-  { label: 'Home', href: '#hero' },
+  { label: 'Home', href: '/' },
   { label: 'About us', href: '/about' },
   { label: 'Services', href: '/services' },
-  { label: 'Terms of service', href: '#' },
-  { label: 'Privacy policy', href: '#' },
+  { label: 'Portfolio', href: '/portfolio' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 const ourServices = [
@@ -26,6 +28,9 @@ const socialIcons = [
 
 export default function Footer() {
   return (
+    <>
+    <DownloadCTA />
+    
     <footer id="footer" className="footer position-relative dark-background">
       <div className="container footer-top">
         <div className="row gy-4">
@@ -49,7 +54,7 @@ export default function Footer() {
             <ul>
               {usefulLinks.map((link, i) => (
                 <li key={i}>
-                  <a href={link.href}>{link.label}</a>
+                  <Link to={link.href}>{link.label}</Link>
                 </li>
               ))}
             </ul>
@@ -67,7 +72,7 @@ export default function Footer() {
           <div className="col-lg-5 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <h6>Head Office</h6>
-            <p>BLOCK-A 1207, Rajyash Rise, Rajyash city, South Vasna, nr. Mukta A2 cinema, </p>
+            <p>A-1207, Rajyash Rise, Rajyash city, South Vasna, nr. Mukta A2 cinema, </p>
             <p>Vishala, Ahmedabad, Gujarat 380055</p>
 
             <p className="mt-4">
@@ -93,5 +98,7 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+
+    </>
   )
 }
