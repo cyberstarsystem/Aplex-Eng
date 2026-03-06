@@ -13,7 +13,7 @@ const DownloadCTA = () => {
         <div className="d-flex justify-content-center gap-3 flex-wrap">
           
           <a
-            href="/QUESTIONNAIRE-FOR-DRYING-SYSTEM.docx"
+            href="/UI-UX-Detail.docx"
             className="btn btn-primary btn-lg"
             download
           >
