@@ -282,7 +282,7 @@ const productsData = [
       {
         title: "Rotary Dryers",
         slug: "rotary-dryers",
-       icon: "bi bi-chevron-right",
+        icon: "bi bi-chevron-right",
 
         shortDescription:
           "Continuous thermal drying system for bulk solids such as minerals, fertilizers, biomass, chemicals, and food materials.",
@@ -964,7 +964,7 @@ const productsData = [
       {
         title: "Vibratory Fluid Bed Dryer (VFBD)",
         slug: "vibratory-fluid-bed-dryer",
-       icon: "bi bi-chevron-right",
+        icon: "bi bi-chevron-right",
 
         shortDescription:
           "Continuous drying system combining fluidization and mechanical vibration for uniform moisture removal and gentle material handling.",
@@ -1504,7 +1504,7 @@ const productsData = [
       {
         title: "Spray Nozzle Atomization",
         slug: "spray-nozzle-atomization",
-       icon: "bi bi-chevron-right",
+        icon: "bi bi-chevron-right",
 
         shortDescription:
           "Pressure-based atomization system converting liquid feed into controlled droplet sizes for precise spray drying applications.",
@@ -1613,290 +1613,884 @@ const productsData = [
     categorySlug: "spray-dryer-accessories",
     icon: "bi bi-chevron-right",
     items: [
+      // {
+      //   title: "Dryer Chamber",
+      //   slug: "dryer-chamber",
+      //   icon: "bi bi-chevron-right",
+
+      //   shortDescription:
+      //     "Core spray drying enclosure designed for controlled hot air–droplet interaction and efficient moisture evaporation.",
+
+      //   fullDescription:
+      //     "A Dryer Chamber is the primary enclosure of a spray drying system where atomized liquid droplets come into contact with hot air, resulting in rapid moisture evaporation and powder formation. The chamber is engineered to provide controlled airflow patterns, optimal residence time, and efficient heat transfer while preventing product degradation or wall deposition. It is constructed with hygienic and corrosion-resistant materials suitable for industrial, food, pharmaceutical, and chemical applications.",
+
+      //   workingPrinciple: [
+      //     "Atomized droplets enter the chamber from the top or centrally mounted atomizer.",
+      //     "Heated air is introduced in co-current, counter-current, or mixed-flow configuration.",
+      //     "Hot air and droplets interact inside the chamber, causing rapid moisture evaporation.",
+      //     "Dry particles settle toward the bottom due to gravity.",
+      //     "Fine particles are carried to cyclone or bag filter for separation.",
+      //     "Exhaust air exits through filtration system."
+      //   ],
+
+      //   designFeatures: [
+      //     "Cylindrical or cylindrical-conical geometry",
+      //     "Optimized air distribution system",
+      //     "SS304 / SS316 / Duplex steel construction",
+      //     "Polished internal surface to reduce wall sticking",
+      //     "Thermal insulation for heat retention",
+      //     "Manholes and inspection ports",
+      //     "Explosion vent panels (optional)",
+      //     "CIP (Clean-in-Place) compatibility",
+      //     "Fully drainable bottom cone"
+      //   ],
+
+      //   types: [
+      //     "Co-Current Dryer Chamber",
+      //     "Counter-Current Dryer Chamber",
+      //     "Mixed-Flow Dryer Chamber",
+      //     "Tall-Form Dryer Chamber",
+      //     "Short-Form Dryer Chamber"
+      //   ],
+
+      //   applications: {
+      //     dairyIndustry: [
+      //       "Milk powder",
+      //       "Whey powder"
+      //     ],
+      //     foodIndustry: [
+      //       "Flavors",
+      //       "Coffee extract",
+      //       "Starches"
+      //     ],
+      //     pharmaceuticalIndustry: [
+      //       "APIs",
+      //       "Excipients",
+      //       "Inhalation powders"
+      //     ],
+      //     chemicalIndustry: [
+      //       "Polymers",
+      //       "Pigments",
+      //       "Catalysts"
+      //     ]
+      //   },
+
+      //   advantages: [
+      //     "Uniform heat and mass transfer",
+      //     "Efficient moisture removal",
+      //     "Controlled particle residence time",
+      //     "Minimized wall deposition",
+      //     "Suitable for large-scale industrial production",
+      //     "Customizable design based on product requirements"
+      //   ],
+
+      //   keySelectionParameters: [
+      //     "Required evaporation capacity",
+      //     "Airflow configuration (co-current/counter-current)",
+      //     "Feed properties (stickiness, solids content)",
+      //     "Chamber height-to-diameter ratio",
+      //     "Thermal insulation requirements",
+      //     "Hygienic standards (food/pharma)",
+      //     "Explosion safety requirements",
+      //     "Available plant space"
+      //   ]
+      // }
+      // ,
+      // {
+      //   title: "Cyclone Separator",
+      //   slug: "cyclone-separator",
+      //   icon: "bi bi-chevron-right",
+
+      //   shortDescription:
+      //     "High-efficiency centrifugal separation system used for recovering fine powder particles from exhaust air streams.",
+
+      //   fullDescription:
+      //     "A Cyclone Separator is a mechanical separation device used in spray drying and other industrial processes to remove fine solid particles from air or gas streams. It operates on the principle of centrifugal force, separating particles from the exhaust airflow without the need for filters. Cyclone separators are widely used in spray dryers to recover powder efficiently before exhaust air is discharged into the atmosphere.",
+
+      //   workingPrinciple: [
+      //     "Tangential Inlet: Air containing powder enters the cyclone tangentially at high velocity.",
+      //     "Vortex Formation: The incoming air creates a high-speed circular vortex inside the cylindrical body.",
+      //     "Centrifugal Separation: Centrifugal force pushes heavier solid particles toward the cyclone wall.",
+      //     "Particle Settlement: Particles lose velocity and fall downward into the conical bottom hopper.",
+      //     "Clean Air Exit: Cleaned air moves upward through the inner vortex and exits via the top outlet."
+      //   ],
+
+      //   designFeatures: [
+      //     "Cylindrical body with conical bottom",
+      //     "Tangential air inlet design",
+      //     "Optimized vortex finder for better separation",
+      //     "SS304 / SS316 / Carbon Steel construction",
+      //     "Abrasion-resistant lining (optional)",
+      //     "High-efficiency powder recovery",
+      //     "Low pressure drop design",
+      //     "Single or multi-cyclone configuration"
+      //   ],
+
+      //   types: [
+      //     "Single Cyclone Separator",
+      //     "Multi-Cyclone Separator",
+      //     "High-Efficiency Cyclone",
+      //     "Reverse Flow Cyclone",
+      //     "High-Temperature Cyclone"
+      //   ],
+
+      //   applications: {
+      //     sprayDrying: [
+      //       "Powder recovery from spray dryers"
+      //     ],
+      //     chemicalIndustry: [
+      //       "Pigments",
+      //       "Polymers",
+      //       "Detergents"
+      //     ],
+      //     foodIndustry: [
+      //       "Milk powder",
+      //       "Coffee powder",
+      //       "Spices"
+      //     ],
+      //     mineralsAndCement: [
+      //       "Cement dust",
+      //       "Limestone powder",
+      //       "Silica dust"
+      //     ],
+      //     environmentalControl: [
+      //       "Dust collection",
+      //       "Air pollution control"
+      //     ]
+      //   },
+
+      //   advantages: [
+      //     "No moving parts (low maintenance)",
+      //     "High durability and long life",
+      //     "Low operational cost",
+      //     "Efficient powder recovery",
+      //     "Suitable for high-temperature gases",
+      //     "Simple and robust design",
+      //     "Continuous operation capability"
+      //   ],
+
+      //   limitations: [
+      //     "Lower efficiency for extremely fine particles (<5 microns)",
+      //     "Cannot achieve ultra-high filtration like bag filters",
+      //     "Efficiency depends on particle density and airflow velocity",
+      //     "May require secondary dust collection system"
+      //   ],
+
+      //   keySelectionParameters: [
+      //     "Particle size distribution",
+      //     "Airflow rate",
+      //     "Operating temperature",
+      //     "Required separation efficiency",
+      //     "Pressure drop limits",
+      //     "Material of construction",
+      //     "Dust loading concentration",
+      //     "Space constraints"
+      //   ]
+      // }
+      // ,
+      // {
+      //   title: "Bag Filter",
+      //   slug: "bag-filter",
+      //   icon: "bi bi-chevron-right",
+
+      //   shortDescription:
+      //     "High-efficiency fabric filtration system for fine particle separation and air pollution control in spray drying applications.",
+
+      //   fullDescription:
+      //     "A Bag Filter is a high-efficiency dust collection and air filtration system used in spray drying and industrial processes to capture fine particles from exhaust air streams. It operates using fabric filter bags that trap dust and powder while allowing clean air to pass through. Bag filters provide superior filtration efficiency compared to cyclones and are essential for environmental compliance and maximum powder recovery.",
+
+      //   workingPrinciple: [
+      //     "Dust-Laden Air Entry: Exhaust air containing fine particles enters the bag filter housing.",
+      //     "Filtration Process: Air passes through fabric filter bags, trapping dust particles on the outer surface.",
+      //     "Dust Cake Formation: A layer of dust forms on the bag surface, enhancing filtration efficiency.",
+      //     "Pulse Jet Cleaning: Compressed air pulses periodically clean the bags by dislodging accumulated dust.",
+      //     "Dust Collection: Collected dust falls into hopper at the bottom.",
+      //     "Clean Air Exit: Filtered air exits through the clean air outlet."
+      //   ],
+
+      //   designFeatures: [
+      //     "Fabric filter bags (polyester, polypropylene, PTFE, etc.)",
+      //     "Pulse jet cleaning system",
+      //     "Heavy-duty housing structure",
+      //     "Hopper for dust collection",
+      //     "Automatic cleaning control panel",
+      //     "Explosion vent panels (optional)",
+      //     "SS / Carbon steel construction",
+      //     "High filtration efficiency (>99%)"
+      //   ],
+
+      //   types: [
+      //     "Pulse Jet Bag Filter",
+      //     "Reverse Air Bag Filter",
+      //     "Shaker Type Bag Filter",
+      //     "Cartridge Filter System",
+      //     "Modular Bag Filter System"
+      //   ],
+
+      //   applications: {
+      //     sprayDrying: [
+      //       "Fine powder recovery",
+      //       "Milk powder collection",
+      //       "Detergent powder recovery"
+      //     ],
+      //     chemicalIndustry: [
+      //       "Pigments",
+      //       "Polymers",
+      //       "Resins",
+      //       "Catalysts"
+      //     ],
+      //     foodIndustry: [
+      //       "Spices",
+      //       "Starch",
+      //       "Flour dust collection"
+      //     ],
+      //     cementAndMining: [
+      //       "Cement dust",
+      //       "Limestone powder",
+      //       "Mineral dust"
+      //     ],
+      //     environmentalControl: [
+      //       "Air pollution control",
+      //       "Emission compliance"
+      //     ]
+      //   },
+
+      //   advantages: [
+      //     "Very high filtration efficiency",
+      //     "Effective fine particle recovery",
+      //     "Environmental compliance support",
+      //     "Continuous automatic cleaning",
+      //     "Suitable for large industrial systems",
+      //     "Improves overall product recovery"
+      //   ],
+
+      //   limitations: [
+      //     "Higher pressure drop compared to cyclones",
+      //     "Requires periodic bag replacement",
+      //     "Sensitive to very high temperature unless special fabric used",
+      //     "Higher initial investment",
+      //     "Requires compressed air for pulse cleaning"
+      //   ],
+
+      //   keySelectionParameters: [
+      //     "Particle size distribution",
+      //     "Airflow rate",
+      //     "Operating temperature",
+      //     "Dust loading concentration",
+      //     "Required emission standards",
+      //     "Fabric compatibility with product",
+      //     "Pressure drop limits",
+      //     "Maintenance accessibility",
+      //     "Explosion safety requirements"
+      //   ]
+      // }
+      // ,
+
       {
-        title: "Dryer Chamber",
-        slug: "dryer-chamber",
+        id: "atomizer-assembly",
+        slug: "atomizer-assembly",
+        title: "Atomizer Assembly",
         icon: "bi bi-chevron-right",
 
-        shortDescription:
-          "Core spray drying enclosure designed for controlled hot air–droplet interaction and efficient moisture evaporation.",
-
-        fullDescription:
-          "A Dryer Chamber is the primary enclosure of a spray drying system where atomized liquid droplets come into contact with hot air, resulting in rapid moisture evaporation and powder formation. The chamber is engineered to provide controlled airflow patterns, optimal residence time, and efficient heat transfer while preventing product degradation or wall deposition. It is constructed with hygienic and corrosion-resistant materials suitable for industrial, food, pharmaceutical, and chemical applications.",
+        fullDescription: "High-precision Atomizer Assemblies convert liquid feed into fine droplets for rapid evaporation and consistent powder formation.",
 
         workingPrinciple: [
-          "Atomized droplets enter the chamber from the top or centrally mounted atomizer.",
-          "Heated air is introduced in co-current, counter-current, or mixed-flow configuration.",
-          "Hot air and droplets interact inside the chamber, causing rapid moisture evaporation.",
-          "Dry particles settle toward the bottom due to gravity.",
-          "Fine particles are carried to cyclone or bag filter for separation.",
-          "Exhaust air exits through filtration system."
+          "Centrifugal atomizers spread liquid using rotating disc force forming droplets.",
+          "Pressure nozzle atomizers break liquid into droplets using high pressure through nozzle orifice."
         ],
 
-        designFeatures: [
-          "Cylindrical or cylindrical-conical geometry",
-          "Optimized air distribution system",
-          "SS304 / SS316 / Duplex steel construction",
-          "Polished internal surface to reduce wall sticking",
-          "Thermal insulation for heat retention",
-          "Manholes and inspection ports",
-          "Explosion vent panels (optional)",
-          "CIP (Clean-in-Place) compatibility",
-          "Fully drainable bottom cone"
+        components: [
+          "Atomizer wheel / disc",
+          "Atomizer shaft",
+          "High-speed bearings",
+          "Mechanical seals",
+          "Atomizer housing",
+          "O-rings and gaskets",
+          "Lubrication system"
         ],
 
-        types: [
-          "Co-Current Dryer Chamber",
-          "Counter-Current Dryer Chamber",
-          "Mixed-Flow Dryer Chamber",
-          "Tall-Form Dryer Chamber",
-          "Short-Form Dryer Chamber"
+        materials: [
+          "Stainless Steel 304",
+          "Stainless Steel 316",
+          "Stainless Steel 316L",
+          "Tungsten Carbide coating",
+          "Ceramic coating"
         ],
 
-        applications: {
-          dairyIndustry: [
-            "Milk powder",
-            "Whey powder"
-          ],
-          foodIndustry: [
-            "Flavors",
-            "Coffee extract",
-            "Starches"
-          ],
-          pharmaceuticalIndustry: [
-            "APIs",
-            "Excipients",
-            "Inhalation powders"
-          ],
-          chemicalIndustry: [
-            "Polymers",
-            "Pigments",
-            "Catalysts"
-          ]
-        },
+        industrialApplications: [
+          "Milk powder",
+          "Whey powder",
+          "Coffee powder",
+          "Protein powders",
+          "Pharmaceutical granules",
+          "Chemical slurries"
+        ],
 
         advantages: [
-          "Uniform heat and mass transfer",
-          "Efficient moisture removal",
-          "Controlled particle residence time",
-          "Minimized wall deposition",
-          "Suitable for large-scale industrial production",
-          "Customizable design based on product requirements"
+          "Uniform droplet formation",
+          "High operational speed",
+          "Minimal maintenance"
         ],
 
-        keySelectionParameters: [
-          "Required evaporation capacity",
-          "Airflow configuration (co-current/counter-current)",
-          "Feed properties (stickiness, solids content)",
-          "Chamber height-to-diameter ratio",
-          "Thermal insulation requirements",
-          "Hygienic standards (food/pharma)",
-          "Explosion safety requirements",
-          "Available plant space"
+        maintenanceTips: [
+          "Inspect bearings regularly",
+          "Replace O-rings",
+          "Lubricate rotating components"
         ]
-      }
-      ,
+      },
+
       {
-        title: "Cyclone Separator",
-        slug: "cyclone-separator",
+        id: "hot-air-generator-components",
+        slug: "hot-air-generator-components",
+        title: "Hot Air Generator Components",
         icon: "bi bi-chevron-right",
 
-        shortDescription:
-          "High-efficiency centrifugal separation system used for recovering fine powder particles from exhaust air streams.",
-
-        fullDescription:
-          "A Cyclone Separator is a mechanical separation device used in spray drying and other industrial processes to remove fine solid particles from air or gas streams. It operates on the principle of centrifugal force, separating particles from the exhaust airflow without the need for filters. Cyclone separators are widely used in spray dryers to recover powder efficiently before exhaust air is discharged into the atmosphere.",
+        fullDescription: "Hot air generators provide thermal energy required for spray drying by supplying controlled hot air.",
 
         workingPrinciple: [
-          "Tangential Inlet: Air containing powder enters the cyclone tangentially at high velocity.",
-          "Vortex Formation: The incoming air creates a high-speed circular vortex inside the cylindrical body.",
-          "Centrifugal Separation: Centrifugal force pushes heavier solid particles toward the cyclone wall.",
-          "Particle Settlement: Particles lose velocity and fall downward into the conical bottom hopper.",
-          "Clean Air Exit: Cleaned air moves upward through the inner vortex and exits via the top outlet."
+          "Direct fired generators burn fuel and mix hot gases with drying air.",
+          "Indirect fired generators transfer heat through a heat exchanger."
         ],
 
-        designFeatures: [
-          "Cylindrical body with conical bottom",
-          "Tangential air inlet design",
-          "Optimized vortex finder for better separation",
-          "SS304 / SS316 / Carbon Steel construction",
-          "Abrasion-resistant lining (optional)",
-          "High-efficiency powder recovery",
-          "Low pressure drop design",
-          "Single or multi-cyclone configuration"
+        components: [
+          "Burner assemblies",
+          "Burner nozzles",
+          "Ignition electrodes",
+          "Combustion chamber lining",
+          "Heat exchanger tubes",
+          "Fuel control valves",
+          "Temperature sensors",
+          "Flame detectors"
         ],
 
-        types: [
-          "Single Cyclone Separator",
-          "Multi-Cyclone Separator",
-          "High-Efficiency Cyclone",
-          "Reverse Flow Cyclone",
-          "High-Temperature Cyclone"
+        materials: [
+          "Heat resistant stainless steel",
+          "Ceramic lining",
+          "Corrosion resistant metals"
         ],
 
-        applications: {
-          sprayDrying: [
-            "Powder recovery from spray dryers"
-          ],
-          chemicalIndustry: [
-            "Pigments",
-            "Polymers",
-            "Detergents"
-          ],
-          foodIndustry: [
-            "Milk powder",
-            "Coffee powder",
-            "Spices"
-          ],
-          mineralsAndCement: [
-            "Cement dust",
-            "Limestone powder",
-            "Silica dust"
-          ],
-          environmentalControl: [
-            "Dust collection",
-            "Air pollution control"
-          ]
-        },
+        industrialApplications: [
+          "Milk powder",
+          "Detergents",
+          "Pharmaceutical powders",
+          "Food chemicals",
+          "Specialty powders"
+        ],
 
         advantages: [
-          "No moving parts (low maintenance)",
-          "High durability and long life",
-          "Low operational cost",
-          "Efficient powder recovery",
-          "Suitable for high-temperature gases",
-          "Simple and robust design",
-          "Continuous operation capability"
+          "Precise temperature control",
+          "High thermal efficiency",
+          "Long service life"
         ],
 
-        limitations: [
-          "Lower efficiency for extremely fine particles (<5 microns)",
-          "Cannot achieve ultra-high filtration like bag filters",
-          "Efficiency depends on particle density and airflow velocity",
-          "May require secondary dust collection system"
-        ],
-
-        keySelectionParameters: [
-          "Particle size distribution",
-          "Airflow rate",
-          "Operating temperature",
-          "Required separation efficiency",
-          "Pressure drop limits",
-          "Material of construction",
-          "Dust loading concentration",
-          "Space constraints"
+        maintenanceTips: [
+          "Clean burner nozzles",
+          "Inspect sensors and flame detectors",
+          "Monitor heat exchanger tubes"
         ]
-      }
-      ,
+      },
+
       {
-        title: "Bag Filter",
-        slug: "bag-filter",
+        id: "rotary-air-lock-valves",
+        slug: "rotary-air-lock-valves",
+        title: "Rotary Air Lock Valves",
         icon: "bi bi-chevron-right",
 
-        shortDescription:
-          "High-efficiency fabric filtration system for fine particle separation and air pollution control in spray drying applications.",
-
-        fullDescription:
-          "A Bag Filter is a high-efficiency dust collection and air filtration system used in spray drying and industrial processes to capture fine particles from exhaust air streams. It operates using fabric filter bags that trap dust and powder while allowing clean air to pass through. Bag filters provide superior filtration efficiency compared to cyclones and are essential for environmental compliance and maximum powder recovery.",
+        fullDescription: "Rotary airlock valves discharge powder while maintaining system air pressure balance.",
 
         workingPrinciple: [
-          "Dust-Laden Air Entry: Exhaust air containing fine particles enters the bag filter housing.",
-          "Filtration Process: Air passes through fabric filter bags, trapping dust particles on the outer surface.",
-          "Dust Cake Formation: A layer of dust forms on the bag surface, enhancing filtration efficiency.",
-          "Pulse Jet Cleaning: Compressed air pulses periodically clean the bags by dislodging accumulated dust.",
-          "Dust Collection: Collected dust falls into hopper at the bottom.",
-          "Clean Air Exit: Filtered air exits through the clean air outlet."
+          "Rotor pockets rotate allowing powder discharge while isolating chamber pressure."
         ],
 
-        designFeatures: [
-          "Fabric filter bags (polyester, polypropylene, PTFE, etc.)",
-          "Pulse jet cleaning system",
-          "Heavy-duty housing structure",
-          "Hopper for dust collection",
-          "Automatic cleaning control panel",
-          "Explosion vent panels (optional)",
-          "SS / Carbon steel construction",
-          "High filtration efficiency (>99%)"
+        components: [
+          "Rotor assembly",
+          "Valve housing",
+          "Shaft and bearings",
+          "Shaft seals",
+          "End plates",
+          "Gear motor",
+          "Drive couplings"
         ],
 
-        types: [
-          "Pulse Jet Bag Filter",
-          "Reverse Air Bag Filter",
-          "Shaker Type Bag Filter",
-          "Cartridge Filter System",
-          "Modular Bag Filter System"
+        materials: [
+          "Stainless steel",
+          "Alloy steel",
+          "Hard coated abrasion resistant surfaces"
         ],
 
-        applications: {
-          sprayDrying: [
-            "Fine powder recovery",
-            "Milk powder collection",
-            "Detergent powder recovery"
-          ],
-          chemicalIndustry: [
-            "Pigments",
-            "Polymers",
-            "Resins",
-            "Catalysts"
-          ],
-          foodIndustry: [
-            "Spices",
-            "Starch",
-            "Flour dust collection"
-          ],
-          cementAndMining: [
-            "Cement dust",
-            "Limestone powder",
-            "Mineral dust"
-          ],
-          environmentalControl: [
-            "Air pollution control",
-            "Emission compliance"
-          ]
-        },
+        industrialApplications: [
+          "Cyclone discharge",
+          "Bag filter discharge",
+          "Powder transport systems"
+        ],
 
         advantages: [
-          "Very high filtration efficiency",
-          "Effective fine particle recovery",
-          "Environmental compliance support",
-          "Continuous automatic cleaning",
-          "Suitable for large industrial systems",
-          "Improves overall product recovery"
+          "Continuous powder discharge",
+          "Maintains system pressure",
+          "Reduces downtime"
         ],
 
-        limitations: [
-          "Higher pressure drop compared to cyclones",
-          "Requires periodic bag replacement",
-          "Sensitive to very high temperature unless special fabric used",
-          "Higher initial investment",
-          "Requires compressed air for pulse cleaning"
+        maintenanceTips: [
+          "Check rotor clearances",
+          "Replace shaft seals",
+          "Lubricate bearings"
+        ]
+      },
+
+      {
+        id: "feed-pump-system",
+        slug: "feed-pump-system",
+        title: "Feed Pump System",
+        icon: "bi bi-chevron-right",
+        fullDescription: "Industrial feed pumps ensure controlled delivery of liquid feed to the spray dryer.",
+
+        workingPrinciple: [
+          "Progressive cavity pumps move liquid smoothly without pulsation.",
+          "Gear or piston pumps provide high pressure feed."
         ],
 
-        keySelectionParameters: [
-          "Particle size distribution",
-          "Airflow rate",
-          "Operating temperature",
-          "Dust loading concentration",
-          "Required emission standards",
-          "Fabric compatibility with product",
-          "Pressure drop limits",
-          "Maintenance accessibility",
-          "Explosion safety requirements"
+        components: [
+          "Pump rotor",
+          "Stator sleeve",
+          "Mechanical seals",
+          "Pump shaft",
+          "Pump bearings",
+          "Pump housing",
+          "Coupling assemblies",
+          "Pressure control valves"
+        ],
+
+        materials: [
+          "Stainless steel",
+          "Hard alloys",
+          "Chemical resistant materials"
+        ],
+
+        industrialApplications: [
+          "Food processing",
+          "Dairy industry",
+          "Chemical processing",
+          "Pharmaceutical spray dryers"
+        ],
+
+        advantages: [
+          "Handles viscous feeds",
+          "Stable feed flow",
+          "Protects atomizers"
+        ],
+
+        maintenanceTips: [
+          "Inspect rotors and stators",
+          "Lubricate bearings",
+          "Replace mechanical seals"
+        ]
+      },
+
+      {
+        id: "industrial-blower-system",
+        slug: "industrial-blower-system",
+        title: "Industrial Blower System",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Industrial blowers supply hot air to the drying chamber and remove moisture laden air.",
+
+        workingPrinciple: [
+          "Centrifugal blowers accelerate air outward creating pressure.",
+          "Axial fans move large volumes of air in straight direction."
+        ],
+
+        components: [
+          "Fan impellers",
+          "Blower shafts",
+          "Bearings",
+          "Fan housing",
+          "Drive belts",
+          "Couplings"
+        ],
+
+        materials: [
+          "Stainless steel",
+          "High strength alloys",
+          "Corrosion resistant metals"
+        ],
+
+        industrialApplications: [
+          "Milk powder plants",
+          "Dairy powder plants",
+          "Chemical powder plants",
+          "Food spray dryers",
+          "Pharmaceutical spray dryers"
+        ],
+
+        advantages: [
+          "Uniform airflow distribution",
+          "Energy efficient operation",
+          "Handles high temperature"
+        ],
+
+        maintenanceTips: [
+          "Inspect bearings",
+          "Clean impeller blades",
+          "Lubricate moving parts"
+        ]
+      },
+
+      {
+        id: "feed-filtration-system",
+        slug: "feed-filtration-system",
+        title: "Feed Filtration System",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Feed filtration systems remove impurities from liquid feed protecting pumps and atomizers.",
+
+        workingPrinciple: [
+          "Liquid feed passes through filter elements that remove solids or contaminants."
+        ],
+
+        components: [
+          "Filter cartridges",
+          "Mesh filters",
+          "Filter housings",
+          "O-rings",
+          "Gaskets",
+          "Drain valves"
+        ],
+
+        materials: [
+          "Stainless steel",
+          "Chemical resistant alloys"
+        ],
+
+        industrialApplications: [
+          "Dairy",
+          "Chemical processing",
+          "Pharmaceutical processing",
+          "Food processing industries"
+        ],
+
+        advantages: [
+          "Protects pumps and atomizers",
+          "Maintains product quality",
+          "Easy cleaning"
+        ],
+
+        maintenanceTips: [
+          "Clean filters daily",
+          "Replace damaged cartridges",
+          "Inspect seals"
+        ]
+      },
+
+      {
+        id: "electromagnetic-hammer-system",
+        slug: "electromagnetic-hammer-system",
+        title: "Electromagnetic Hammer System",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Electromagnetic hammer systems prevent powder buildup inside cyclones, ducts and drying chambers.",
+
+        workingPrinciple: [
+          "Electromagnetic coil activates hammer head delivering vibration to remove powder deposits."
+        ],
+
+        components: [
+          "Electromagnetic coils",
+          "Hammer heads",
+          "Mounting brackets",
+          "Impact plates",
+          "Control units"
+        ],
+
+        materials: [
+          "Stainless steel",
+          "Wear resistant alloys",
+          "Electrical components"
+        ],
+
+        industrialApplications: [
+          "Cyclones",
+          "Ducts",
+          "Drying chambers",
+          "Powder transport lines"
+        ],
+
+        advantages: [
+          "Reduces manual cleaning",
+          "Prevents blockage",
+          "Increases efficiency"
+        ],
+
+        maintenanceTips: [
+          "Inspect hammer head",
+          "Check electrical connections",
+          "Adjust vibration frequency"
+        ]
+      },
+
+      {
+        id: "spray-nozzle-components",
+        slug: "spray-nozzle-components",
+        title: "Spray Nozzle Components",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Spray nozzle components control droplet size and spray pattern inside spray dryers.",
+
+        workingPrinciple: [
+          "Nozzles atomize feed using pressure or mechanical shearing.",
+          "Swirl inserts create rotational spray for finer droplets."
+        ],
+
+        components: [
+          "Nozzle tips",
+          "Swirl inserts",
+          "Orifice plates",
+          "Needle valves",
+          "Nozzle bodies",
+          "Nozzle caps",
+          "Sealing rings"
+        ],
+
+        materials: [
+          "Stainless steel",
+          "Ceramic",
+          "Tungsten carbide"
+        ],
+
+        industrialApplications: [
+          "Milk powder",
+          "Coffee",
+          "Whey",
+          "Pharmaceutical powders",
+          "Chemicals"
+        ],
+
+        advantages: [
+          "Uniform powder quality",
+          "Adjustable droplet size",
+          "Resistant to clogging"
+        ],
+
+        maintenanceTips: [
+          "Clean nozzle tips",
+          "Replace worn parts",
+          "Inspect sealing rings"
+        ]
+      },
+
+      {
+        id: "cyclone-separator-components",
+        slug: "cyclone-separator-components",
+        title: "Cyclone Separator Components",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Cyclone separators separate powder from exhaust air using centrifugal force.",
+
+        workingPrinciple: [
+          "Air and powder enter tangentially creating a vortex.",
+          "Centrifugal force pushes powder to the wall where it falls into the hopper."
+        ],
+
+        components: [
+          "Cyclone body sections",
+          "Vortex finder",
+          "Cone section",
+          "Wear liners",
+          "Discharge valves",
+          "Flange gaskets"
+        ],
+
+        industrialApplications: [
+          "Food powders",
+          "Dairy powders",
+          "Chemical powders",
+          "Pharmaceutical powders"
+        ],
+
+        advantages: [
+          "High powder recovery",
+          "Low dust emissions",
+          "Handles abrasive powders"
+        ],
+
+        maintenanceTips: [
+          "Inspect wear liners",
+          "Check sealing",
+          "Clean discharge area"
+        ]
+      },
+
+      {
+        id: "bag-filter-dust-collector-components",
+        slug: "bag-filter-dust-collector-components",
+        title: "Bag Filter and Dust Collector Components",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Bag filters capture fine particles from exhaust air ensuring clean emissions.",
+
+        workingPrinciple: [
+          "Air passes through filter bags supported by cages.",
+          "Dust accumulates on the bag surface and pulse jets remove buildup."
+        ],
+
+        components: [
+          "Filter bags",
+          "Cage supports",
+          "Venturi tubes",
+          "Pulse jet valves",
+          "Solenoid valves"
+        ],
+
+        industrialApplications: [
+          "Milk powder plants",
+          "Chemical powders",
+          "Pharmaceutical industries",
+          "Detergent industries"
+        ],
+
+        advantages: [
+          "Clean air exhaust",
+          "High powder recovery",
+          "Low maintenance"
+        ],
+
+        maintenanceTips: [
+          "Replace worn filter bags",
+          "Inspect pulse valves",
+          "Check cage supports"
+        ]
+      },
+
+      {
+        id: "drying-chamber-components",
+        slug: "drying-chamber-components",
+        title: "Drying Chamber Components",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Drying chamber components maintain airflow and temperature for efficient spray drying.",
+
+        workingPrinciple: [
+          "Hot air flows through chamber contacting atomized droplets.",
+          "Proper airflow ensures uniform drying."
+        ],
+
+        components: [
+          "Air distribution plates",
+          "Chamber liners",
+          "Manhole covers",
+          "Inspection windows",
+          "Insulation materials",
+          "Expansion joints"
+        ],
+
+        industrialApplications: [
+          "Food spray dryers",
+          "Chemical spray dryers",
+          "Pharmaceutical spray dryers"
+        ],
+
+        advantages: [
+          "Uniform powder drying",
+          "High thermal efficiency",
+          "Reduced chamber wear"
+        ],
+
+        maintenanceTips: [
+          "Inspect liners and insulation",
+          "Replace expansion joints",
+          "Clean chamber interior"
+        ]
+      },
+
+      {
+        id: "instrumentation-control-components",
+        slug: "instrumentation-control-components",
+        title: "Instrumentation and Control Components",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Instrumentation components monitor and regulate spray dryer operations.",
+
+        components: [
+          "Temperature sensors",
+          "Pressure transmitters",
+          "Flow meters",
+          "Level sensors",
+          "Control valves",
+          "Electrical relays",
+          "Contactors"
+        ],
+
+        industrialApplications: [
+          "Automated spray dryers",
+          "Chemical dryers",
+          "Pharmaceutical systems"
+        ],
+
+        advantages: [
+          "Accurate process control",
+          "Operational safety",
+          "Improved product quality"
+        ],
+
+        maintenanceTips: [
+          "Calibrate sensors regularly",
+          "Inspect electrical connections",
+          "Replace worn components"
+        ]
+      },
+
+      {
+        id: "additional-mechanical-components",
+        slug: "additional-mechanical-components",
+        title: "Additional Mechanical Components",
+        icon: "bi bi-chevron-right",
+
+        fullDescription: "Additional mechanical components support powder transport and handling.",
+
+        components: [
+          "Screw conveyors",
+          "Vibrating screens",
+          "Powder discharge valves",
+          "Fluid bed dryer components",
+          "Air ducts",
+          "Dampers",
+          "Expansion joints"
+        ],
+
+        industrialApplications: [
+          "Food industry",
+          "Dairy plants",
+          "Chemical plants",
+          "Pharmaceutical manufacturing",
+          "Detergent spray dryers"
+        ],
+
+        advantages: [
+          "Reliable powder handling",
+          "Reduced downtime",
+          "Easy maintenance"
+        ],
+
+        maintenanceTips: [
+          "Lubricate bearings",
+          "Inspect moving parts",
+          "Clean powder transfer systems"
         ]
       }
-      ,
+
+
+
     ],
   },
 
   {
-    category: "Sustainability Solutions",
-    categorySlug: "sustainability-solutions",
+    category: "Zero Liquid Discharge (ZLD) Dryers ",
+    categorySlug: "zld-dryers",
     icon: "bi bi-chevron-right",
     items: [
       {
         title: "Zero Liquid Discharge (ZLD) Dryers",
         slug: "zld-dryers",
-       icon: "bi bi-chevron-right",
+        icon: "bi bi-chevron-right",
 
         shortDescription:
           "Advanced drying system designed to convert industrial wastewater into solid residue and recover reusable water, achieving zero liquid discharge.",
@@ -2325,7 +2919,7 @@ const productsData = [
   {
     category: "Process Equipments",
     categorySlug: "process-equipments",
-   icon: "bi bi-chevron-right",
+    icon: "bi bi-chevron-right",
     items: [
       {
         title: "Chemical Reactors",

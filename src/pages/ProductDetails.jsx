@@ -42,48 +42,6 @@ export default function ProductDetails() {
                 <div className="container">
                     <div className="row gy-5">
 
-                        {/* RIGHT SIDEBAR */}
-                        <div className="col-lg-4">
-                            <div className="service-sidebar">
-
-                                <h4>Other Products</h4>
-                                <div className="menu-list mt-3">
-                                    {categoryData.items.map((item, i) => (
-                                        <NavLink
-                                            key={i}
-                                            to={`/products/${category}/${item.slug}`}
-                                            className={({ isActive }) =>
-                                                `menu-item ${isActive ? "active" : ""}`
-                                            }
-                                        >
-                                            {item.title}
-                                        </NavLink>
-                                    ))}
-                                </div>
-
-                                <div className="contact-card mt-4">
-                                    <div className="contact-content">
-                                        <h4>Need Help?</h4>
-                                        <p>Contact our engineering team for technical consultation.</p>
-                                        <div className="contact-info">
-                                            <div className="contact-item">
-                                                <i className="bi bi-telephone"></i>
-                                                <span>+91 98250 95243</span>
-                                            </div>
-                                            <div className="contact-item">
-                                                <i className="bi bi-envelope"></i>
-                                                <span>sales@aplexengg.com</span>
-                                            </div>
-                                        </div>
-                                        <a href="#" className="btn btn-primary mt-3">
-                                            Request Quote
-                                        </a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
                         {/* LEFT CONTENT */}
                         <div className="col-lg-8">
                             <div className="service-content">
@@ -348,14 +306,101 @@ export default function ProductDetails() {
                                         </div>
                                     )}
 
+                                    {/* COMPONENTS */}
+                                    {product.components && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Components</h4>
+                                            <ul>
+                                                {product.components.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* MATERIALS */}
+                                    {product.materials && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Materials</h4>
+                                            <ul>
+                                                {product.materials.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* INDUSTRIAL APPLICATIONS */}
+                                    {product.industrialApplications && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Industrial Applications</h4>
+                                            <ul>
+                                                {product.industrialApplications.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+
+                                    {/* MAINTENANCE TIPS */}
+                                    {product.maintenanceTips && (
+                                        <div className="col-lg-6 mt-4">
+                                            <h4>Maintenance Tips</h4>
+                                            <ul>
+                                                {product.maintenanceTips.map((item, i) => (
+                                                    <li key={i}>{item}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
 
 
 
 
 
 
+                                </div>
 
+                            </div>
+                        </div>
 
+                        {/* RIGHT SIDEBAR */}
+                        <div className="col-lg-4">
+                            <div className="service-sidebar">
+
+                                <h4>Other Products</h4>
+                                <div className="menu-list mt-3">
+                                    {categoryData.items.map((item, i) => (
+                                        <NavLink
+                                            key={i}
+                                            to={`/products/${category}/${item.slug}`}
+                                            className={({ isActive }) =>
+                                                `menu-item ${isActive ? "active" : ""}`
+                                            }
+                                        >
+                                            {item.title}
+                                        </NavLink>
+                                    ))}
+                                </div>
+
+                                <div className="contact-card mt-4">
+                                    <div className="contact-content">
+                                        <h4>Need Help?</h4>
+                                        <p>Contact our engineering team for technical consultation.</p>
+                                        <div className="contact-info">
+                                            <div className="contact-item">
+                                                <i className="bi bi-telephone"></i>
+                                                <span>+91 98250 95243</span>
+                                            </div>
+                                            <div className="contact-item">
+                                                <i className="bi bi-envelope"></i>
+                                                <span>sales@aplexengg.com</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" className="btn btn-primary mt-3">
+                                            Request Quote
+                                        </a>
+                                    </div>
                                 </div>
 
                             </div>

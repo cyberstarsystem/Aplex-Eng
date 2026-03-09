@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 import misc7 from '../assets/img/misc/misc-7.webp'
 import misc12 from '../assets/img/misc/misc-12.webp'
 import misc5 from '../assets/img/misc/misc-5.webp'
-import logo from '../assets/img/logo.jpg'
+import logo from '../assets/img/logo.png'
 
 const socialLinks = [
   { href: '#', className: 'twitter', icon: 'bi-twitter-x' },
@@ -13,12 +13,7 @@ const socialLinks = [
   { href: '#', className: 'linkedin', icon: 'bi-linkedin' },
 ]
 
-const megamenuTabs = [
-  { id: '2190-tab-1', icon: 'bi-building-gear', label: 'Enterprise Software' },
-  { id: '2190-tab-2', icon: 'bi-code-slash', label: 'Development Tools' },
-  { id: '2190-tab-3', icon: 'bi-palette', label: 'Creative Suite' },
-  { id: '2190-tab-4', icon: 'bi-journal-text', label: 'Resources' },
-]
+
 
 export default function Navbar() {
   const toggleRef = useRef(null)
@@ -101,7 +96,7 @@ export default function Navbar() {
                 </NavLink>
               </li>
 
-               <li>
+              <li>
                 <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
                   About Us
                 </NavLink>

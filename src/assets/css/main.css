@@ -580,8 +580,8 @@ h6 {
   .navmenu .megamenu-2 .tab-navigation .nav-tabs .nav-item .nav-link {
     display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 18px 25px;
+    /* gap: 15px; */
+    padding: 18px 10px;
     border: none;
     width: 100%;
     background: transparent;

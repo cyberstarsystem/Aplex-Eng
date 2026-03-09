@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/logo.jpg'
+import logo from '../assets/img/white-logo.png'
 import DownloadCTA from './DownloadCTA'
 
 const usefulLinks = [
@@ -69,7 +69,7 @@ export default function Footer() {
               ))}
             </ul>
           </div>
-          <div className="col-lg-5 col-md-12 footer-contact text-center text-md-start">
+          <div className="col-lg-5 col-md-12 footer-contact text-md-start">
             <h4>Contact Us</h4>
             <h6>Head Office</h6>
             <p>A-1207, Rajyash Rise, Rajyash city, South Vasna, nr. Mukta A2 cinema, </p>
