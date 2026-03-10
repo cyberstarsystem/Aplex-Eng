@@ -1886,136 +1886,133 @@ const productsData = [
       // }
       // ,
 
+
       {
         id: "atomizer-assembly",
         slug: "atomizer-assembly",
         title: "Atomizer Assembly",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "High-precision Atomizer Assemblies convert liquid feed into fine droplets for rapid evaporation and consistent powder formation.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide high-precision Atomizer Assemblies, which are the core components of any spray dryer system. Atomizers convert liquid feed into fine droplets, allowing rapid evaporation and producing consistent, uniform powder.",
 
         workingPrinciple: [
-          "Centrifugal atomizers spread liquid using rotating disc force forming droplets.",
-          "Pressure nozzle atomizers break liquid into droplets using high pressure through nozzle orifice."
+          "Centrifugal Atomizers: The liquid feed is pumped onto a rotating wheel or disc. Centrifugal force spreads the liquid outward, forming fine droplets. The droplet size can be adjusted by varying the wheel speed, feed flow, and liquid viscosity.",
+          "Pressure nozzle Atomizers: Liquid feed is pumped under high pressure through a nozzle orifice. The feed breaks into droplets due to shear forces and surface tension. Nozzle design determines droplet distribution and spray angle."
         ],
 
         components: [
-          "Atomizer wheel / disc",
-          "Atomizer shaft",
-          "High-speed bearings",
-          "Mechanical seals",
-          "Atomizer housing",
-          "O-rings and gaskets",
-          "Lubrication system"
+          "Atomizer wheel/disc – precision-balanced to prevent vibration and wear",
+          "Atomizer shaft – high-strength stainless steel, corrosion and abrasion resistant",
+          "High-speed bearings – support RPM ranges of 10,000–25,000",
+          "Mechanical seals – prevent feed leakage and contamination",
+          "Atomizer housing – durable stainless steel or coated alloy",
+          "O-rings and gaskets – high-temperature resistant",
+          "Lubrication system – ensures continuous smooth operation"
         ],
 
         materials: [
-          "Stainless Steel 304",
-          "Stainless Steel 316",
-          "Stainless Steel 316L",
-          "Tungsten Carbide coating",
-          "Ceramic coating"
+          "Stainless Steel (304, 316, 316L) (Food & Pharma Applications)",
+          "Tungsten Carbide or Ceramic Coatings (Abrasive Chemical Feed)",
+          "High-grade Bearings, Seals, and Shafts"
         ],
 
         industrialApplications: [
           "Milk powder",
-          "Whey powder",
-          "Coffee powder",
-          "Protein powders",
-          "Pharmaceutical granules",
-          "Chemical slurries"
+          "Whey Powder",
+          "Coffee Powder",
+          "Protein Powders",
+          "Pharmaceutical Granules",
+          "Chemical Slurries"
         ],
 
         advantages: [
-          "Uniform droplet formation",
-          "High operational speed",
-          "Minimal maintenance"
+          "Uniform droplet formation for consistent particle size",
+          "High operational speed for increased production",
+          "Minimal maintenance due to robust design"
         ],
 
         maintenanceTips: [
-          "Inspect bearings regularly",
-          "Replace O-rings",
-          "Lubricate rotating components"
+          "Inspect bearings and seals regularly",
+          "Replace O-rings to prevent leaks",
+          "Lubricate rotating components for smooth operation"
         ]
-      },
-
+      }
+      ,
       {
-        id: "hot-air-generator-components",
-        slug: "hot-air-generator-components",
+        id: "hot-air-generator",
+        slug: "hot-air-generator",
         title: "Hot Air Generator Components",
         icon: "bi bi-chevron-right",
-
-        fullDescription: "Hot air generators provide thermal energy required for spray drying by supplying controlled hot air.",
+        fullDescription: "We at Aplex Engineering Systems make and provide reliable Hot Air Generator components, essential for consistent drying. Hot air provides the thermal energy needed to evaporate moisture from atomized droplets efficiently.",
 
         workingPrinciple: [
-          "Direct fired generators burn fuel and mix hot gases with drying air.",
-          "Indirect fired generators transfer heat through a heat exchanger."
+          "Direct-Fired Hot Air Generators: The fuel is burned in a combustion chamber, and the resulting hot gases mix directly with the drying air.",
+          "Indirect-Fired Hot Air Generators: Hot gases pass through a heat exchanger, heating the air without contact, preserving sensitive products."
         ],
 
         components: [
-          "Burner assemblies",
-          "Burner nozzles",
-          "Ignition electrodes",
-          "Combustion chamber lining",
-          "Heat exchanger tubes",
-          "Fuel control valves",
-          "Temperature sensors",
-          "Flame detectors"
+          "Burner assemblies – precision engineered for complete combustion",
+          "Burner nozzles – control spray pattern of fuel for efficiency",
+          "Ignition electrodes – reliable spark ignition",
+          "Combustion chamber lining – high temperature resistant ceramic or alloy",
+          "Heat exchanger tubes – maximize heat transfer",
+          "Fuel control valves – precise control of gas or oil feed",
+          "Temperature sensors – accurate temperature monitoring",
+          "Flame detectors – ensure operational safety"
         ],
 
         materials: [
-          "Heat resistant stainless steel",
-          "Ceramic lining",
-          "Corrosion resistant metals"
+          "Heat-resistant Stainless Steel and alloys",
+          "Ceramic lining for high-temperature zones",
+          "Corrosion-resistant metals for fuel contact areas"
         ],
 
         industrialApplications: [
           "Milk powder",
           "Detergents",
-          "Pharmaceutical powders",
+          "Pharmaceuticals",
           "Food chemicals",
           "Specialty powders"
         ],
 
         advantages: [
-          "Precise temperature control",
-          "High thermal efficiency",
-          "Long service life"
+          "Precise temperature control for product quality",
+          "High thermal efficiency and energy savings",
+          "Long service life under continuous operation"
         ],
 
         maintenanceTips: [
-          "Clean burner nozzles",
-          "Inspect sensors and flame detectors",
-          "Monitor heat exchanger tubes"
+          "Clean burner nozzles to prevent incomplete combustion",
+          "Inspect and calibrate sensors and flame detectors",
+          "Monitor heat exchanger tubes for fouling or wear"
         ]
       },
 
       {
-        id: "rotary-air-lock-valves",
-        slug: "rotary-air-lock-valves",
+        id: "rotary-airlock-valves",
+        slug: "rotary-airlock-valves",
         title: "Rotary Air Lock Valves",
         icon: "bi bi-chevron-right",
-
-        fullDescription: "Rotary airlock valves discharge powder while maintaining system air pressure balance.",
+        fullDescription: "We at Aplex Engineering Systems make and provide Rotary Airlock Valves that allow powder discharge while maintaining chamber air pressure. They are critical in preventing backflow and maintaining airflow balance.",
 
         workingPrinciple: [
-          "Rotor pockets rotate allowing powder discharge while isolating chamber pressure."
+          "The rotor has multiple pockets that rotate, allowing powder to drop into the discharge line. The pockets isolate chamber pressure from downstream lines, preventing air leakage."
         ],
 
         components: [
-          "Rotor assembly",
-          "Valve housing",
-          "Shaft and bearings",
-          "Shaft seals",
-          "End plates",
-          "Gear motor",
-          "Drive couplings"
+          "Rotor assembly – high precision rotor for smooth operation",
+          "Valve housing – abrasion resistant steel",
+          "Shaft and bearings – support continuous rotation",
+          "Shaft seals – prevent air leakage",
+          "End plates – durable and corrosion resistant",
+          "Gear motor and drive couplings – reliable motion transmission"
         ],
 
         materials: [
           "Stainless steel",
           "Alloy steel",
-          "Hard coated abrasion resistant surfaces"
+          "Hard coated surfaces for abrasion resistance"
         ],
 
         industrialApplications: [
@@ -2025,15 +2022,15 @@ const productsData = [
         ],
 
         advantages: [
-          "Continuous powder discharge",
-          "Maintains system pressure",
-          "Reduces downtime"
+          "Continuous powder discharge without loss",
+          "Maintains system air pressure and efficiency",
+          "Reduces downtime and maintenance"
         ],
 
         maintenanceTips: [
-          "Check rotor clearances",
-          "Replace shaft seals",
-          "Lubricate bearings"
+          "Regularly check rotor clearances",
+          "Replace worn shaft seals",
+          "Lubricate bearings as per schedule"
         ]
       },
 
@@ -2042,96 +2039,94 @@ const productsData = [
         slug: "feed-pump-system",
         title: "Feed Pump System",
         icon: "bi bi-chevron-right",
-        fullDescription: "Industrial feed pumps ensure controlled delivery of liquid feed to the spray dryer.",
+        fullDescription: "We at Aplex Engineering Systems make and provide industrial feed pumps for controlled delivery of liquid feed. Stable feed flow ensures consistent droplet formation and high quality powder.",
 
         workingPrinciple: [
-          "Progressive cavity pumps move liquid smoothly without pulsation.",
-          "Gear or piston pumps provide high pressure feed."
+          "Progressive cavity pumps: rotor turns inside stator moving liquid without pulsation.",
+          "Gear or piston pumps deliver constant flow for high pressure nozzle atomizers."
         ],
 
         components: [
-          "Pump rotor",
-          "Stator sleeve",
-          "Mechanical seals",
-          "Pump shaft",
-          "Pump bearings",
-          "Pump housing",
-          "Coupling assemblies",
-          "Pressure control valves"
+          "Pump Rotor and Stator Sleeve – Wear-Resistant and Corrosion-Resistant",
+          "Mechanical Seals – Prevent Leakage",
+          "Pump Shaft and Bearings – High Strength for Continuous Operation",
+          "Pump Housing – Stainless Steel or Coated Alloy",
+          "Coupling Assemblies – Ensure smooth Drive",
+          "Pressure Control Valves – Maintain Precise Feed Pressure"
         ],
 
         materials: [
           "Stainless steel",
           "Hard alloys",
-          "Chemical resistant materials"
+          "Chemically resistant components"
         ],
 
         industrialApplications: [
-          "Food processing",
-          "Dairy industry",
-          "Chemical processing",
-          "Pharmaceutical spray dryers"
+          "Food and Beverage",
+          "Dairy",
+          "Chemical ",
+          "Pharmaceutical Spray Sryers"
+
         ],
 
         advantages: [
-          "Handles viscous feeds",
-          "Stable feed flow",
-          "Protects atomizers"
+          "Handles viscous or slurry feeds without pulsation",
+          "Protects atomizers and nozzles from clogging",
+          "Adjustable flow for precise atomization"
         ],
 
         maintenanceTips: [
-          "Inspect rotors and stators",
+          "Inspect rotors and stators for wear",
           "Lubricate bearings",
-          "Replace mechanical seals"
+          "Replace mechanical seals regularly"
         ]
       },
 
       {
-        id: "industrial-blower-system",
-        slug: "industrial-blower-system",
+        id: "industrial-blower",
+        slug: "industrial-blower",
         title: "Industrial Blower System",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Industrial blowers supply hot air to the drying chamber and remove moisture laden air.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide Industrial Blowers that are essential for Supplying Hot Air to the Drying Chamber and Removing moisture-laden air Efficiently. Proper airflow ensures uniform Drying, Prevents Condensation, and Maintains Powder Quality.",
 
         workingPrinciple: [
-          "Centrifugal blowers accelerate air outward creating pressure.",
-          "Axial fans move large volumes of air in straight direction."
+          "Centrifugal Blowers: Air enters the Center of the Impeller and is Accelerated outward, Creating High-Pressure Air-flow.",
+          "Axial Fans: Air is Pushed in a Straight Line by Rotating Blades, Ideal for High-Volume, Low-Pressure applications."
         ],
 
         components: [
-          "Fan impellers",
-          "Blower shafts",
-          "Bearings",
-          "Fan housing",
-          "Drive belts",
-          "Couplings"
+          "Fan Impellers – Precision Balanced for Vibration-Free Operation",
+          "Blower Shafts – High-Strength Stainless Steel or Alloy",
+          "Bearings – High-Load and High-Temperature Resistant",
+          "Fan Housing – Designed to Reduce Turbulence and Energy Loss",
+          "Drive Belts and Couplings – Ensure Smooth and Reliable Operation"
         ],
 
         materials: [
-          "Stainless steel",
-          "High strength alloys",
-          "Corrosion resistant metals"
+          "Stainless Steel",
+          "High-Strength Alloys",
+          "Corrosion-Resistant Metals"
         ],
 
         industrialApplications: [
-          "Milk powder plants",
-          "Dairy powder plants",
-          "Chemical powder plants",
-          "Food spray dryers",
-          "Pharmaceutical spray dryers"
+          "Milk powder",
+          "Dairy powders",
+          "Chemical Powders Food",
+          "Pharmaceutical Spray Dryers"
         ],
 
         advantages: [
-          "Uniform airflow distribution",
-          "Energy efficient operation",
-          "Handles high temperature"
+          "Uniform Airflow Distribution in the Drying Chamber",
+          "Energy-efficient designs for reduced operational costs",
+          "Resistant to high temperature, abrasive powder, and continuous operation"
         ],
 
         maintenanceTips: [
-          "Inspect bearings",
-          "Clean impeller blades",
-          "Lubricate moving parts"
+          "Inspect Bearings and Belts Regularly",
+          "Clean Impeller Blades to Maintain Airflow Efficiency",
+          "Lubricate Moving Parts as Required"
         ]
       },
 
@@ -2141,20 +2136,20 @@ const productsData = [
         title: "Feed Filtration System",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Feed filtration systems remove impurities from liquid feed protecting pumps and atomizers.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide High-Performance Feed Filtration Systems to remove impurities from Liquid Feed, Protecting Pumps and Atomizers from Damage and ensuring consistent Powder quality.",
 
         workingPrinciple: [
-          "Liquid feed passes through filter elements that remove solids or contaminants.",
+          "Liquid feed passes through Filter elements that remove solids or contaminants.",
           "Filters may include mesh screens, cartridges, or bag filters depending on feed type and viscosity."
         ],
 
         components: [
-          "Filter cartridges",
-          "Mesh filters",
-          "Filter housings",
-          "O-rings",
-          "Gaskets",
-          "Drain valves"
+          "Filter cartridges – High-Quality Stainless Steel or Synthetic Media",
+          "Mesh Filters – Fine Mesh for Particle Removal",
+          "Filter Housings – Corrosion-Resistant Stainless Steel",
+          "O-rings and Gaskets – High-Temperature Resistant",
+          "Drain valves – for Easy Cleaning"
         ],
 
         materials: [
@@ -2164,9 +2159,9 @@ const productsData = [
 
         industrialApplications: [
           "Dairy",
-          "Chemical processing",
-          "Pharmaceutical processing",
-          "Food processing industries"
+          "Chemical",
+          "Pharmaceutical",
+          "Food Processing Industries"
         ],
 
         advantages: [
@@ -2187,44 +2182,44 @@ const productsData = [
         title: "Electromagnetic Hammer System",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Electromagnetic Hammer Systems that Prevent Powder Buildup Inside Cyclones, Ducts, and Drying Chambers, Reducing Downtime and Cleaning effort.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and Provide Electromagnetic Hammer Systems that Prevent Powder Buildup Inside Cyclones, Ducts, and Drying Chambers, Reducing Downtime and Cleaning effort.",
 
         workingPrinciple: [
-          "An Electromagnetic Coil Activates a Hammer head at Controlled Intervals",
-"The Hammer Delivers Vibrations to the Equipment Surface, Dislodging sticky or Caked Powder."
+          "An Electromagnetic Coil Activates a Hammer head at Controlled Intervals.",
+          "The Hammer Delivers Vibrations to the Equipment Surface, Dislodging sticky or Caked Powder."
         ],
 
         components: [
-          "Electromagnetic coils",
-          "Hammer heads",
-          "Mounting brackets",
-          "Impact plates",
-          "Control units"
+          "Electromagnetic Coils – High-Performance and Durable",
+          "Hammer heads – Wear-Resistant Steel or Alloys",
+          "Mounting Brackets and Impact Plates – Robust for Long Service Life",
+          "Control units – Programmable for Vibration Intensity and Frequency"
         ],
 
         materials: [
-          "Stainless steel",
-          "Wear resistant alloys",
-          "Electrical components"
+          "Stainless Steel (304,316,316L, etc)",
+          "Wear-Resistant Alloys",
+          "Durable Electrical Components"
         ],
 
         industrialApplications: [
           "Cyclones",
           "Ducts",
-          "Drying chambers",
-          "Powder transport lines"
+          "Drying Chambers",
+          "Powder Transport Lines"
         ],
 
         advantages: [
-          "Reduces manual cleaning",
-          "Prevents blockage",
-          "Increases efficiency"
+          "Reduces Manual Cleaning Requirements",
+          "Prevents Blockage and Product loss",
+          "Increases Operational Efficiency"
         ],
 
         maintenanceTips: [
-          "Inspect hammer head",
-          "Check electrical connections",
-          "Adjust vibration frequency"
+          "Inspect Coil and Hammer Head for Wear or Damage",
+          "Ensure Electrical Connections are Secure",
+          "Adjust Vibration Frequency According to Powder Characteristics"
         ]
       },
 
@@ -2234,131 +2229,132 @@ const productsData = [
         title: "Spray Nozzle Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Spray nozzle components control droplet size and spray pattern inside spray dryers.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide High-Precision Spray Nozzle Components to control Droplet size, Spray Pattern, and ultimately Product quality in spray dryers.",
 
         workingPrinciple: [
-          "Nozzles atomize feed using pressure or mechanical shearing.",
-          "Swirl inserts create rotational spray for finer droplets."
+          "Nozzles Atomize Feed through Mechanical Shearing or Pressure forcing, Producing Uniform Droplets.",
+          "Swirl Inserts Create Rotational Motion for Finer Spray Patterns."
         ],
 
         components: [
-          "Nozzle tips",
-          "Swirl inserts",
-          "Orifice plates",
-          "Needle valves",
-          "Nozzle bodies",
-          "Nozzle caps",
-          "Sealing rings"
+          "Nozzle Tips – Stainless Steel, Ceramic, or Tungsten Carbide",
+          "Swirl Inserts – for Controlled Droplet Size",
+          "Orifice Plates – Precision Machining for uniform Atomization",
+          "Needle Valves – Control Flow Rate",
+          "Nozzle Bodies and Caps – Corrosion-Resistant",
+          "Sealing Rings – High-Temperature Resistant"
         ],
 
         materials: [
-          "Stainless steel",
-          "Ceramic",
-          "Tungsten carbide"
+          "Stainless Steel (304, 316 and 316L - for food/pharma)",
+          "Ceramic or Tungsten Carbide for Abrasive Slurries"
         ],
 
         industrialApplications: [
-          "Milk powder",
+          "Milk Powder",
           "Coffee",
           "Whey",
-          "Pharmaceutical powders",
+          "Pharmaceutical Powders",
           "Chemicals"
         ],
 
         advantages: [
-          "Uniform powder quality",
-          "Adjustable droplet size",
-          "Resistant to clogging"
+          "High-quality, Uniform Powder",
+          "Adjustable Droplet Size",
+          "Resistant to Wear and Clogging"
         ],
 
         maintenanceTips: [
-          "Clean nozzle tips",
-          "Replace worn parts",
-          "Inspect sealing rings"
+          "Clean tips and Swirl Inserts Regularly",
+          "Replace Worn or Damaged Components",
+          "Inspect Sealing Rings for Leaks"
         ]
       },
 
       {
-        id: "cyclone-separator-components",
-        slug: "cyclone-separator-components",
+        id: "cyclone-separator",
+        slug: "cyclone-separator",
         title: "Cyclone Separator Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Cyclone separators separate powder from exhaust air using Centrifugal Force, Maximizing Recovery and Minimizing Dust Emissions.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide Cyclone Separators to efficiently Separate Powder from Exhaust Air Using Centrifugal Force, Maximizing Recovery and Minimizing Dust Emissions.",
 
         workingPrinciple: [
-          "Air and powder enter tangentially creating a vortex.",
-          "Centrifugal force pushes powder to the wall where it falls into the hopper."
+          "Air and Powder Enter Tangentially, Creating a Spinning Vortex.",
+          "Centrifugal Force throws Powder to the Wall, where it slides down into the collection hopper."
         ],
 
         components: [
-          "Cyclone body sections",
-          "Vortex finder",
-          "Cone section",
-          "Wear liners",
-          "Discharge valves",
-          "Flange gaskets"
+          "Cyclone Body Sections – Abrasion-Resistant Steel or Coated Alloys",
+          "Vortex Finder – Precision Design for Efficient Separation",
+          "Cone Section – Controls Air-flow and Powder Exit",
+          "Wear liners – Protect Against Abrasive Powders",
+          "Discharge Valves – Controlled Powder Flow",
+          "Flange gaskets – Ensure Airtight Seals"
         ],
 
         industrialApplications: [
-          "Food powders",
-          "Dairy powders",
-          "Chemical powders",
-          "Pharmaceutical powders"
+          "Food Powders",
+          "Dairy Powders",
+          "Chemical Powders",
+          "Pharmaceuticals"
         ],
 
         advantages: [
-          "High powder recovery",
-          "Low dust emissions",
-          "Handles abrasive powders"
+          "High Powder Recovery",
+          "Low Dust Emissions",
+          "Resistant to High-Temperature and Abrasive Powders"
         ],
 
         maintenanceTips: [
-          "Inspect wear liners",
-          "Check sealing",
-          "Clean discharge area"
+          "Inspect Wear Liners Regularly",
+          "Check for Proper Sealing and Alignment",
+          "Clean Powder Discharge Area Periodically"
         ]
       },
 
       {
-        id: "bag-filter-dust-collector-components",
-        slug: "bag-filter-dust-collector-components",
+        id: "bag-filter-dust-collector",
+        slug: "bag-filter-dust-collector",
         title: "Bag Filter and Dust Collector Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Bag filters capture fine particles from exhaust air ensuring clean emissions.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide Bag Filters and Dust Collectors to capture fine particles from exhaust air, protecting the environment and recovering valuable product.",
 
         workingPrinciple: [
-          "Air passes through filter bags supported by cages.",
+          "Air Passes Through Filter Bags Supported by Cages.",
           "Dust Accumulates on the Surface, While Clean Air Passes Through.",
-          "Pulse-Jet Valves Periodically Release Dust Buildup"
+          "Pulse-Jet Valves Periodically Release Dust Buildup."
         ],
 
         components: [
-          "Filter bags",
-          "Cage supports",
-          "Venturi tubes",
-          "Pulse jet valves",
-          "Solenoid valves"
+          "Filter Bags – High-Efficiency Fabric or Synthetic Media",
+          "Cage Supports – Maintain Filter Shape Under Airflow",
+          "Venturi Tubes – Ensure Pulse Cleaning Effectiveness",
+          "Pulse Jet Valves – Control Dust Removal",
+          "Solenoid Valves – Reliable electronic control"
         ],
 
         industrialApplications: [
-          "Milk powder plants",
-          "Chemical powders",
-          "Pharmaceutical industries",
-          "Detergent industries"
+          "Milk Powder",
+          "Chemical Powders",
+          "Pharmaceutical",
+          "Detergent Industries"
         ],
 
         advantages: [
           "Clean air exhaust",
           "High powder recovery",
-          "Low maintenance"
+          "Minimal maintenance and downtime"
         ],
 
         maintenanceTips: [
-          "Replace worn filter bags",
-          "Inspect pulse valves",
-          "Check cage supports"
+          "Replace Worn or Damaged Filter Bags",
+          "Inspect Pulse Valves and Solenoid Operation",
+          "Check Cage Supports for Deformation"
         ]
       },
 
@@ -2368,38 +2364,36 @@ const productsData = [
         title: "Drying Chamber Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Drying chamber components maintain airflow and temperature for efficient spray drying.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide Drying Chamber Components that house Atomized Droplets and Maintain Uniform Airflow for High-Quality Drying.",
 
         workingPrinciple: [
-          "Hot air flows through chamber contacting atomized droplets.",
-          "Proper airflow ensures uniform drying."
+          "Hot air flows through the chamber, contacting atomized droplets.",
+          "Proper airflow and insulation maintain consistent drying and prevent overheating."
         ],
 
         components: [
-          "Air distribution plates",
-          "Chamber liners",
-          "Manhole covers",
-          "Inspection windows",
-          "Insulation materials",
-          "Expansion joints"
+          "Air Distribution Plates – Ensure Uniform Air Flow",
+          "Chamber Liners – Abrasion and Corrosion Resistant",
+          "Manhole Covers and Inspection Windows – For Maintenance Access",
+          "Insulation Materials – Minimize Heat Loss",
+          "Expansion Joints – Accommodate Thermal Expansion"
         ],
 
         industrialApplications: [
-          "Food spray dryers",
-          "Chemical spray dryers",
-          "Pharmaceutical spray dryers"
+          "All Industrial Spray Drying Applications, Including Food, Chemical, and Pharmaceutical Products"
         ],
 
         advantages: [
-          "Uniform powder drying",
-          "High thermal efficiency",
-          "Reduced chamber wear"
+          "Uniform Powder Drying",
+          "High Thermal Efficiency",
+          "Reduced Wear on Chamber Surfaces"
         ],
 
         maintenanceTips: [
-          "Inspect liners and insulation",
-          "Replace expansion joints",
-          "Clean chamber interior"
+          "Inspect Liners and Insulation Periodically",
+          "Replace damaged Expansion Joints",
+          "Clean Interior Surfaces to Prevent Buildup"
         ]
       },
 
@@ -2409,78 +2403,74 @@ const productsData = [
         title: "Instrumentation and Control Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Instrumentation components monitor and regulate spray dryer operations, Ensuring Safety, Quality, and Efficiency.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and Provide Instrumentation and Control Components to Monitor and Regulate Spray Dryer Operations, Ensuring Safety, Quality, and Efficiency.",
 
         components: [
-          "Temperature sensors",
-          "Pressure transmitters",
-          "Flow meters",
-          "Level sensors",
-          "Control valves",
-          "Electrical relays",
-          "Contactors"
+          "Temperature Sensors – Accurate Monitoring of Hot Air and Product",
+          "Pressure Transmitters – Maintain Airflow and System Balance",
+          "Flow Meters – Measure Feed and Airflow",
+          "Level Sensors – Monitor Liquid Feed or Powder Level",
+          "Control Valves – Regulate Temperature, Flow, and Pressure",
+          "Electrical Relays and Contactors – Ensure Reliable Control"
         ],
 
         industrialApplications: [
-          "Automated spray dryers",
-          "Chemical dryers",
-          "Pharmaceutical systems"
+          "Automated Spray Dryers",
+          "Industrial Chemical Dryers",
+          "Pharmaceutical Systems"
         ],
 
         advantages: [
           "Accurate process control",
           "Operational safety",
-          "Improved product quality"
+          "Reduced Downtime and Improved Product Quality"
         ],
 
         maintenanceTips: [
-          "Calibrate sensors regularly",
-          "Inspect electrical connections",
-          "Replace worn components"
+          "Calibrate Sensors Regularly",
+          "Inspect Electrical Connections",
+          "Replace Worn Components Promptly"
         ]
       },
-
       {
         id: "additional-mechanical-components",
         slug: "additional-mechanical-components",
         title: "Additional Mechanical Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Additional mechanical components support powder transport and handling, and Overall Spray Dryer Efficiency.",
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide Additional Mechanical Components to Support Powder Transport, Handling, and Overall Spray Dryer Efficiency.",
 
         components: [
-          "Screw conveyors",
-          "Vibrating screens",
-          "Powder discharge valves",
-          "Fluid bed dryer components",
-          "Air ducts",
-          "Dampers",
-          "Expansion joints"
+          "Screw Conveyors – Transfer Powder Between Units",
+          "Vibrating Screens – Ensure Consistent Particle Size",
+          "Powder Discharge Valves – Controlled Product Exit",
+          "Fluid Bed Dryer Components – For Post-Drying Handling",
+          "Air Ducts and Dampers – Regulate Air-flow",
+          "Expansion Joints – Absorb Thermal and Mechanical Movement"
         ],
 
         industrialApplications: [
-          "Food industry",
-          "Dairy plants",
-          "Chemical plants",
-          "Pharmaceutical manufacturing",
-          "Detergent spray dryers"
+          "Food",
+          "Dairy",
+          "Chemical",
+          "Pharmaceutical",
+          "Detergent Spray Dryers"
         ],
 
         advantages: [
-          "Reliable powder handling",
-          "Reduced downtime",
-          "Easy maintenance"
+          "Reliable Powder Handling",
+          "Minimized Downtime",
+          "Easy Maintenance"
         ],
 
         maintenanceTips: [
-          "Lubricate bearings",
-          "Inspect moving parts",
-          "Clean powder transfer systems"
+          "Lubricate Bearings and joints",
+          "Inspect Moving Parts for Wear",
+          "Clean Powder transfer Systems Regularly"
         ]
       }
-
-
-
     ],
   },
 
