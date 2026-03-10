@@ -2144,7 +2144,8 @@ const productsData = [
         fullDescription: "Feed filtration systems remove impurities from liquid feed protecting pumps and atomizers.",
 
         workingPrinciple: [
-          "Liquid feed passes through filter elements that remove solids or contaminants."
+          "Liquid feed passes through filter elements that remove solids or contaminants.",
+          "Filters may include mesh screens, cartridges, or bag filters depending on feed type and viscosity."
         ],
 
         components: [
@@ -2157,8 +2158,8 @@ const productsData = [
         ],
 
         materials: [
-          "Stainless steel",
-          "Chemical resistant alloys"
+          "Stainless Steel for Food and Pharmaceutical Applications",
+          "Chemical-Resistant Alloys for Aggressive Feedstocks"
         ],
 
         industrialApplications: [
@@ -2169,28 +2170,28 @@ const productsData = [
         ],
 
         advantages: [
-          "Protects pumps and atomizers",
-          "Maintains product quality",
-          "Easy cleaning"
+          "Protects Pumps and Atomizers from Clogging",
+          "Maintains Consistent Product Quality",
+          "Easy Cleaning and Maintenance"
         ],
 
         maintenanceTips: [
-          "Clean filters daily",
-          "Replace damaged cartridges",
-          "Inspect seals"
+          "Clean Filters Daily to Prevent Clogging",
+          "Replace Worn or Damaged Filter Cartridges",
+          "Inspect Seals and Gaskets for Leaks"
         ]
       },
-
       {
         id: "electromagnetic-hammer-system",
         slug: "electromagnetic-hammer-system",
         title: "Electromagnetic Hammer System",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Electromagnetic hammer systems prevent powder buildup inside cyclones, ducts and drying chambers.",
+        fullDescription: "Electromagnetic Hammer Systems that Prevent Powder Buildup Inside Cyclones, Ducts, and Drying Chambers, Reducing Downtime and Cleaning effort.",
 
         workingPrinciple: [
-          "Electromagnetic coil activates hammer head delivering vibration to remove powder deposits."
+          "An Electromagnetic Coil Activates a Hammer head at Controlled Intervals",
+"The Hammer Delivers Vibrations to the Equipment Surface, Dislodging sticky or Caked Powder."
         ],
 
         components: [
@@ -2283,7 +2284,7 @@ const productsData = [
         title: "Cyclone Separator Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Cyclone separators separate powder from exhaust air using centrifugal force.",
+        fullDescription: "Cyclone separators separate powder from exhaust air using Centrifugal Force, Maximizing Recovery and Minimizing Dust Emissions.",
 
         workingPrinciple: [
           "Air and powder enter tangentially creating a vortex.",
@@ -2329,7 +2330,8 @@ const productsData = [
 
         workingPrinciple: [
           "Air passes through filter bags supported by cages.",
-          "Dust accumulates on the bag surface and pulse jets remove buildup."
+          "Dust Accumulates on the Surface, While Clean Air Passes Through.",
+          "Pulse-Jet Valves Periodically Release Dust Buildup"
         ],
 
         components: [
@@ -2407,7 +2409,7 @@ const productsData = [
         title: "Instrumentation and Control Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Instrumentation components monitor and regulate spray dryer operations.",
+        fullDescription: "Instrumentation components monitor and regulate spray dryer operations, Ensuring Safety, Quality, and Efficiency.",
 
         components: [
           "Temperature sensors",
@@ -2444,7 +2446,7 @@ const productsData = [
         title: "Additional Mechanical Components",
         icon: "bi bi-chevron-right",
 
-        fullDescription: "Additional mechanical components support powder transport and handling.",
+        fullDescription: "Additional mechanical components support powder transport and handling, and Overall Spray Dryer Efficiency.",
 
         components: [
           "Screw conveyors",
