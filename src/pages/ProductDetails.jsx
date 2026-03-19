@@ -52,9 +52,9 @@ export default function ProductDetails() {
                                         alt={product.title}
                                         className="img-fluid"
                                     />
-                                    <div className="service-badge">
+                                    {/* <div className="service-badge">
                                         <span>Premium Product</span>
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="service-header">
