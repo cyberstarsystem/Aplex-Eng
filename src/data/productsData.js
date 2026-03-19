@@ -27,7 +27,7 @@ import sprayNozzleComponents from '../assets/img/SPAREPARTPHOTOS/SPRAY NOZZLE CO
 import FeedFiltrationSystem from "../assets/img/SPAREPARTPHOTOS/FeedFiltrationSystem.webp"
 import cycloneSeparator from "../assets/img/SPAREPARTPHOTOS/CYCLONE SEPARATOR - 1.jpg"
 import bagFilterDustCollector from "../assets/img/SPAREPARTPHOTOS/BAG FILTER DUST COLLECTOR - 1.jpg"
-import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBER - 1.jpEg"
+import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBER - 1.jpeg"
 import instrumentationControlComponents from "../assets/img/SPAREPARTPHOTOS/INSTRUMENTATION AND CONTROL COMPONENTS - 1.webp"
 
 const productsData = [
