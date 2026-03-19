@@ -102,12 +102,14 @@ export default function Navbar() {
                 </NavLink>
               </li>
 
-              <li className="megamenu-2" onMouseEnter={() =>
-                document.querySelector('.megamenu-2')?.classList.add('active')
-              }
-                onMouseLeave={() =>
-                  document.querySelector('.megamenu-2')?.classList.remove('active')
-                }>
+              <li className="megamenu-2"
+                onMouseEnter={() =>
+                  document.querySelector('.megamenu-2')?.classList.add('active')
+                }
+              // onMouseLeave={() =>
+              //   document.querySelector('.megamenu-2')?.classList.remove('active')
+              // }
+              >
                 <a href="#"
 
                 >
@@ -171,10 +173,15 @@ export default function Navbar() {
                               <div className="row">
                                 {category.items.map((item, index) => (
                                   <div className="col-md-4 col-sm-6 mb-3" key={index}>
-                                    <Link to={`/products/${category.categorySlug}/${item.slug}`} className="product-link d-block" onClick={closeMegaMenu}
+                                    <Link to={`/products/${category.categorySlug}/${item.slug}`}
+                                      className="product-link d-block" style={{ whiteSpace: "normal" }} onClick={closeMegaMenu}
                                     >
                                       <i className={`bi ${item.icon} me-2 text-dark`} style={{ fontSize: "25px" }}></i>
-                                      <span>{item.title}</span>
+                                      <span style={{
+                                        display: "inline-block",
+                                        width: "230px",
+                                        wordWrap: "break-word"
+                                      }}>{item.title}</span>
                                     </Link>
                                   </div>
                                 ))}

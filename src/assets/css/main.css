@@ -529,12 +529,12 @@ h6 {
 ================================ */
 
 /* hidden by default */
-.desktop-megamenu {
+/* .desktop-megamenu {
   opacity: 0;
   visibility: hidden;
   transform: translateY(15px);
   transition: 0.3s ease;
-}
+} */
 
 /* show when active */
 .megamenu-2.active .desktop-megamenu {

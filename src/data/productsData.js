@@ -29,7 +29,10 @@ import cycloneSeparator from "../assets/img/SPAREPARTPHOTOS/CYCLONE SEPARATOR - 
 import bagFilterDustCollector from "../assets/img/SPAREPARTPHOTOS/BAG FILTER DUST COLLECTOR - 1.jpg"
 import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBER - 1.jpeg"
 import instrumentationControlComponents from "../assets/img/SPAREPARTPHOTOS/INSTRUMENTATION AND CONTROL COMPONENTS - 1.webp"
-
+import vesselsAndStorageTanksImage from '../assets/img/SPAREPARTPHOTOS/storage-tanks.jpg'
+import chemicalReactorsImage from '../assets/img/SPAREPARTPHOTOS/chemical-reactor.webp'
+import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/Crystallizer.jpg'
+import additionalMechanicalComponents from '../assets/img/SPAREPARTPHOTOS/SPIN FLASH DRYER - 1.jpeg'
 const productsData = [
   {
     category: "Drying Systems",
@@ -2437,7 +2440,7 @@ image: instrumentationControlComponents,
         slug: "additional-mechanical-components",
         title: "Additional Mechanical Components",
         icon: "bi bi-chevron-right",
-
+image: additionalMechanicalComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Additional Mechanical Components to Support Powder Transport, Handling, and Overall Spray Dryer Efficiency.",
 
@@ -2516,12 +2519,12 @@ image: bagFilterDustCollector,
   },
 
   {
-    category: "Zero Liquid Discharge (ZLD) Dryers ",
+    category: "Zero Liquid Discharge (ZLD) ",
     categorySlug: "zld-dryers",
     icon: "bi bi-chevron-right",
     items: [
       {
-        title: "Zero Liquid Discharge (ZLD) Dryers",
+        title: "Zero Liquid Discharge (ZLD)",
         slug: "zld-dryers",
         icon: "bi bi-chevron-right",
 image: zeroLiquidDischargeDryerImage,
@@ -2959,7 +2962,7 @@ image: zeroLiquidDischargeDryerImage,
         title: "Chemical Reactors",
         slug: "chemical-reactors",
         icon: "bi bi-chevron-right",
-
+image: chemicalReactorsImage,
         shortDescription:
           "Industrial jacketed reactors designed for controlled chemical reactions, mixing, heating, cooling, and pressure operations.",
 
@@ -3055,7 +3058,7 @@ image: zeroLiquidDischargeDryerImage,
         title: "Crystallizers",
         slug: "crystallizers",
         icon: "bi bi-chevron-right",
-
+        image: crystallizersImage,
         shortDescription:
           "Industrial crystallization systems designed for controlled crystal formation, size uniformity, and high-purity solid product recovery.",
 
@@ -3146,107 +3149,195 @@ image: zeroLiquidDischargeDryerImage,
         ]
       }
       ,
+      // {
+      //   title: "Mixers & Agitators",
+      //   slug: "mixers-agitators",
+      //   icon: "bi bi-chevron-right",
+
+      //   shortDescription:
+      //     "High-performance industrial mixing systems designed for efficient blending, homogenization, suspension, and reaction support.",
+
+      //   fullDescription:
+      //     "Mixers & Agitators are industrial mechanical systems used to blend, homogenize, suspend, and mix liquids, slurries, and semi-solids in process industries. These systems are engineered to ensure uniform mixing, efficient heat transfer, and stable process performance. They are widely used in chemical, pharmaceutical, food, cosmetic, and wastewater treatment industries for batch and continuous operations.",
+
+      //   workingPrinciple: [
+      //     "Material Charging: Liquids or solids are introduced into mixing vessel.",
+      //     "Agitation: Rotating impeller generates flow pattern inside vessel.",
+      //     "Flow Circulation: Radial, axial, or mixed flow ensures uniform distribution.",
+      //     "Shear & Dispersion: Depending on impeller design, materials are blended or dispersed.",
+      //     "Heat/Mass Transfer Support: Agitation enhances heat and mass transfer.",
+      //     "Discharge: Homogenized mixture is discharged after required mixing time."
+      //   ],
+
+      //   types: [
+      //     "Top Mounted Agitator",
+      //     "Side Entry Agitator",
+      //     "Bottom Entry Agitator",
+      //     "Anchor Agitator",
+      //     "Paddle Agitator",
+      //     "Propeller Agitator",
+      //     "Turbine Agitator",
+      //     "High Shear Mixer",
+      //     "Ribbon Blender",
+      //     "Planetary Mixer"
+      //   ],
+
+      //   designFeatures: [
+      //     "Heavy-duty motor and gearbox",
+      //     "Custom impeller design",
+      //     "Mechanical seal or gland packing",
+      //     "Variable speed control (VFD)",
+      //     "SS304 / SS316 / Carbon Steel construction",
+      //     "Explosion-proof motor option",
+      //     "Jacketed vessel compatibility",
+      //     "Easy maintenance design"
+      //   ],
+
+      //   applications: {
+      //     chemicalIndustry: [
+      //       "Polymer blending",
+      //       "Chemical reaction support",
+      //       "Slurry mixing"
+      //     ],
+      //     pharmaceuticalIndustry: [
+      //       "Syrup preparation",
+      //       "API mixing",
+      //       "Suspension preparation"
+      //     ],
+      //     foodIndustry: [
+      //       "Sauce mixing",
+      //       "Flavor blending",
+      //       "Dairy processing"
+      //     ],
+      //     cosmeticsIndustry: [
+      //       "Cream preparation",
+      //       "Gel mixing",
+      //       "Lotion blending"
+      //     ],
+      //     wastewaterTreatment: [
+      //       "Sludge mixing",
+      //       "Chemical dosing preparation"
+      //     ]
+      //   },
+
+      //   advantages: [
+      //     "Efficient and uniform mixing",
+      //     "Customizable for different viscosities",
+      //     "Supports heat and mass transfer",
+      //     "Wide range of impeller options",
+      //     "Scalable for different capacities",
+      //     "Energy-efficient designs available"
+      //   ],
+
+      //   limitations: [
+      //     "Mechanical wear over time",
+      //     "Seal maintenance required",
+      //     "Higher power requirement for high-viscosity materials",
+      //     "Improper design may cause dead zones",
+      //     "Noise and vibration in large systems"
+      //   ],
+
+      //   keySelectionParameters: [
+      //     "Material viscosity",
+      //     "Required mixing intensity",
+      //     "Batch size or vessel volume",
+      //     "Temperature and pressure conditions",
+      //     "Corrosion resistance requirement",
+      //     "Shear sensitivity of product",
+      //     "Motor power requirement",
+      //     "Speed control requirement",
+      //     "Explosion-proof safety needs"
+      //   ]
+      // }
       {
-        title: "Mixers & Agitators",
-        slug: "mixers-agitators",
-        icon: "bi bi-chevron-right",
+  title: "Vessels & Storage Tanks",
+  slug: "vessels-storage-tanks",
+  icon: "bi bi-chevron-right",
+image: vesselsAndStorageTanksImage,
+  shortDescription:
+    "Robust and corrosion-resistant vessels for mixing, storage, and pressure applications.",
 
-        shortDescription:
-          "High-performance industrial mixing systems designed for efficient blending, homogenization, suspension, and reaction support.",
+  fullDescription:
+    "Vessels and storage tanks are industrial equipment used for storing, mixing, and handling liquids, gases, and slurries under controlled conditions. These vessels are designed to withstand pressure, temperature variations, and corrosive environments, making them essential in chemical, pharmaceutical, food, petrochemical, and environmental industries.",
 
-        fullDescription:
-          "Mixers & Agitators are industrial mechanical systems used to blend, homogenize, suspend, and mix liquids, slurries, and semi-solids in process industries. These systems are engineered to ensure uniform mixing, efficient heat transfer, and stable process performance. They are widely used in chemical, pharmaceutical, food, cosmetic, and wastewater treatment industries for batch and continuous operations.",
+  workingPrinciple: [
+    "Containment: Provides a secure enclosure for liquids, gases, or slurries.",
+    "Pressure Handling: Designed to operate under atmospheric or pressurized conditions.",
+    "Mixing/Agitation: Internal systems ensure uniform mixing if required.",
+    "Temperature Control: Jackets or coils maintain required temperature.",
+    "Transfer: Fluids are safely transferred through inlet and outlet connections."
+  ],
 
-        workingPrinciple: [
-          "Material Charging: Liquids or solids are introduced into mixing vessel.",
-          "Agitation: Rotating impeller generates flow pattern inside vessel.",
-          "Flow Circulation: Radial, axial, or mixed flow ensures uniform distribution.",
-          "Shear & Dispersion: Depending on impeller design, materials are blended or dispersed.",
-          "Heat/Mass Transfer Support: Agitation enhances heat and mass transfer.",
-          "Discharge: Homogenized mixture is discharged after required mixing time."
-        ],
+  types: [
+    "Atmospheric Storage Tanks",
+    "Pressure Vessels",
+    "Vertical Storage Tanks",
+    "Horizontal Storage Tanks",
+    "Jacketed Vessels",
+    "Agitated Vessels",
+    "Vacuum Vessels"
+  ],
 
-        types: [
-          "Top Mounted Agitator",
-          "Side Entry Agitator",
-          "Bottom Entry Agitator",
-          "Anchor Agitator",
-          "Paddle Agitator",
-          "Propeller Agitator",
-          "Turbine Agitator",
-          "High Shear Mixer",
-          "Ribbon Blender",
-          "Planetary Mixer"
-        ],
+  designFeatures: [
+    "Cylindrical or custom vessel design",
+    "Corrosion-resistant materials (SS304, SS316, FRP, etc.)",
+    "Heating or cooling jackets",
+    "Agitation system (optional)",
+    "Nozzles and manways for access",
+    "Pressure and safety valves",
+    "Level and temperature instrumentation"
+  ],
 
-        designFeatures: [
-          "Heavy-duty motor and gearbox",
-          "Custom impeller design",
-          "Mechanical seal or gland packing",
-          "Variable speed control (VFD)",
-          "SS304 / SS316 / Carbon Steel construction",
-          "Explosion-proof motor option",
-          "Jacketed vessel compatibility",
-          "Easy maintenance design"
-        ],
+  applications: {
+    chemicalIndustry: [
+      "Chemical storage",
+      "Reactor feed tanks",
+      "Intermediate storage"
+    ],
+    pharmaceuticalIndustry: [
+      "Sterile storage",
+      "Solution mixing",
+      "Buffer preparation"
+    ],
+    foodIndustry: [
+      "Milk and liquid storage",
+      "Mixing of ingredients",
+      "Fermentation tanks"
+    ],
+    petrochemicalIndustry: [
+      "Fuel storage",
+      "Oil and gas handling"
+    ],
+    environmental: [
+      "Water storage",
+      "Wastewater treatment tanks"
+    ]
+  },
 
-        applications: {
-          chemicalIndustry: [
-            "Polymer blending",
-            "Chemical reaction support",
-            "Slurry mixing"
-          ],
-          pharmaceuticalIndustry: [
-            "Syrup preparation",
-            "API mixing",
-            "Suspension preparation"
-          ],
-          foodIndustry: [
-            "Sauce mixing",
-            "Flavor blending",
-            "Dairy processing"
-          ],
-          cosmeticsIndustry: [
-            "Cream preparation",
-            "Gel mixing",
-            "Lotion blending"
-          ],
-          wastewaterTreatment: [
-            "Sludge mixing",
-            "Chemical dosing preparation"
-          ]
-        },
+  advantages: [
+    "Safe containment of fluids",
+    "Corrosion resistance for long life",
+    "Customizable design and capacity",
+    "Supports pressure and temperature control",
+    "Suitable for multiple industries"
+  ],
 
-        advantages: [
-          "Efficient and uniform mixing",
-          "Customizable for different viscosities",
-          "Supports heat and mass transfer",
-          "Wide range of impeller options",
-          "Scalable for different capacities",
-          "Energy-efficient designs available"
-        ],
+  limitations: [
+    "Requires regular maintenance",
+    "Higher cost for pressure-rated vessels",
+    "Space requirement for large capacity tanks",
+    "Corrosion risk if material selection is improper"
+  ],
 
-        limitations: [
-          "Mechanical wear over time",
-          "Seal maintenance required",
-          "Higher power requirement for high-viscosity materials",
-          "Improper design may cause dead zones",
-          "Noise and vibration in large systems"
-        ],
-
-        keySelectionParameters: [
-          "Material viscosity",
-          "Required mixing intensity",
-          "Batch size or vessel volume",
-          "Temperature and pressure conditions",
-          "Corrosion resistance requirement",
-          "Shear sensitivity of product",
-          "Motor power requirement",
-          "Speed control requirement",
-          "Explosion-proof safety needs"
-        ]
-      }
-      ,
+  keySelectionParameters: [
+    "Operating pressure and temperature",
+    "Material compatibility",
+    "Storage capacity requirement",
+    "Type of fluid (corrosive/non-corrosive)",
+    "Installation space",
+    "Safety and regulatory requirements"
+  ]
+}
     ],
   },
 
