@@ -1,3 +1,35 @@
+import multistage from '../assets/img/products/multi-stage-spray-dryer-.webp'
+import closedLoop from '../assets/img/products/CLOSED-LOOP SPRAY DRYER - 1.webp'
+import rotaryDryers from '../assets/img/products/ROTARY DRYERS 2.webp'
+import flashDryers from '../assets/img/products/FLASH DRYERS - 2.jpg'
+import cageMillFlashDryer from '../assets/img/products/CAGE MILL FLASH DRYER - 1.webp'
+import spinFlashDryer from '../assets/img/products/SPIN FLASH DRYER - 1.jpg'
+import pilotSprayDryer from '../assets/img/products/PILOT SPRAY DRYER - 3.webp'
+import continuousFluidBedDryer from '../assets/img/products/CONTINUOUS FLUID BED DRYER (CFBD) - 1.png'
+import vibratoryFuildBedDryers from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD).png'
+import hygienicSprayDryer from '../assets/img/products/HYGIENIC SPRAY DRYERS - 1.webp'
+import productSpecificDryer from '../assets/img/products/PRODUCT-SPECIFIC DRYERS- 2.jpg'
+import miniSprayDryer from '../assets/img/products/MINI SPRAY DRYERS - 1.jpeg'
+import rotaryDryer from '../assets/img/products/ROTARY DRYERS 2.webp'
+import sprayNozzleAtomization from '../assets/img/products/SPRAY NOZZLE ATOMIZATION.jpg'
+import zeroLiquidDischargeDryerImage from '../assets/img/products/ZERO LIQUID DISCHARGE (ZLD) DRYERS - 1.webp'
+import fallingFilmEvaporatorImage from '../assets/img/products/FALLING FILM EVAPORATOR - 1.jpg'
+import forcedCirculationEvaporatorImage from '../assets/img/products/FORCED CIRCULATION EVAPORATOR -1.webp'
+import multipleEffectEvaporatorImage from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 4.webp'
+
+import atomizerAssembly from '../assets/img/SPAREPARTPHOTOS/ATOMIZER ASSEMBLY - 1.jpeg'
+import hotAirGenerator from '../assets/img/SPAREPARTPHOTOS/Hot-Air-Generator.webp'
+import rotaryAirlockValve from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 1.png'
+import feedPumpSystem from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 1.jpg'
+import industrialBlower from '../assets/img/SPAREPARTPHOTOS/INDUSTRIAL BLOWER - 1.jpeg'
+import electromagneticHammerSystem from '../assets/img/SPAREPARTPHOTOS/ELECTROMAGNETIC HAMMER - 1.png'
+import sprayNozzleComponents from '../assets/img/SPAREPARTPHOTOS/SPRAY NOZZLE COMPONENTS - 1.jpg'
+import FeedFiltrationSystem from "../assets/img/SPAREPARTPHOTOS/FeedFiltrationSystem.webp"
+import cycloneSeparator from "../assets/img/SPAREPARTPHOTOS/CYCLONE SEPARATOR - 1.jpg"
+import bagFilterDustCollector from "../assets/img/SPAREPARTPHOTOS/BAG FILTER DUST COLLECTOR - 1.jpg"
+import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBER - 1.jpEg"
+import instrumentationControlComponents from "../assets/img/SPAREPARTPHOTOS/INSTRUMENTATION AND CONTROL COMPONENTS - 1.webp"
+
 const productsData = [
   {
     category: "Drying Systems",
@@ -127,7 +159,7 @@ const productsData = [
         title: "Multistage Spray Dryer (MSD)",
         slug: "multistage-spray-dryer",
         icon: "bi bi-chevron-right",
-        image: "/images/SPRAY DRYER PLANT.jpeg",
+        image: multistage,
         shortDescription:
           "Advanced spray dryer with integrated fluid bed for improved powder density and solubility.",
         fullDescription:
@@ -176,7 +208,7 @@ const productsData = [
         title: "Closed-Loop Spray Dryer",
         slug: "closed-loop-spray-dryer",
         icon: "bi bi-chevron-right",
-        image: "/images/SPRAY DRYER PLANT.jpeg",
+        image: closedLoop,
 
         shortDescription:
           "Thermal drying system operating under oxygen-free atmosphere for solvent-based and hazardous materials.",
@@ -283,6 +315,7 @@ const productsData = [
         title: "Rotary Dryers",
         slug: "rotary-dryers",
         icon: "bi bi-chevron-right",
+        image: rotaryDryers,
 
         shortDescription:
           "Continuous thermal drying system for bulk solids such as minerals, fertilizers, biomass, chemicals, and food materials.",
@@ -406,6 +439,7 @@ const productsData = [
         title: "Flash Dryers",
         slug: "flash-dryers",
         icon: "bi bi-chevron-right",
+        image: flashDryers,
 
         shortDescription:
           "High-speed convective drying system for rapid moisture removal from powders, cakes, slurries, and pastes.",
@@ -526,7 +560,7 @@ const productsData = [
         title: "Cage Mill Flash Dryer",
         slug: "cage-mill-flash-dryer",
         icon: "bi bi-chevron-right",
-
+        image: cageMillFlashDryer,
         shortDescription:
           "High-speed flash drying system with integrated cage mill for drying sticky, lumpy, and high-moisture materials.",
 
@@ -642,7 +676,7 @@ const productsData = [
         title: "Spin Flash Dryer",
         slug: "spin-flash-dryer",
         icon: "bi bi-chevron-right",
-
+        image: spinFlashDryer,
         shortDescription:
           "High-speed vertical drying system combining mechanical agitation and flash drying for sticky and non-free-flowing materials.",
 
@@ -761,7 +795,7 @@ const productsData = [
         title: "Pilot Spray Dryer",
         slug: "pilot-spray-dryer",
         icon: "bi bi-chevron-right",
-
+        image: pilotSprayDryer,
         shortDescription:
           "Compact small-to-medium capacity spray drying system for R&D, sampling, scale-up trials, and formulation development.",
 
@@ -854,7 +888,7 @@ const productsData = [
         title: "Continuous Fluid Bed Dryer (CFBD)",
         slug: "continuous-fluid-bed-dryer",
         icon: "bi bi-chevron-right",
-
+        image: continuousFluidBedDryer,
         shortDescription:
           "Continuous fluidization-based drying system for powders, granules, pellets, and crystalline materials with precise moisture control.",
 
@@ -965,7 +999,7 @@ const productsData = [
         title: "Vibratory Fluid Bed Dryer (VFBD)",
         slug: "vibratory-fluid-bed-dryer",
         icon: "bi bi-chevron-right",
-
+        image: vibratoryFuildBedDryers,
         shortDescription:
           "Continuous drying system combining fluidization and mechanical vibration for uniform moisture removal and gentle material handling.",
 
@@ -1079,6 +1113,7 @@ const productsData = [
         title: "Hygienic Spray Dryers",
         slug: "hygienic-spray-dryers",
         icon: "bi bi-chevron-right",
+        image: hygienicSprayDryer,
 
         shortDescription:
           "Sanitary spray drying system designed for food, dairy, pharmaceutical, and nutraceutical industries with strict hygiene compliance.",
@@ -1211,7 +1246,7 @@ const productsData = [
         title: "Product-Specific Dryers",
         slug: "product-specific-dryers",
         icon: "bi bi-chevron-right",
-
+        image: productSpecificDryer,
         shortDescription:
           "Customized drying systems engineered for specific product characteristics, ensuring optimized performance and quality output.",
 
@@ -1284,7 +1319,7 @@ const productsData = [
         title: "Mini Spray Dryers",
         slug: "mini-spray-dryers",
         icon: "bi bi-chevron-right",
-
+        image: miniSprayDryer,
         shortDescription:
           "Compact laboratory-scale spray drying system for small batch production, R&D, and educational applications.",
 
@@ -1393,12 +1428,13 @@ const productsData = [
     category: "Atomization Technologies",
     categorySlug: "atomization-technologies",
     icon: "bi bi-chevron-right",
+   
     items: [
       {
         title: "Rotary Disc Atomizer",
         slug: "rotary-disc-atomizer",
         icon: "bi bi-chevron-right",
-
+ image: rotaryDryer,
         shortDescription:
           "High-speed centrifugal atomization system producing uniform droplets for large-capacity spray drying applications.",
 
@@ -1505,7 +1541,7 @@ const productsData = [
         title: "Spray Nozzle Atomization",
         slug: "spray-nozzle-atomization",
         icon: "bi bi-chevron-right",
-
+        image: sprayNozzleAtomization,
         shortDescription:
           "Pressure-based atomization system converting liquid feed into controlled droplet sizes for precise spray drying applications.",
 
@@ -1892,7 +1928,7 @@ const productsData = [
         slug: "atomizer-assembly",
         title: "Atomizer Assembly",
         icon: "bi bi-chevron-right",
-
+image: atomizerAssembly,
         fullDescription:
           "We at Aplex Engineering Systems make and provide high-precision Atomizer Assemblies, which are the core components of any spray dryer system. Atomizers convert liquid feed into fine droplets, allowing rapid evaporation and producing consistent, uniform powder.",
 
@@ -1944,6 +1980,7 @@ const productsData = [
         slug: "hot-air-generator",
         title: "Hot Air Generator Components",
         icon: "bi bi-chevron-right",
+        image: hotAirGenerator,
         fullDescription: "We at Aplex Engineering Systems make and provide reliable Hot Air Generator components, essential for consistent drying. Hot air provides the thermal energy needed to evaporate moisture from atomized droplets efficiently.",
 
         workingPrinciple: [
@@ -1994,6 +2031,7 @@ const productsData = [
         slug: "rotary-airlock-valves",
         title: "Rotary Air Lock Valves",
         icon: "bi bi-chevron-right",
+        image: rotaryAirlockValve,
         fullDescription: "We at Aplex Engineering Systems make and provide Rotary Airlock Valves that allow powder discharge while maintaining chamber air pressure. They are critical in preventing backflow and maintaining airflow balance.",
 
         workingPrinciple: [
@@ -2039,6 +2077,7 @@ const productsData = [
         slug: "feed-pump-system",
         title: "Feed Pump System",
         icon: "bi bi-chevron-right",
+        image: feedPumpSystem,
         fullDescription: "We at Aplex Engineering Systems make and provide industrial feed pumps for controlled delivery of liquid feed. Stable feed flow ensures consistent droplet formation and high quality powder.",
 
         workingPrinciple: [
@@ -2087,7 +2126,7 @@ const productsData = [
         slug: "industrial-blower",
         title: "Industrial Blower System",
         icon: "bi bi-chevron-right",
-
+image: industrialBlower,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Industrial Blowers that are essential for Supplying Hot Air to the Drying Chamber and Removing moisture-laden air Efficiently. Proper airflow ensures uniform Drying, Prevents Condensation, and Maintains Powder Quality.",
 
@@ -2135,6 +2174,7 @@ const productsData = [
         slug: "feed-filtration-system",
         title: "Feed Filtration System",
         icon: "bi bi-chevron-right",
+        image: FeedFiltrationSystem,
 
         fullDescription:
           "We at Aplex Engineering Systems make and provide High-Performance Feed Filtration Systems to remove impurities from Liquid Feed, Protecting Pumps and Atomizers from Damage and ensuring consistent Powder quality.",
@@ -2181,7 +2221,7 @@ const productsData = [
         slug: "electromagnetic-hammer-system",
         title: "Electromagnetic Hammer System",
         icon: "bi bi-chevron-right",
-
+image: electromagneticHammerSystem,
         fullDescription:
           "We at Aplex Engineering Systems make and Provide Electromagnetic Hammer Systems that Prevent Powder Buildup Inside Cyclones, Ducts, and Drying Chambers, Reducing Downtime and Cleaning effort.",
 
@@ -2228,7 +2268,7 @@ const productsData = [
         slug: "spray-nozzle-components",
         title: "Spray Nozzle Components",
         icon: "bi bi-chevron-right",
-
+image: sprayNozzleComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and provide High-Precision Spray Nozzle Components to control Droplet size, Spray Pattern, and ultimately Product quality in spray dryers.",
 
@@ -2277,7 +2317,7 @@ const productsData = [
         slug: "cyclone-separator",
         title: "Cyclone Separator Components",
         icon: "bi bi-chevron-right",
-
+image: cycloneSeparator,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Cyclone Separators to efficiently Separate Powder from Exhaust Air Using Centrifugal Force, Maximizing Recovery and Minimizing Dust Emissions.",
 
@@ -2315,55 +2355,14 @@ const productsData = [
         ]
       },
 
-      {
-        id: "bag-filter-dust-collector",
-        slug: "bag-filter-dust-collector",
-        title: "Bag Filter and Dust Collector Components",
-        icon: "bi bi-chevron-right",
-
-        fullDescription:
-          "We at Aplex Engineering Systems make and provide Bag Filters and Dust Collectors to capture fine particles from exhaust air, protecting the environment and recovering valuable product.",
-
-        workingPrinciple: [
-          "Air Passes Through Filter Bags Supported by Cages.",
-          "Dust Accumulates on the Surface, While Clean Air Passes Through.",
-          "Pulse-Jet Valves Periodically Release Dust Buildup."
-        ],
-
-        components: [
-          "Filter Bags – High-Efficiency Fabric or Synthetic Media",
-          "Cage Supports – Maintain Filter Shape Under Airflow",
-          "Venturi Tubes – Ensure Pulse Cleaning Effectiveness",
-          "Pulse Jet Valves – Control Dust Removal",
-          "Solenoid Valves – Reliable electronic control"
-        ],
-
-        industrialApplications: [
-          "Milk Powder",
-          "Chemical Powders",
-          "Pharmaceutical",
-          "Detergent Industries"
-        ],
-
-        advantages: [
-          "Clean air exhaust",
-          "High powder recovery",
-          "Minimal maintenance and downtime"
-        ],
-
-        maintenanceTips: [
-          "Replace Worn or Damaged Filter Bags",
-          "Inspect Pulse Valves and Solenoid Operation",
-          "Check Cage Supports for Deformation"
-        ]
-      },
+      
 
       {
         id: "drying-chamber-components",
         slug: "drying-chamber-components",
         title: "Drying Chamber Components",
         icon: "bi bi-chevron-right",
-
+image: dryingChamberComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Drying Chamber Components that house Atomized Droplets and Maintain Uniform Airflow for High-Quality Drying.",
 
@@ -2402,7 +2401,7 @@ const productsData = [
         slug: "instrumentation-control-components",
         title: "Instrumentation and Control Components",
         icon: "bi bi-chevron-right",
-
+image: instrumentationControlComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and Provide Instrumentation and Control Components to Monitor and Regulate Spray Dryer Operations, Ensuring Safety, Quality, and Efficiency.",
 
@@ -2470,7 +2469,49 @@ const productsData = [
           "Inspect Moving Parts for Wear",
           "Clean Powder transfer Systems Regularly"
         ]
-      }
+      },
+      {
+        id: "bag-filter-dust-collector",
+        slug: "bag-filter-dust-collector",
+        title: "Bag Filter and Dust Collector Components",
+        icon: "bi bi-chevron-right",
+image: bagFilterDustCollector,
+        fullDescription:
+          "We at Aplex Engineering Systems make and provide Bag Filters and Dust Collectors to capture fine particles from exhaust air, protecting the environment and recovering valuable product.",
+
+        workingPrinciple: [
+          "Air Passes Through Filter Bags Supported by Cages.",
+          "Dust Accumulates on the Surface, While Clean Air Passes Through.",
+          "Pulse-Jet Valves Periodically Release Dust Buildup."
+        ],
+
+        components: [
+          "Filter Bags – High-Efficiency Fabric or Synthetic Media",
+          "Cage Supports – Maintain Filter Shape Under Airflow",
+          "Venturi Tubes – Ensure Pulse Cleaning Effectiveness",
+          "Pulse Jet Valves – Control Dust Removal",
+          "Solenoid Valves – Reliable electronic control"
+        ],
+
+        industrialApplications: [
+          "Milk Powder",
+          "Chemical Powders",
+          "Pharmaceutical",
+          "Detergent Industries"
+        ],
+
+        advantages: [
+          "Clean air exhaust",
+          "High powder recovery",
+          "Minimal maintenance and downtime"
+        ],
+
+        maintenanceTips: [
+          "Replace Worn or Damaged Filter Bags",
+          "Inspect Pulse Valves and Solenoid Operation",
+          "Check Cage Supports for Deformation"
+        ]
+      },
     ],
   },
 
@@ -2483,7 +2524,7 @@ const productsData = [
         title: "Zero Liquid Discharge (ZLD) Dryers",
         slug: "zld-dryers",
         icon: "bi bi-chevron-right",
-
+image: zeroLiquidDischargeDryerImage,
         shortDescription:
           "Advanced drying system designed to convert industrial wastewater into solid residue and recover reusable water, achieving zero liquid discharge.",
 
@@ -2594,6 +2635,7 @@ const productsData = [
         title: "Falling Film Evaporator",
         slug: "falling-film-evaporator",
         icon: "bi bi-chevron-right",
+          image: fallingFilmEvaporatorImage,
 
         shortDescription:
           "High-efficiency evaporator system for concentrating heat-sensitive liquids with minimal residence time and high energy savings.",
@@ -2696,7 +2738,7 @@ const productsData = [
         title: "Forced Circulation Evaporator",
         slug: "forced-circulation-evaporator",
         icon: "bi bi-chevron-right",
-
+        image: forcedCirculationEvaporatorImage,
         shortDescription:
           "Robust evaporator system designed for high-viscosity, scaling, and crystallizing liquids requiring strong circulation and controlled evaporation.",
 
@@ -2799,7 +2841,7 @@ const productsData = [
         title: "Multiple Effect Evaporator (MEE)",
         slug: "multiple-effect-evaporator",
         icon: "bi bi-chevron-right",
-
+        image: multipleEffectEvaporatorImage,
         shortDescription:
           "Energy-efficient multi-stage evaporation system designed to concentrate liquids using vapor reuse across multiple effects.",
 
