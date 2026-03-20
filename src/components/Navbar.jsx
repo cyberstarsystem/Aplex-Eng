@@ -106,12 +106,11 @@ export default function Navbar() {
                 onMouseEnter={() =>
                   document.querySelector('.megamenu-2')?.classList.add('active')
                 }
-              // onMouseLeave={() =>
-              //   document.querySelector('.megamenu-2')?.classList.remove('active')
-              // }
+              onMouseLeave={() =>
+                document.querySelector('.megamenu-2')?.classList.remove('active')
+              }
               >
                 <a href="#"
-
                 >
                   <span>Products</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
                 </a>
@@ -174,14 +173,20 @@ export default function Navbar() {
                                 {category.items.map((item, index) => (
                                   <div className="col-md-4 col-sm-6 mb-3" key={index}>
                                     <Link to={`/products/${category.categorySlug}/${item.slug}`}
-                                      className="product-link d-block" style={{ whiteSpace: "normal" }} onClick={closeMegaMenu}
+                                      className="product-link d-block"
+                                      style={{
+                                        position: "relative",
+                                        whiteSpace: "normal"
+                                      }}
+                                      onClick={closeMegaMenu}
                                     >
                                       <i className={`bi ${item.icon} me-2 text-dark`} style={{ fontSize: "25px" }}></i>
-                                      <span style={{
-                                        display: "inline-block",
-                                        width: "230px",
-                                        wordWrap: "break-word"
-                                      }}>{item.title}</span>
+                                      <span
+                                        style={{
+                                          position: "absolute",
+                                          wordWrap: "break-word"
+                                        }}
+                                      >{item.title}</span>
                                     </Link>
                                   </div>
                                 ))}

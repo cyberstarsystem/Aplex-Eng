@@ -31,7 +31,7 @@ import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBE
 import instrumentationControlComponents from "../assets/img/SPAREPARTPHOTOS/INSTRUMENTATION AND CONTROL COMPONENTS - 1.webp"
 import vesselsAndStorageTanksImage from '../assets/img/SPAREPARTPHOTOS/storage-tanks.jpg'
 import chemicalReactorsImage from '../assets/img/SPAREPARTPHOTOS/chemical-reactor.webp'
-import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/Crystallizer.jpg'
+import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER -1.jpg'
 import additionalMechanicalComponents from '../assets/img/SPAREPARTPHOTOS/SPIN FLASH DRYER - 1.jpeg'
 const productsData = [
   {

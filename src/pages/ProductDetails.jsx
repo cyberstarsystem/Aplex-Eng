@@ -46,16 +46,31 @@ export default function ProductDetails() {
                         <div className="col-lg-8">
                             <div className="service-content">
 
-                                <div className="service-hero">
-                                    <img
-                                        src={product.image || "https://bootstrapmade.com/content/demo/Passion/assets/img/services/services-7.webp"}
-                                        alt={product.title}
-                                        className="img-fluid"
-                                    />
-                                    {/* <div className="service-badge">
-                                        <span>Premium Product</span>
-                                    </div> */}
-                                </div>
+                 
+
+<div className="service-hero zoom-wrapper">
+  <img
+    src={product.image || "https://bootstrapmade.com/content/demo/Passion/assets/img/services/services-7.webp"}
+    alt={product.title}
+    className="zoom-img"
+  />
+
+  <div className="zoom-overlay">
+    <div className="zoom-content">
+      <h3>{product.title}</h3>
+      <p>{categoryData.category}</p>
+
+      <div className="zoom-icons">
+        <a href={product.image} target="_blank">
+          <i className="bi bi-zoom-in"></i>
+        </a>
+        {/* <a href="#">
+          <i className="bi bi-link-45deg"></i>
+        </a> */}
+      </div>
+    </div>
+  </div>
+</div>
 
                                 <div className="service-header">
                                     <h2>{product.title}</h2>
@@ -283,7 +298,7 @@ export default function ProductDetails() {
                                     )}
 
                                     {/* LIMITATIONS */}
-                                    {product.limitations && (
+                                    {/* {product.limitations && (
                                         <div className="col-lg-6 mt-4">
                                             <h4>Limitations</h4>
                                             <ul>
@@ -292,7 +307,7 @@ export default function ProductDetails() {
                                                 ))}
                                             </ul>
                                         </div>
-                                    )}
+                                    )} */}
 
                                     {/* PLANT COMPONENTS */}
                                     {product.plantComponents && (
