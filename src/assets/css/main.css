@@ -5622,3 +5622,36 @@ background-color: #f2f4f7;
     height: 250px;
   }
 }
+
+/* SLIDER WRAPPER */
+.slider-wrapper {
+  position: relative;
+}
+
+/* BUTTONS */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 2;
+  transition: 0.3s;
+}
+
+.slider-btn:hover {
+  background: #0d6efd;
+}
+
+.slider-btn.prev {
+  left: 15px;
+}
+
+.slider-btn.next {
+  right: 15px;
+}

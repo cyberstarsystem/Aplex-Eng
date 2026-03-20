@@ -33,6 +33,9 @@ import vesselsAndStorageTanksImage from '../assets/img/SPAREPARTPHOTOS/storage-t
 import chemicalReactorsImage from '../assets/img/SPAREPARTPHOTOS/chemical-reactor.webp'
 import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER -1.jpg'
 import additionalMechanicalComponents from '../assets/img/SPAREPARTPHOTOS/SPIN FLASH DRYER - 1.jpeg'
+import sprayDryers_1 from '../assets/img/products/SPRAY DRYERS - 1.jpg'
+import sprayDryers_2 from '../assets/img/products/SPRAY DRYERS - 2.jpg'
+import sprayDryers_3 from '../assets/img/products/SPRAY DRYERS - 3.webp'
 const productsData = [
   {
     category: "Drying Systems",
@@ -42,7 +45,11 @@ const productsData = [
       {
         title: "Spray Dryers",
         slug: "spray-dryers",
-        image: "/images/SPRAY DRYER PLANT.jpeg",
+        images: [
+          sprayDryers_1,
+          sprayDryers_2,
+          sprayDryers_3
+        ],
         icon: "bi bi-chevron-right",
 
         shortDescription:
@@ -1431,13 +1438,13 @@ const productsData = [
     category: "Atomization Technologies",
     categorySlug: "atomization-technologies",
     icon: "bi bi-chevron-right",
-   
+
     items: [
       {
         title: "Rotary Disc Atomizer",
         slug: "rotary-disc-atomizer",
         icon: "bi bi-chevron-right",
- image: rotaryDryer,
+        image: rotaryDryer,
         shortDescription:
           "High-speed centrifugal atomization system producing uniform droplets for large-capacity spray drying applications.",
 
@@ -1931,7 +1938,7 @@ const productsData = [
         slug: "atomizer-assembly",
         title: "Atomizer Assembly",
         icon: "bi bi-chevron-right",
-image: atomizerAssembly,
+        image: atomizerAssembly,
         fullDescription:
           "We at Aplex Engineering Systems make and provide high-precision Atomizer Assemblies, which are the core components of any spray dryer system. Atomizers convert liquid feed into fine droplets, allowing rapid evaporation and producing consistent, uniform powder.",
 
@@ -2129,7 +2136,7 @@ image: atomizerAssembly,
         slug: "industrial-blower",
         title: "Industrial Blower System",
         icon: "bi bi-chevron-right",
-image: industrialBlower,
+        image: industrialBlower,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Industrial Blowers that are essential for Supplying Hot Air to the Drying Chamber and Removing moisture-laden air Efficiently. Proper airflow ensures uniform Drying, Prevents Condensation, and Maintains Powder Quality.",
 
@@ -2224,7 +2231,7 @@ image: industrialBlower,
         slug: "electromagnetic-hammer-system",
         title: "Electromagnetic Hammer System",
         icon: "bi bi-chevron-right",
-image: electromagneticHammerSystem,
+        image: electromagneticHammerSystem,
         fullDescription:
           "We at Aplex Engineering Systems make and Provide Electromagnetic Hammer Systems that Prevent Powder Buildup Inside Cyclones, Ducts, and Drying Chambers, Reducing Downtime and Cleaning effort.",
 
@@ -2271,7 +2278,7 @@ image: electromagneticHammerSystem,
         slug: "spray-nozzle-components",
         title: "Spray Nozzle Components",
         icon: "bi bi-chevron-right",
-image: sprayNozzleComponents,
+        image: sprayNozzleComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and provide High-Precision Spray Nozzle Components to control Droplet size, Spray Pattern, and ultimately Product quality in spray dryers.",
 
@@ -2320,7 +2327,7 @@ image: sprayNozzleComponents,
         slug: "cyclone-separator",
         title: "Cyclone Separator Components",
         icon: "bi bi-chevron-right",
-image: cycloneSeparator,
+        image: cycloneSeparator,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Cyclone Separators to efficiently Separate Powder from Exhaust Air Using Centrifugal Force, Maximizing Recovery and Minimizing Dust Emissions.",
 
@@ -2358,14 +2365,14 @@ image: cycloneSeparator,
         ]
       },
 
-      
+
 
       {
         id: "drying-chamber-components",
         slug: "drying-chamber-components",
         title: "Drying Chamber Components",
         icon: "bi bi-chevron-right",
-image: dryingChamberComponents,
+        image: dryingChamberComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Drying Chamber Components that house Atomized Droplets and Maintain Uniform Airflow for High-Quality Drying.",
 
@@ -2404,7 +2411,7 @@ image: dryingChamberComponents,
         slug: "instrumentation-control-components",
         title: "Instrumentation and Control Components",
         icon: "bi bi-chevron-right",
-image: instrumentationControlComponents,
+        image: instrumentationControlComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and Provide Instrumentation and Control Components to Monitor and Regulate Spray Dryer Operations, Ensuring Safety, Quality, and Efficiency.",
 
@@ -2440,7 +2447,7 @@ image: instrumentationControlComponents,
         slug: "additional-mechanical-components",
         title: "Additional Mechanical Components",
         icon: "bi bi-chevron-right",
-image: additionalMechanicalComponents,
+        image: additionalMechanicalComponents,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Additional Mechanical Components to Support Powder Transport, Handling, and Overall Spray Dryer Efficiency.",
 
@@ -2478,7 +2485,7 @@ image: additionalMechanicalComponents,
         slug: "bag-filter-dust-collector",
         title: "Bag Filter and Dust Collector Components",
         icon: "bi bi-chevron-right",
-image: bagFilterDustCollector,
+        image: bagFilterDustCollector,
         fullDescription:
           "We at Aplex Engineering Systems make and provide Bag Filters and Dust Collectors to capture fine particles from exhaust air, protecting the environment and recovering valuable product.",
 
@@ -2527,7 +2534,7 @@ image: bagFilterDustCollector,
         title: "Zero Liquid Discharge (ZLD)",
         slug: "zld-dryers",
         icon: "bi bi-chevron-right",
-image: zeroLiquidDischargeDryerImage,
+        image: zeroLiquidDischargeDryerImage,
         shortDescription:
           "Advanced drying system designed to convert industrial wastewater into solid residue and recover reusable water, achieving zero liquid discharge.",
 
@@ -2638,7 +2645,7 @@ image: zeroLiquidDischargeDryerImage,
         title: "Falling Film Evaporator",
         slug: "falling-film-evaporator",
         icon: "bi bi-chevron-right",
-          image: fallingFilmEvaporatorImage,
+        image: fallingFilmEvaporatorImage,
 
         shortDescription:
           "High-efficiency evaporator system for concentrating heat-sensitive liquids with minimal residence time and high energy savings.",
@@ -2962,7 +2969,7 @@ image: zeroLiquidDischargeDryerImage,
         title: "Chemical Reactors",
         slug: "chemical-reactors",
         icon: "bi bi-chevron-right",
-image: chemicalReactorsImage,
+        image: chemicalReactorsImage,
         shortDescription:
           "Industrial jacketed reactors designed for controlled chemical reactions, mixing, heating, cooling, and pressure operations.",
 
@@ -3250,94 +3257,94 @@ image: chemicalReactorsImage,
       //   ]
       // }
       {
-  title: "Vessels & Storage Tanks",
-  slug: "vessels-storage-tanks",
-  icon: "bi bi-chevron-right",
-image: vesselsAndStorageTanksImage,
-  shortDescription:
-    "Robust and corrosion-resistant vessels for mixing, storage, and pressure applications.",
+        title: "Vessels & Storage Tanks",
+        slug: "vessels-storage-tanks",
+        icon: "bi bi-chevron-right",
+        image: vesselsAndStorageTanksImage,
+        shortDescription:
+          "Robust and corrosion-resistant vessels for mixing, storage, and pressure applications.",
 
-  fullDescription:
-    "Vessels and storage tanks are industrial equipment used for storing, mixing, and handling liquids, gases, and slurries under controlled conditions. These vessels are designed to withstand pressure, temperature variations, and corrosive environments, making them essential in chemical, pharmaceutical, food, petrochemical, and environmental industries.",
+        fullDescription:
+          "Vessels and storage tanks are industrial equipment used for storing, mixing, and handling liquids, gases, and slurries under controlled conditions. These vessels are designed to withstand pressure, temperature variations, and corrosive environments, making them essential in chemical, pharmaceutical, food, petrochemical, and environmental industries.",
 
-  workingPrinciple: [
-    "Containment: Provides a secure enclosure for liquids, gases, or slurries.",
-    "Pressure Handling: Designed to operate under atmospheric or pressurized conditions.",
-    "Mixing/Agitation: Internal systems ensure uniform mixing if required.",
-    "Temperature Control: Jackets or coils maintain required temperature.",
-    "Transfer: Fluids are safely transferred through inlet and outlet connections."
-  ],
+        workingPrinciple: [
+          "Containment: Provides a secure enclosure for liquids, gases, or slurries.",
+          "Pressure Handling: Designed to operate under atmospheric or pressurized conditions.",
+          "Mixing/Agitation: Internal systems ensure uniform mixing if required.",
+          "Temperature Control: Jackets or coils maintain required temperature.",
+          "Transfer: Fluids are safely transferred through inlet and outlet connections."
+        ],
 
-  types: [
-    "Atmospheric Storage Tanks",
-    "Pressure Vessels",
-    "Vertical Storage Tanks",
-    "Horizontal Storage Tanks",
-    "Jacketed Vessels",
-    "Agitated Vessels",
-    "Vacuum Vessels"
-  ],
+        types: [
+          "Atmospheric Storage Tanks",
+          "Pressure Vessels",
+          "Vertical Storage Tanks",
+          "Horizontal Storage Tanks",
+          "Jacketed Vessels",
+          "Agitated Vessels",
+          "Vacuum Vessels"
+        ],
 
-  designFeatures: [
-    "Cylindrical or custom vessel design",
-    "Corrosion-resistant materials (SS304, SS316, FRP, etc.)",
-    "Heating or cooling jackets",
-    "Agitation system (optional)",
-    "Nozzles and manways for access",
-    "Pressure and safety valves",
-    "Level and temperature instrumentation"
-  ],
+        designFeatures: [
+          "Cylindrical or custom vessel design",
+          "Corrosion-resistant materials (SS304, SS316, FRP, etc.)",
+          "Heating or cooling jackets",
+          "Agitation system (optional)",
+          "Nozzles and manways for access",
+          "Pressure and safety valves",
+          "Level and temperature instrumentation"
+        ],
 
-  applications: {
-    chemicalIndustry: [
-      "Chemical storage",
-      "Reactor feed tanks",
-      "Intermediate storage"
-    ],
-    pharmaceuticalIndustry: [
-      "Sterile storage",
-      "Solution mixing",
-      "Buffer preparation"
-    ],
-    foodIndustry: [
-      "Milk and liquid storage",
-      "Mixing of ingredients",
-      "Fermentation tanks"
-    ],
-    petrochemicalIndustry: [
-      "Fuel storage",
-      "Oil and gas handling"
-    ],
-    environmental: [
-      "Water storage",
-      "Wastewater treatment tanks"
-    ]
-  },
+        applications: {
+          chemicalIndustry: [
+            "Chemical storage",
+            "Reactor feed tanks",
+            "Intermediate storage"
+          ],
+          pharmaceuticalIndustry: [
+            "Sterile storage",
+            "Solution mixing",
+            "Buffer preparation"
+          ],
+          foodIndustry: [
+            "Milk and liquid storage",
+            "Mixing of ingredients",
+            "Fermentation tanks"
+          ],
+          petrochemicalIndustry: [
+            "Fuel storage",
+            "Oil and gas handling"
+          ],
+          environmental: [
+            "Water storage",
+            "Wastewater treatment tanks"
+          ]
+        },
 
-  advantages: [
-    "Safe containment of fluids",
-    "Corrosion resistance for long life",
-    "Customizable design and capacity",
-    "Supports pressure and temperature control",
-    "Suitable for multiple industries"
-  ],
+        advantages: [
+          "Safe containment of fluids",
+          "Corrosion resistance for long life",
+          "Customizable design and capacity",
+          "Supports pressure and temperature control",
+          "Suitable for multiple industries"
+        ],
 
-  limitations: [
-    "Requires regular maintenance",
-    "Higher cost for pressure-rated vessels",
-    "Space requirement for large capacity tanks",
-    "Corrosion risk if material selection is improper"
-  ],
+        limitations: [
+          "Requires regular maintenance",
+          "Higher cost for pressure-rated vessels",
+          "Space requirement for large capacity tanks",
+          "Corrosion risk if material selection is improper"
+        ],
 
-  keySelectionParameters: [
-    "Operating pressure and temperature",
-    "Material compatibility",
-    "Storage capacity requirement",
-    "Type of fluid (corrosive/non-corrosive)",
-    "Installation space",
-    "Safety and regulatory requirements"
-  ]
-}
+        keySelectionParameters: [
+          "Operating pressure and temperature",
+          "Material compatibility",
+          "Storage capacity requirement",
+          "Type of fluid (corrosive/non-corrosive)",
+          "Installation space",
+          "Safety and regulatory requirements"
+        ]
+      }
     ],
   },
 

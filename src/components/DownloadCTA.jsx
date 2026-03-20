@@ -5,7 +5,7 @@ const DownloadCTA = () => {
         <section className="py-5 bg-light text-center">
             <div className="container">
 
-                <h2 className="fw-bold mb-3">Download</h2>
+                <h2 className="fw-bold mb-3">Downloads</h2>
                 <p className="text-muted mb-4">
                     Get the complete documents instantly.
                 </p>

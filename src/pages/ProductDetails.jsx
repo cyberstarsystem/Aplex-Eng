@@ -1,9 +1,12 @@
 import React from "react";
 import { useParams, Link, NavLink } from "react-router-dom";
 import productsData from "../data/productsData";
+import { useState } from "react";
 
 export default function ProductDetails() {
     const { category, slug } = useParams();
+    const [currentIndex, setCurrentIndex] = useState(0)
+
 
     const categoryData = productsData.find(
         (cat) => cat.categorySlug === category
@@ -12,6 +15,9 @@ export default function ProductDetails() {
     const product = categoryData?.items.find(
         (item) => item.slug === slug
     );
+
+    const images = product.images || [product.image]
+
 
     if (!product) {
         return (
@@ -46,33 +52,79 @@ export default function ProductDetails() {
                         <div className="col-lg-8">
                             <div className="service-content">
 
-                 
 
-<div className="service-hero zoom-wrapper">
-  <img
-    src={product.image || "https://bootstrapmade.com/content/demo/Passion/assets/img/services/services-7.webp"}
-    alt={product.title}
-    className="zoom-img"
-  />
 
-  <div className="zoom-overlay">
-    <div className="zoom-content">
-      <h3>{product.title}</h3>
-      <p>{categoryData.category}</p>
+                                <div className="service-hero zoom-wrapper slider-wrapper">
 
-      <div className="zoom-icons">
-        <a href={product.image} target="_blank">
-          <i className="bi bi-zoom-in"></i>
-        </a>
-        {/* <a href="#">
-          <i className="bi bi-link-45deg"></i>
-        </a> */}
-      </div>
-    </div>
-  </div>
+                                    {/* IMAGE */}
+                                    <img
+                                        src={images[currentIndex]}
+                                        alt={product.title}
+                                        className="zoom-img"
+                                    />
+                                   
+
+                                    {/* OVERLAY */}
+                                    <div className="zoom-overlay">
+                                        <div className="zoom-content">
+                                            <h3>{product.title}</h3>
+                                            <p>{categoryData.category}</p>
+
+                                            <div className="zoom-icons">
+                                                <a href={images[currentIndex]} target="_blank">
+                                                    <i className="bi bi-zoom-in"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* PREV BUTTON */}
+                                    <button
+                                        className="slider-btn prev"
+                                         style={{     width: "50px" }}
+                                        onClick={() =>
+                                            setCurrentIndex((prev) =>
+                                                prev === 0 ? images.length - 1 : prev - 1
+                                            )
+                                        }
+                                    >
+                                        ❮
+                                    </button>
+
+                                    {/* NEXT BUTTON */}
+                                    <button
+                                    style={{     width: "50px" }}
+                                        className="slider-btn next"
+                                        onClick={() =>
+                                            setCurrentIndex((prev) =>
+                                                prev === images.length - 1 ? 0 : prev + 1
+                                            )
+                                        }
+                                    >
+                                        ❯
+                                    </button>
+
+                                </div>
+
+                                <div className="d-flex gap-2 mt-3 flex-wrap">
+  {images.map((img, i) => (
+    <img
+      key={i}
+      src={img}
+      onClick={() => setCurrentIndex(i)}
+      style={{
+        width: "70px",
+        height: "70px",
+        objectFit: "cover",
+        cursor: "pointer",
+        border: currentIndex === i ? "2px solid #0d6efd" : "2px solid transparent",
+        borderRadius: "6px"
+      }}
+    />
+  ))}
 </div>
 
-                                <div className="service-header">
+                                <div className="pt-4 service-header">
                                     <h2>{product.title}</h2>
                                     <p className="service-intro">
                                         {product.fullDescription}
@@ -209,7 +261,7 @@ export default function ProductDetails() {
                                     {/* WHY Use */}
                                     {product.whyUse && (
                                         <div className="col-lg-6 mt-4">
-                                            <h4>Why Closed-Loop?</h4>
+                                            <h4>Why {product.title}?</h4>
                                             <ul>
                                                 {product.whyUse.map((item, i) => (
                                                     <li key={i}>{item}</li>
