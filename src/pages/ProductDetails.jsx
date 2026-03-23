@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, Link, NavLink } from "react-router-dom";
 import productsData from "../data/productsData";
 import { useState } from "react";
@@ -16,7 +16,11 @@ export default function ProductDetails() {
         (item) => item.slug === slug
     );
 
-    const images = product.images || [product.image]
+    const images = product?.images?.length
+        ? product.images
+        : product?.image
+            ? [product.image]
+            : [];
 
 
     if (!product) {
@@ -27,6 +31,17 @@ export default function ProductDetails() {
         );
     }
 
+    useEffect(() => {
+        setCurrentIndex(0);
+    }, [slug]);
+
+    if (!product || images.length === 0) {
+        return (
+            <div className="container py-5">
+                <h2>Loading product...</h2>
+            </div>
+        );
+    }
     return (
         <main className="main">
 
@@ -58,11 +73,14 @@ export default function ProductDetails() {
 
                                     {/* IMAGE */}
                                     <img
-                                        src={images[currentIndex]}
+                                        src={images[currentIndex] || "/no-image.png"}
                                         alt={product.title}
                                         className="zoom-img"
+                                        onError={(e) => {
+                                            e.target.src = "/no-image.png";
+                                        }}
                                     />
-                                   
+
 
                                     {/* OVERLAY */}
                                     <div className="zoom-overlay">
@@ -81,7 +99,7 @@ export default function ProductDetails() {
                                     {/* PREV BUTTON */}
                                     <button
                                         className="slider-btn prev"
-                                         style={{     width: "50px" }}
+                                        style={{ width: "50px" }}
                                         onClick={() =>
                                             setCurrentIndex((prev) =>
                                                 prev === 0 ? images.length - 1 : prev - 1
@@ -93,7 +111,7 @@ export default function ProductDetails() {
 
                                     {/* NEXT BUTTON */}
                                     <button
-                                    style={{     width: "50px" }}
+                                        style={{ width: "50px" }}
                                         className="slider-btn next"
                                         onClick={() =>
                                             setCurrentIndex((prev) =>
@@ -107,22 +125,22 @@ export default function ProductDetails() {
                                 </div>
 
                                 <div className="d-flex gap-2 mt-3 flex-wrap">
-  {images.map((img, i) => (
-    <img
-      key={i}
-      src={img}
-      onClick={() => setCurrentIndex(i)}
-      style={{
-        width: "70px",
-        height: "70px",
-        objectFit: "cover",
-        cursor: "pointer",
-        border: currentIndex === i ? "2px solid #0d6efd" : "2px solid transparent",
-        borderRadius: "6px"
-      }}
-    />
-  ))}
-</div>
+                                    {images.map((img, i) => (
+                                        <img
+                                            key={i}
+                                            src={img}
+                                            onClick={() => setCurrentIndex(i)}
+                                            style={{
+                                                width: "70px",
+                                                height: "70px",
+                                                objectFit: "cover",
+                                                cursor: "pointer",
+                                                border: currentIndex === i ? "2px solid #0d6efd" : "2px solid transparent",
+                                                borderRadius: "6px"
+                                            }}
+                                        />
+                                    ))}
+                                </div>
 
                                 <div className="pt-4 service-header">
                                     <h2>{product.title}</h2>
@@ -457,7 +475,7 @@ export default function ProductDetails() {
                                         <div className="contact-info">
                                             <div className="contact-item">
                                                 <i className="bi bi-telephone"></i>
-                                                <span>+91 98250 95243</span>
+                                                <span>+91 76989 84768</span>
                                             </div>
                                             <div className="contact-item">
                                                 <i className="bi bi-envelope"></i>
