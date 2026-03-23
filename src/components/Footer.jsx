@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/white-logo.png'
+import logo from '../assets/img/white-logo.svg'
 import DownloadCTA from './DownloadCTA'
 
 const usefulLinks = [
@@ -36,7 +36,7 @@ export default function Footer() {
         <div className="row gy-4">
           <div className="col-lg-3 col-md-12 footer-about">
             <a href="#hero" className="logo d-flex align-items-center">
-              <img src={logo} alt="" />
+              <img src={logo} alt="" className='img-fluid' />
             </a>
             <p>
               We deliver innovative and reliable engineering solutions tailored to meet industrial needs. With a strong commitment to quality, performance, and long-term partnerships, we ensure excellence in every project we undertake.
