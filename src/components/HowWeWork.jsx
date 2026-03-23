@@ -34,7 +34,7 @@ export default function HowWeWork() {
     <section id="how-we-work" className="how-we-work section">
       <div className="container section-title">
         <h2>How We Work</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        
       </div>
       <div className="container">
         <div className="steps-grid">

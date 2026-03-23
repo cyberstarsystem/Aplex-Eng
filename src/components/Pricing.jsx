@@ -31,7 +31,7 @@ export default function Pricing() {
     <section id="pricing" className="pricing section">
       <div className="container section-title">
         <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        
       </div>
       <div className="container">
         <div className="row gy-4 justify-content-center">

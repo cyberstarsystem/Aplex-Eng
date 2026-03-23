@@ -79,7 +79,7 @@ export default function Team() {
     <section id="team" className="team section">
       <div className="container section-title">
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        
       </div>
       <div className="container">
         <div className="team-slider swiper" ref={swiperRef}>

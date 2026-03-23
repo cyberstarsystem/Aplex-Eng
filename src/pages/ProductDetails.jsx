@@ -464,7 +464,7 @@ export default function ProductDetails() {
                                                 <span>sales@aplexengg.com</span>
                                             </div>
                                         </div>
-                                        <a href="#" className="btn btn-primary mt-3">
+                                        <a href="mailto:sales@aplexengg.com" className="btn btn-primary mt-3">
                                             Request Quote
                                         </a>
                                     </div>

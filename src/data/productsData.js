@@ -2,40 +2,135 @@ import multistage from '../assets/img/products/multi-stage-spray-dryer-.webp'
 import closedLoop from '../assets/img/products/CLOSED-LOOP SPRAY DRYER - 1.webp'
 import rotaryDryers from '../assets/img/products/ROTARY DRYERS 2.webp'
 import flashDryers from '../assets/img/products/FLASH DRYERS - 2.jpg'
+import flashDryers1 from '../assets/img/products/FLASH DRYERS - 1.png'
 import cageMillFlashDryer from '../assets/img/products/CAGE MILL FLASH DRYER - 1.webp'
 import spinFlashDryer from '../assets/img/products/SPIN FLASH DRYER - 1.jpg'
 import pilotSprayDryer from '../assets/img/products/PILOT SPRAY DRYER - 3.webp'
+import closedLoopSprayDryer from '../assets/img/products/Closed-Loop-Spray-Dryer.webp'
 import continuousFluidBedDryer from '../assets/img/products/CONTINUOUS FLUID BED DRYER (CFBD) - 1.png'
 import vibratoryFuildBedDryers from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD).png'
+import vibratoryFuildBedDryers1 from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD) - 2.webp'
 import hygienicSprayDryer from '../assets/img/products/HYGIENIC SPRAY DRYERS - 1.webp'
 import productSpecificDryer from '../assets/img/products/PRODUCT-SPECIFIC DRYERS- 2.jpg'
+import productSpecificDryer1 from '../assets/img/products/LAB stainless-steel-spray-dryers.webp'
 import miniSprayDryer from '../assets/img/products/MINI SPRAY DRYERS - 1.jpeg'
 import rotaryDryer from '../assets/img/products/ROTARY DRYERS 2.webp'
 import sprayNozzleAtomization from '../assets/img/products/SPRAY NOZZLE ATOMIZATION.jpg'
 import zeroLiquidDischargeDryerImage from '../assets/img/products/ZERO LIQUID DISCHARGE (ZLD) DRYERS - 1.webp'
+import zeroLiquidDischargeDryerImage1 from '../assets/img/products/ZERO LIQUID DISCHARGE (ZLD) DRYERS - 2.jpg'
+import zeroLiquidDischargeDryerImage2 from '../assets/img/products/ZERO LIQUID DISCHARGE (ZLD) DRYERS - 3.webp'
+
 import fallingFilmEvaporatorImage from '../assets/img/products/FALLING FILM EVAPORATOR - 1.jpg'
 import forcedCirculationEvaporatorImage from '../assets/img/products/FORCED CIRCULATION EVAPORATOR -1.webp'
-import multipleEffectEvaporatorImage from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 4.webp'
+import forcedCirculationEvaporatorImage1 from '../assets/img/products/FORCED CIRCULATION EVAPORATOR - 2.webp'
+import multipleEffectEvaporatorImage from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 1.jpeg'
+import multipleEffectEvaporatorImage2 from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 3.webp'
+import multipleEffectEvaporatorImage1 from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 4.webp'
 
 import atomizerAssembly from '../assets/img/SPAREPARTPHOTOS/ATOMIZER ASSEMBLY - 1.jpeg'
-import hotAirGenerator from '../assets/img/SPAREPARTPHOTOS/Hot-Air-Generator.webp'
+import atomizerAssembly1 from '../assets/img/SPAREPARTPHOTOS/ATOMIZER ASSEMBLY - 2.jpg'
+// import hotAirGenerator from '../assets/img/SPAREPARTPHOTOS/Hot-Air-Generator.webp'
 import rotaryAirlockValve from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 1.png'
+import rotaryAirlockValve1 from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 2.jpeg'
+import rotaryAirlockValve2 from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 3.jpg'
 import feedPumpSystem from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 1.jpg'
-import industrialBlower from '../assets/img/SPAREPARTPHOTOS/INDUSTRIAL BLOWER - 1.jpeg'
+import feedPumpSystem1 from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 2.jpeg'
+import feedPumpSystem2 from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 3.png'
+import industrialBlower from '../assets/img/SPAREPARTPHOTOS/INDUSTRIAL BLOWER - 3.jpg'
+import industrialBlower1 from '../assets/img/SPAREPARTPHOTOS/INDUSTRIAL BLOWER - 1.jpeg'
 import electromagneticHammerSystem from '../assets/img/SPAREPARTPHOTOS/ELECTROMAGNETIC HAMMER - 1.png'
+import electromagneticHammerSystem1 from '../assets/img/SPAREPARTPHOTOS/ELECTROMAGNETIC HAMMER - 2.jpeg'
 import sprayNozzleComponents from '../assets/img/SPAREPARTPHOTOS/SPRAY NOZZLE COMPONENTS - 1.jpg'
-import FeedFiltrationSystem from "../assets/img/SPAREPARTPHOTOS/FeedFiltrationSystem.webp"
+import sprayNozzleComponents1 from '../assets/img/SPAREPARTPHOTOS/SPRAY NOZZLE COMPONENTS - 2.jpg'
+import sprayNozzleComponents2 from '../assets/img/SPAREPARTPHOTOS/SPRAY NOZZLE COMPONENTS - 3.jpg'
+import FeedFiltrationSystem from "../assets/img/FEED FILTRATION SYSTEM/Drain valves 01.jpeg"
+import FeedFiltrationSystem1 from "../assets/img/FEED FILTRATION SYSTEM/Drain valves.png"
+import FeedFiltrationSystem2 from "../assets/img/FEED FILTRATION SYSTEM/Drain valves.webp"
+import FeedFiltrationSystem3 from "../assets/img/FEED FILTRATION SYSTEM/Filter cartridges 2.jpg"
+import FeedFiltrationSystem4 from "../assets/img/FEED FILTRATION SYSTEM/Filter cartridges.webp"
+import FeedFiltrationSystem5 from "../assets/img/FEED FILTRATION SYSTEM/Mesh Filters BELTS.jpg"
 import cycloneSeparator from "../assets/img/SPAREPARTPHOTOS/CYCLONE SEPARATOR - 1.jpg"
-import bagFilterDustCollector from "../assets/img/SPAREPARTPHOTOS/BAG FILTER DUST COLLECTOR - 1.jpg"
-import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBER - 1.jpeg"
-import instrumentationControlComponents from "../assets/img/SPAREPARTPHOTOS/INSTRUMENTATION AND CONTROL COMPONENTS - 1.webp"
+import cycloneSeparator2 from "../assets/img/SPAREPARTPHOTOS/CYCLONE SAPARATOR - 1.jpeg"
+import cycloneSeparator3 from "../assets/img/SPAREPARTPHOTOS/CYCLONE SAPARATOR - 2.jpg"
+import cycloneSeparator4 from "../assets/img/SPAREPARTPHOTOS/DISCHARGE VALVE FLUSH BOTTOM VALVE - 1.webp"
+import cycloneSeparator5 from "../assets/img/SPAREPARTPHOTOS/DISCHARGE VALVE FLUSH BOTTOM VALVE - 2.jfif"
+import cycloneSeparator6 from "../assets/img/SPAREPARTPHOTOS/FLANGE GASKETS.webp"
+import cycloneSeparator7 from "../assets/img/SPAREPARTPHOTOS/DISCHARGE VALVE.jfif"
+// import bagFilterDustCollector from "../assets/img/SPAREPARTPHOTOS/BAG FILTER DUST COLLECTOR - 1.jpg"
+// import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBER - 1.jpeg"
+// import instrumentationControlComponents from "../assets/img/SPAREPARTPHOTOS/INSTRUMENTATION AND CONTROL COMPONENTS - 1.webp"
 import vesselsAndStorageTanksImage from '../assets/img/SPAREPARTPHOTOS/storage-tanks.jpg'
+import vesselsAndStorageTanksImage2 from '../assets/img/SPAREPARTPHOTOS/STORAGE TANKS.jpeg'
+import vesselsAndStorageTanksImage3 from '../assets/img/SPAREPARTPHOTOS/PRESSURE VESSELS - 1.jpg'
+import vesselsAndStorageTanksImage4 from '../assets/img/SPAREPARTPHOTOS/DM WATER STORAGE TANK.webp'
 import chemicalReactorsImage from '../assets/img/SPAREPARTPHOTOS/chemical-reactor.webp'
+import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.png'
+import chemicalReactorsImage2 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR -3.jpeg'
 import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER -1.jpg'
+import crystallizersImage1 from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER - 2.jpg'
+
 import additionalMechanicalComponents from '../assets/img/SPAREPARTPHOTOS/SPIN FLASH DRYER - 1.jpeg'
 import sprayDryers_1 from '../assets/img/products/SPRAY DRYERS - 1.jpg'
 import sprayDryers_2 from '../assets/img/products/SPRAY DRYERS - 2.jpg'
 import sprayDryers_3 from '../assets/img/products/SPRAY DRYERS - 3.webp'
+import hygienic1 from "../assets/img/products/PILOT SPRAY DRYER -1.jpeg"
+import hygienic2 from "../assets/img/products/ROTARY DISC ATOMIZATION- 1.webp"
+import hygienic3 from "../assets/img/products/MINI SPRAY DRYERS - 1.jpeg"
+import hygienic4 from "../assets/img/products/MINI SPRAY DRYERS - 2.webp"
+
+import hotAirGenerator1 from '../assets/img/hotAirGenerator/Burner assemblies 1.png'
+
+import hotAirGenerator2 from '../assets/img/hotAirGenerator/Burner assemblies 12.jpg'
+import hotAirGenerator3 from '../assets/img/hotAirGenerator/Burner assemblies.webp'
+import hotAirGenerator4 from '../assets/img/hotAirGenerator/Burner nozzles - 1.jpg'
+import hotAirGenerator5 from '../assets/img/hotAirGenerator/Burner nozzles.webp'
+import hotAirGenerator6 from '../assets/img/hotAirGenerator/Direct Fired Hot Air Generator.jpg'
+import hotAirGenerator7 from '../assets/img/hotAirGenerator/Fuel Control Valves 1.webp'
+import hotAirGenerator8 from '../assets/img/hotAirGenerator/Fuel Control Valves 2.webp'
+import hotAirGenerator9 from '../assets/img/hotAirGenerator/Fuel Control Valves.webp'
+import hotAirGenerator10 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator - 3.webp'
+import hotAirGenerator11 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator.png'
+import hotAirGenerator12 from '../assets/img/hotAirGenerator/Heat Exchanger Tubes 1.webp'
+import hotAirGenerator13 from '../assets/img/hotAirGenerator/Heat Exchanger Tubes 2.jpg'
+import hotAirGenerator14 from '../assets/img/hotAirGenerator/Ignition Electrodes.webp'
+import hotAirGenerator15 from '../assets/img/hotAirGenerator/indirctfired-hot-air-generator.jpeg'
+import hotAirGenerator16 from '../assets/img/hotAirGenerator/Indirect Fired Hot Air Generator.jpeg'
+import hotAirGenerator17 from '../assets/img/hotAirGenerator/Indirect-Fired-Hot-Air-Generator-1-1.webp'
+import hotAirGenerator18 from '../assets/img/hotAirGenerator/Temperature Sensors.jpg'
+import hotAirGenerator19 from '../assets/img/hotAirGenerator/WOOD FIRED THERMIC FLUID HEATER.jpeg'
+
+
+import dryingChamberComponents from "../assets/img/DRYING CHAMBER/DISTRIBUTOR-PLATE - 1.webp"
+import dryingChamberComponents1 from "../assets/img/DRYING CHAMBER/DISTRIBUTOR-PLATE - 2.webp"
+import dryingChamberComponents2 from "../assets/img/DRYING CHAMBER/DRYING CHAMBER - 1.jpeg"
+import dryingChamberComponents3 from "../assets/img/DRYING CHAMBER/DRYING CHAMBER - 2.jpeg"
+import dryingChamberComponents4 from "../assets/img/DRYING CHAMBER/DRYING CHAMBER SHELL.jpeg"
+import dryingChamberComponents5 from "../assets/img/DRYING CHAMBER/INSULATION MATERIALS - 1.webp"
+import dryingChamberComponents6 from "../assets/img/DRYING CHAMBER/INSULATION MATERIALS - 2.jpg"
+import dryingChamberComponents7 from "../assets/img/DRYING CHAMBER/INSULATION MATERIALS - 3.webp"
+import dryingChamberComponents8 from "../assets/img/DRYING CHAMBER/MANHOLE COVERS AND INSPECTION WINDOWS -2.jpeg"
+import dryingChamberComponents9 from "../assets/img/DRYING CHAMBER/MANHOLE COVERS AND INSPECTION WINDOWS.webp"
+
+import instrumentationControlComponents from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Control Valves - 1.webp"
+import instrumentationControlComponents2 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Control Valves.jpg"
+import instrumentationControlComponents3 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Flow Meters - 1.png"
+import instrumentationControlComponents4 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Industrial-Pressure-Transmitters.webp"
+import instrumentationControlComponents5 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Pressure Transmitters  - 4.jpg"
+import instrumentationControlComponents6 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Pressure Transmitters - 3.jpg"
+import instrumentationControlComponents7 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Pressure Transmitters - 5.jpg"
+import instrumentationControlComponents8 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Pressure Transmitters.jpg"
+import instrumentationControlComponents9 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/TEMPRATURE SENSOR.webp"
+import bagFilterDustCollector from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/BAG-FILTER-1.jpeg"
+import bagFilterDustCollector1 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/BAG-FILTER-2.jpeg"
+import bagFilterDustCollector2 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Filter Bags.webp"
+import bagFilterDustCollector3 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Filter-Bag-Support-Cage.jpg"
+import bagFilterDustCollector4 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Pulse Jet Valves.webp"
+import bagFilterDustCollector5 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Solenoid Valves - 2.webp"
+import bagFilterDustCollector6 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Solenoid Valves.webp"
+import bagFilterDustCollector7 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/stainless-steel-filter-bag-cage.webp"
+import bagFilterDustCollector8 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Venturi Tubes - 1.jfif"
+import bagFilterDustCollector9 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Venturi Tubes.png"
+
 const productsData = [
   {
     category: "Drying Systems",
@@ -218,7 +313,7 @@ const productsData = [
         title: "Closed-Loop Spray Dryer",
         slug: "closed-loop-spray-dryer",
         icon: "bi bi-chevron-right",
-        image: closedLoop,
+        image: closedLoopSprayDryer,
 
         shortDescription:
           "Thermal drying system operating under oxygen-free atmosphere for solvent-based and hazardous materials.",
@@ -449,7 +544,7 @@ const productsData = [
         title: "Flash Dryers",
         slug: "flash-dryers",
         icon: "bi bi-chevron-right",
-        image: flashDryers,
+        images: [flashDryers, flashDryers1],
 
         shortDescription:
           "High-speed convective drying system for rapid moisture removal from powders, cakes, slurries, and pastes.",
@@ -805,7 +900,7 @@ const productsData = [
         title: "Pilot Spray Dryer",
         slug: "pilot-spray-dryer",
         icon: "bi bi-chevron-right",
-        image: pilotSprayDryer,
+        images: [pilotSprayDryer, hygienic1],
         shortDescription:
           "Compact small-to-medium capacity spray drying system for R&D, sampling, scale-up trials, and formulation development.",
 
@@ -1009,7 +1104,7 @@ const productsData = [
         title: "Vibratory Fluid Bed Dryer (VFBD)",
         slug: "vibratory-fluid-bed-dryer",
         icon: "bi bi-chevron-right",
-        image: vibratoryFuildBedDryers,
+        images: [vibratoryFuildBedDryers, vibratoryFuildBedDryers1],
         shortDescription:
           "Continuous drying system combining fluidization and mechanical vibration for uniform moisture removal and gentle material handling.",
 
@@ -1123,7 +1218,11 @@ const productsData = [
         title: "Hygienic Spray Dryers",
         slug: "hygienic-spray-dryers",
         icon: "bi bi-chevron-right",
-        image: hygienicSprayDryer,
+        images: [
+          hygienic1,
+          hygienic2,
+          hygienic3
+        ],
 
         shortDescription:
           "Sanitary spray drying system designed for food, dairy, pharmaceutical, and nutraceutical industries with strict hygiene compliance.",
@@ -1256,7 +1355,7 @@ const productsData = [
         title: "Product-Specific Dryers",
         slug: "product-specific-dryers",
         icon: "bi bi-chevron-right",
-        image: productSpecificDryer,
+        images: [productSpecificDryer, productSpecificDryer1],
         shortDescription:
           "Customized drying systems engineered for specific product characteristics, ensuring optimized performance and quality output.",
 
@@ -1329,7 +1428,12 @@ const productsData = [
         title: "Mini Spray Dryers",
         slug: "mini-spray-dryers",
         icon: "bi bi-chevron-right",
-        image: miniSprayDryer,
+        images: [
+          hygienic1,
+          hygienic2,
+          hygienic3,
+          hygienic4
+        ],
         shortDescription:
           "Compact laboratory-scale spray drying system for small batch production, R&D, and educational applications.",
 
@@ -1444,7 +1548,7 @@ const productsData = [
         title: "Rotary Disc Atomizer",
         slug: "rotary-disc-atomizer",
         icon: "bi bi-chevron-right",
-        image: rotaryDryer,
+        images: [sprayDryers_2, sprayDryers_1],
         shortDescription:
           "High-speed centrifugal atomization system producing uniform droplets for large-capacity spray drying applications.",
 
@@ -1938,7 +2042,7 @@ const productsData = [
         slug: "atomizer-assembly",
         title: "Atomizer Assembly",
         icon: "bi bi-chevron-right",
-        image: atomizerAssembly,
+        images: [atomizerAssembly, atomizerAssembly1],
         fullDescription:
           "We at Aplex Engineering Systems make and provide high-precision Atomizer Assemblies, which are the core components of any spray dryer system. Atomizers convert liquid feed into fine droplets, allowing rapid evaporation and producing consistent, uniform powder.",
 
@@ -1990,7 +2094,28 @@ const productsData = [
         slug: "hot-air-generator",
         title: "Hot Air Generator Components",
         icon: "bi bi-chevron-right",
-        image: hotAirGenerator,
+        images: [
+
+          hotAirGenerator6,
+          hotAirGenerator15,
+          hotAirGenerator16,
+          hotAirGenerator19,
+          hotAirGenerator1,
+          hotAirGenerator2,
+          hotAirGenerator3,
+          hotAirGenerator4,
+          hotAirGenerator5,
+          hotAirGenerator7,
+          hotAirGenerator8,
+          hotAirGenerator9,
+          hotAirGenerator10,
+          hotAirGenerator11,
+          hotAirGenerator12,
+          hotAirGenerator13,
+          hotAirGenerator14,
+          hotAirGenerator17,
+          hotAirGenerator18
+        ],
         fullDescription: "We at Aplex Engineering Systems make and provide reliable Hot Air Generator components, essential for consistent drying. Hot air provides the thermal energy needed to evaporate moisture from atomized droplets efficiently.",
 
         workingPrinciple: [
@@ -2041,7 +2166,7 @@ const productsData = [
         slug: "rotary-airlock-valves",
         title: "Rotary Air Lock Valves",
         icon: "bi bi-chevron-right",
-        image: rotaryAirlockValve,
+        images: [rotaryAirlockValve, rotaryAirlockValve1, rotaryAirlockValve2],
         fullDescription: "We at Aplex Engineering Systems make and provide Rotary Airlock Valves that allow powder discharge while maintaining chamber air pressure. They are critical in preventing backflow and maintaining airflow balance.",
 
         workingPrinciple: [
@@ -2087,7 +2212,7 @@ const productsData = [
         slug: "feed-pump-system",
         title: "Feed Pump System",
         icon: "bi bi-chevron-right",
-        image: feedPumpSystem,
+        images: [feedPumpSystem, feedPumpSystem1, feedPumpSystem2],
         fullDescription: "We at Aplex Engineering Systems make and provide industrial feed pumps for controlled delivery of liquid feed. Stable feed flow ensures consistent droplet formation and high quality powder.",
 
         workingPrinciple: [
@@ -2136,7 +2261,7 @@ const productsData = [
         slug: "industrial-blower",
         title: "Industrial Blower System",
         icon: "bi bi-chevron-right",
-        image: industrialBlower,
+        images: [industrialBlower, industrialBlower1],
         fullDescription:
           "We at Aplex Engineering Systems make and provide Industrial Blowers that are essential for Supplying Hot Air to the Drying Chamber and Removing moisture-laden air Efficiently. Proper airflow ensures uniform Drying, Prevents Condensation, and Maintains Powder Quality.",
 
@@ -2184,7 +2309,7 @@ const productsData = [
         slug: "feed-filtration-system",
         title: "Feed Filtration System",
         icon: "bi bi-chevron-right",
-        image: FeedFiltrationSystem,
+        images: [FeedFiltrationSystem, FeedFiltrationSystem1, FeedFiltrationSystem2, FeedFiltrationSystem3, FeedFiltrationSystem4, FeedFiltrationSystem5],
 
         fullDescription:
           "We at Aplex Engineering Systems make and provide High-Performance Feed Filtration Systems to remove impurities from Liquid Feed, Protecting Pumps and Atomizers from Damage and ensuring consistent Powder quality.",
@@ -2231,7 +2356,7 @@ const productsData = [
         slug: "electromagnetic-hammer-system",
         title: "Electromagnetic Hammer System",
         icon: "bi bi-chevron-right",
-        image: electromagneticHammerSystem,
+        images: [electromagneticHammerSystem, electromagneticHammerSystem1],
         fullDescription:
           "We at Aplex Engineering Systems make and Provide Electromagnetic Hammer Systems that Prevent Powder Buildup Inside Cyclones, Ducts, and Drying Chambers, Reducing Downtime and Cleaning effort.",
 
@@ -2278,7 +2403,7 @@ const productsData = [
         slug: "spray-nozzle-components",
         title: "Spray Nozzle Components",
         icon: "bi bi-chevron-right",
-        image: sprayNozzleComponents,
+        images: [sprayNozzleComponents, sprayNozzleComponents1, sprayNozzleComponents2],
         fullDescription:
           "We at Aplex Engineering Systems make and provide High-Precision Spray Nozzle Components to control Droplet size, Spray Pattern, and ultimately Product quality in spray dryers.",
 
@@ -2327,7 +2452,7 @@ const productsData = [
         slug: "cyclone-separator",
         title: "Cyclone Separator Components",
         icon: "bi bi-chevron-right",
-        image: cycloneSeparator,
+        images: [cycloneSeparator, cycloneSeparator2, cycloneSeparator3, cycloneSeparator4, cycloneSeparator5, cycloneSeparator6, cycloneSeparator7],
         fullDescription:
           "We at Aplex Engineering Systems make and provide Cyclone Separators to efficiently Separate Powder from Exhaust Air Using Centrifugal Force, Maximizing Recovery and Minimizing Dust Emissions.",
 
@@ -2372,7 +2497,7 @@ const productsData = [
         slug: "drying-chamber-components",
         title: "Drying Chamber Components",
         icon: "bi bi-chevron-right",
-        image: dryingChamberComponents,
+        images: [dryingChamberComponents2,dryingChamberComponents3, dryingChamberComponents4, , dryingChamberComponents, dryingChamberComponents1, , dryingChamberComponents7, dryingChamberComponents8, dryingChamberComponents9],
         fullDescription:
           "We at Aplex Engineering Systems make and provide Drying Chamber Components that house Atomized Droplets and Maintain Uniform Airflow for High-Quality Drying.",
 
@@ -2411,7 +2536,7 @@ const productsData = [
         slug: "instrumentation-control-components",
         title: "Instrumentation and Control Components",
         icon: "bi bi-chevron-right",
-        image: instrumentationControlComponents,
+        images: [instrumentationControlComponents, instrumentationControlComponents2, instrumentationControlComponents3, instrumentationControlComponents4, instrumentationControlComponents5, instrumentationControlComponents6, instrumentationControlComponents7, instrumentationControlComponents8, instrumentationControlComponents9],
         fullDescription:
           "We at Aplex Engineering Systems make and Provide Instrumentation and Control Components to Monitor and Regulate Spray Dryer Operations, Ensuring Safety, Quality, and Efficiency.",
 
@@ -2485,7 +2610,7 @@ const productsData = [
         slug: "bag-filter-dust-collector",
         title: "Bag Filter and Dust Collector Components",
         icon: "bi bi-chevron-right",
-        image: bagFilterDustCollector,
+        images: [bagFilterDustCollector, bagFilterDustCollector1, bagFilterDustCollector2, bagFilterDustCollector3, bagFilterDustCollector4, bagFilterDustCollector5, bagFilterDustCollector6, bagFilterDustCollector7, bagFilterDustCollector8, bagFilterDustCollector9],
         fullDescription:
           "We at Aplex Engineering Systems make and provide Bag Filters and Dust Collectors to capture fine particles from exhaust air, protecting the environment and recovering valuable product.",
 
@@ -2534,7 +2659,7 @@ const productsData = [
         title: "Zero Liquid Discharge (ZLD)",
         slug: "zld-dryers",
         icon: "bi bi-chevron-right",
-        image: zeroLiquidDischargeDryerImage,
+        images: [zeroLiquidDischargeDryerImage,zeroLiquidDischargeDryerImage1,zeroLiquidDischargeDryerImage2],
         shortDescription:
           "Advanced drying system designed to convert industrial wastewater into solid residue and recover reusable water, achieving zero liquid discharge.",
 
@@ -2748,7 +2873,7 @@ const productsData = [
         title: "Forced Circulation Evaporator",
         slug: "forced-circulation-evaporator",
         icon: "bi bi-chevron-right",
-        image: forcedCirculationEvaporatorImage,
+        images: [forcedCirculationEvaporatorImage, forcedCirculationEvaporatorImage1],
         shortDescription:
           "Robust evaporator system designed for high-viscosity, scaling, and crystallizing liquids requiring strong circulation and controlled evaporation.",
 
@@ -2851,7 +2976,7 @@ const productsData = [
         title: "Multiple Effect Evaporator (MEE)",
         slug: "multiple-effect-evaporator",
         icon: "bi bi-chevron-right",
-        image: multipleEffectEvaporatorImage,
+        images: [multipleEffectEvaporatorImage, multipleEffectEvaporatorImage1, multipleEffectEvaporatorImage2],
         shortDescription:
           "Energy-efficient multi-stage evaporation system designed to concentrate liquids using vapor reuse across multiple effects.",
 
@@ -2969,7 +3094,7 @@ const productsData = [
         title: "Chemical Reactors",
         slug: "chemical-reactors",
         icon: "bi bi-chevron-right",
-        image: chemicalReactorsImage,
+        images: [chemicalReactorsImage,chemicalReactorsImage1,chemicalReactorsImage2],
         shortDescription:
           "Industrial jacketed reactors designed for controlled chemical reactions, mixing, heating, cooling, and pressure operations.",
 
@@ -3065,7 +3190,7 @@ const productsData = [
         title: "Crystallizers",
         slug: "crystallizers",
         icon: "bi bi-chevron-right",
-        image: crystallizersImage,
+        images: [crystallizersImage,crystallizersImage1],
         shortDescription:
           "Industrial crystallization systems designed for controlled crystal formation, size uniformity, and high-purity solid product recovery.",
 
@@ -3260,7 +3385,7 @@ const productsData = [
         title: "Vessels & Storage Tanks",
         slug: "vessels-storage-tanks",
         icon: "bi bi-chevron-right",
-        image: vesselsAndStorageTanksImage,
+        images: [vesselsAndStorageTanksImage,vesselsAndStorageTanksImage2,vesselsAndStorageTanksImage3,vesselsAndStorageTanksImage4],
         shortDescription:
           "Robust and corrosion-resistant vessels for mixing, storage, and pressure applications.",
 

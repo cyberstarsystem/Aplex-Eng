@@ -3,9 +3,9 @@ import emailjs from "@emailjs/browser";
 
 const contactCards = [
   {
-    icon: 'bi-geo-alt', title: 'Head Office', content: `BLOCK-A 1207, Rajyash Rise, Rajyash city, South Vasna, nr. Mukta A2 cinema, Vishala, Ahmedabad, Gujarat 380055, India`, mobile: '+91 98250 95243'
+    icon: 'bi-geo-alt', title: 'Head Office', content: `BLOCK-A 1207, RAJYASH RISE, RAJYASH CITY, SOUTH VASNA, NR. MUKTA A2 CINEMA, VISHALA, AHMEDABAD, GUJARAT 380055, INDIA`, mobile: '+91 98250 95243'
   },
-  { icon: 'bi-geo-alt', title: 'Works', content: `FP-59, SHED NO.2, NR. SHRADDHAN IND. ESTATE, BARODA EXP.WAY ROAD, RAMOL HATHIJAN RING-ROAD, AHMEDABAD 382445.Gujarat, India.`, mobile: '+91 76989 84768' },
+  { icon: 'bi-geo-alt', title: 'Works', content: `FP-59, SHED NO.2, NR. SHRADDHAN IND. ESTATE, BARODA EXP.WAY ROAD, RAMOL HATHIJAN RING-ROAD, AHMEDABAD 382445.GUJARAT, INDIA.`, mobile: '+91 76989 84768' },
   { icon: 'bi-envelope', title: 'Email', content: 'sales@aplexengg.com', isEmail: true },
   { icon: 'bi-telephone', title: 'Call', content: '+91 84870 13321 ' },
   // { icon: 'bi-clock', title: 'Open Hours', content: 'Monday-Friday: 9AM - 6PM' },
