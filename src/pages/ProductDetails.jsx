@@ -152,7 +152,7 @@ export default function ProductDetails() {
                                 <div className="row">
                                     {/* WORKING PRINCIPLE */}
                                     {product.workingPrinciple && (
-                                        <div className="col-lg-6 mt-4">
+                                        <div className="col-lg-12 mt-4">
                                             <h4>Working Principle</h4>
                                             <ul>
                                                 {product.workingPrinciple.map((item, i) => (
@@ -164,7 +164,7 @@ export default function ProductDetails() {
 
                                     {/* MAIN COMPONENTS */}
                                     {product.mainComponents && (
-                                        <div className="col-lg-6 mt-4">
+                                        <div className="col-lg-12 mt-4">
                                             <h4>Main Components</h4>
                                             <ul>
                                                 {product.mainComponents.map((item, i) => (
@@ -241,7 +241,7 @@ export default function ProductDetails() {
                                     )}
 
                                     {/* LIMITATIONS */}
-                                    {product.limitations && (
+                                    {/* {product.limitations && (
                                         <div className="col-lg-6 mt-4">
                                             <h4>Limitations</h4>
                                             <ul>
@@ -250,7 +250,7 @@ export default function ProductDetails() {
                                                 ))}
                                             </ul>
                                         </div>
-                                    )}
+                                    )} */}
 
                                     {/* OPTIONAL FEATURES */}
                                     {product.optionalFeatures && (

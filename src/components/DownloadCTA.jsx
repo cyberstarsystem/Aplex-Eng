@@ -2,33 +2,37 @@ import React from "react";
 
 const DownloadCTA = () => {
     return (
-        <section className="py-5 bg-light text-center">
+        <section className="py-5 ">
             <div className="container">
 
-                <h2 className="fw-bold mb-3">Downloads</h2>
-                <p className="text-muted mb-4">
-                    Get the complete documents instantly.
-                </p>
+                <div className="download-card text-center p-5 mx-auto">
+                    
+                    <h2 className="fw-bold mb-2">Downloads</h2>
+                    <p className=" text-white mb-4">
+                        Get the complete documents instantly.
+                    </p>
 
-                <div className="d-flex justify-content-center gap-3 flex-wrap">
+                    <div className="d-flex justify-content-center gap-3 flex-wrap">
 
-                    <a
-                        href="/QUESTIONNAIRE FOR DRYING SYSTEM.doc"
-                        className="btn d-flex align-items-center gap-2"
-                        download
-                    >
-                        <i className="bi bi-file-earmark-pdf-fill text-danger"></i>
-                        QUESTIONNAIRE FOR DRYING SYSTEM
-                    </a>
+                        <a
+                            href="/QUESTIONNAIRE FOR DRYING SYSTEM.doc"
+                            className="download-btn d-flex align-items-center gap-2"
+                            download
+                        >
+                            <i className="bi bi-file-earmark-text-fill text-danger"></i>
+                            <span>Drying System Questionnaire</span>
+                        </a>
 
-                    <a
-                        href="/QUESTIONNAIRE FOR EVAPORATION SYSTEM.doc"
-                        className="btn  d-flex align-items-center gap-2"
-                        download
-                    >
-                        <i className="bi bi-file-earmark-pdf-fill text-danger"></i>
-                        QUESTIONNAIRE FOR EVAPORATORS
-                    </a>
+                        <a
+                            href="/QUESTIONNAIRE FOR EVAPORATION SYSTEM.doc"
+                            className="download-btn d-flex align-items-center gap-2"
+                            download
+                        >
+                            <i className="bi bi-file-earmark-text-fill text-danger"></i>
+                            <span>Evaporation System Questionnaire</span>
+                        </a>
+
+                    </div>
 
                 </div>
 

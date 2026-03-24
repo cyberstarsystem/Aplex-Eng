@@ -5655,3 +5655,48 @@ background-color: #f2f4f7;
 .slider-btn.next {
   right: 15px;
 }
+
+.service-content h4{
+  color: var(--background-color) !important;
+  background-color: var(--accent-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.download-card {
+    background: var(--accent-color);
+    border-radius: 16px;
+    max-width: 1000px;
+    box-shadow: 0 10px 30px rgba(206, 206, 206, 0.08);
+    transition: all 0.3s ease;
+   
+}
+
+.download-card h2{
+   color: white !important;
+}
+
+.download-card:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 15px 40px rgba(132, 132, 132, 0.12);
+}
+
+.download-btn {
+    padding: 12px 18px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.download-btn:hover {
+    
+    transform: scale(1.05);
+}
+
+.download-btn i {
+    font-size: 18px;
+}

@@ -21,6 +21,7 @@ import portfolio17 from '../assets/img/portfolio/SPRAY DRYER PLANT.jpeg'
 import portfolio18 from '../assets/img/portfolio/SPRAY DRYER.jpeg'
 import portfolio19 from '../assets/img/portfolio/TWIN SCREW.jpeg'
 import portfolio20 from '../assets/img/portfolio/VIBRO-SHIFTER.jpeg'
+import { Link } from 'react-router-dom'
 
 
 const portfolioFilters = [
@@ -121,12 +122,17 @@ export default function Portfolio() {
                     <h4>{item.title}</h4>
                     <p>{item.category}</p>
                     <div className="portfolio-links">
-                      <a href={item.img} className="glightbox" title={item.title}>
+                      <a
+                        href={item.img}
+                        className="glightbox"
+                        data-gallery="portfolio-gallery"
+                        title={item.title}
+                      >
                         <i className="bi bi-zoom-in"></i>
                       </a>
-                      <a href="#portfolio" title="More Details">
+                      {/* <Link to={`/product/${item.slug}`} title="More Details">
                         <i className="bi bi-link-45deg"></i>
-                      </a>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
