@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react'
 import Isotope from 'isotope-layout'
 import imagesLoaded from 'imagesloaded'
+import GLightbox from 'glightbox'
+import 'glightbox/dist/css/glightbox.css'
 import portrait1 from '../assets/img/portfolio/spray-dryer.jpg'
 import portfolio2 from '../assets/img/portfolio/evoporator.jpg'
 import portrait2 from '../assets/img/portfolio/spray-2.jpg'
@@ -22,7 +24,6 @@ import portfolio18 from '../assets/img/portfolio/SPRAY DRYER.jpeg'
 import portfolio19 from '../assets/img/portfolio/TWIN SCREW.jpeg'
 import portfolio20 from '../assets/img/portfolio/VIBRO-SHIFTER.jpeg'
 import { Link } from 'react-router-dom'
-
 import sprayDryers_3 from '../assets/img/products/SPRAY DRYERS - 3.webp'
 import sprayDryers_2 from '../assets/img/products/SPRAY DRYERS - 2.jpg'
 import closedLoopSprayDryer from '../assets/img/products/Closed-Loop-Spray-Dryer.webp'
@@ -45,10 +46,8 @@ import forcedCirculationEvaporatorImage from '../assets/img/products/FORCED CIRC
 import multipleEffectEvaporatorImage from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 1.jpeg'
 import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.png'
 import forcedCirculationEvaporatorImage1 from '../assets/img/products/FORCED CIRCULATION EVAPORATOR - 2.webp'
-
 import vesselsAndStorageTanksImage3 from '../assets/img/SPAREPARTPHOTOS/PRESSURE VESSELS - 1.jpg'
 import vesselsAndStorageTanksImage4 from '../assets/img/SPAREPARTPHOTOS/DM WATER STORAGE TANK.webp'
-
 
 const portfolioFilters = [
   { filter: '*', label: 'All' },
@@ -78,7 +77,7 @@ const portfolioItems = [
   { img: zeroLiquidDischargeDryerImage2, title: 'Zero Liquid Discharge', category: 'Dryers', filter: 'filter-dryer' },
 
 
-  
+
 
 
 
@@ -86,10 +85,10 @@ const portfolioItems = [
   { img: fallingFilmEvaporatorImage, title: 'Falling Film Evaporator', category: 'Evaporators', filter: 'filter-evaporators' },
   { img: forcedCirculationEvaporatorImage, title: 'Forced Circulation Evaporator', category: 'Evaporators', filter: 'filter-evaporators' },
   { img: multipleEffectEvaporatorImage, title: 'Zero Liquid Discharge', category: 'Evaporators', filter: 'filter-evaporators' },
- 
-  
 
-  
+
+
+
   { img: portfolio2, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
   // { img: portrait2, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
   { img: portrait4, title: 'Jacketed Process Vessels', category: 'Equipments', filter: 'filter-equipments' },
@@ -121,6 +120,7 @@ const portfolioItems = [
 export default function Portfolio() {
   const isotopeRef = useRef(null)
   const isotopeInstance = useRef(null)
+const lightboxRef = useRef(null)
 
   useEffect(() => {
     const container = isotopeRef.current?.querySelector('.isotope-container')
@@ -133,6 +133,9 @@ export default function Portfolio() {
         filter: '*',
         sortBy: 'original-order',
       })
+    })
+    lightboxRef.current = GLightbox({
+      selector: '.glightbox',
     })
 
     return () => {
