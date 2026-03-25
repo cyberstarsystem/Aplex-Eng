@@ -2497,7 +2497,7 @@ const productsData = [
         slug: "drying-chamber-components",
         title: "Drying Chamber Components",
         icon: "bi bi-chevron-right",
-        images: [dryingChamberComponents2,dryingChamberComponents3, dryingChamberComponents4, , dryingChamberComponents, dryingChamberComponents1, , dryingChamberComponents7, dryingChamberComponents8, dryingChamberComponents9],
+        images: [dryingChamberComponents2, dryingChamberComponents3, dryingChamberComponents4, , dryingChamberComponents, dryingChamberComponents1, , dryingChamberComponents7, dryingChamberComponents8, dryingChamberComponents9],
         fullDescription:
           "We at Aplex Engineering Systems make and provide Drying Chamber Components that house Atomized Droplets and Maintain Uniform Airflow for High-Quality Drying.",
 
@@ -2659,7 +2659,11 @@ const productsData = [
         title: "Zero Liquid Discharge (ZLD)",
         slug: "zld-dryers",
         icon: "bi bi-chevron-right",
-        images: [zeroLiquidDischargeDryerImage,zeroLiquidDischargeDryerImage1,zeroLiquidDischargeDryerImage2],
+        images: [
+          zeroLiquidDischargeDryerImage,
+          zeroLiquidDischargeDryerImage1,
+          zeroLiquidDischargeDryerImage2
+        ],
         shortDescription:
           "Advanced drying system designed to convert industrial wastewater into solid residue and recover reusable water, achieving zero liquid discharge.",
 
@@ -3094,7 +3098,7 @@ const productsData = [
         title: "Chemical Reactors",
         slug: "chemical-reactors",
         icon: "bi bi-chevron-right",
-        images: [chemicalReactorsImage,chemicalReactorsImage1,chemicalReactorsImage2],
+        images: [chemicalReactorsImage, chemicalReactorsImage1, chemicalReactorsImage2],
         shortDescription:
           "Industrial jacketed reactors designed for controlled chemical reactions, mixing, heating, cooling, and pressure operations.",
 
@@ -3190,7 +3194,7 @@ const productsData = [
         title: "Crystallizers",
         slug: "crystallizers",
         icon: "bi bi-chevron-right",
-        images: [crystallizersImage,crystallizersImage1],
+        images: [crystallizersImage, crystallizersImage1],
         shortDescription:
           "Industrial crystallization systems designed for controlled crystal formation, size uniformity, and high-purity solid product recovery.",
 
@@ -3385,7 +3389,7 @@ const productsData = [
         title: "Vessels & Storage Tanks",
         slug: "vessels-storage-tanks",
         icon: "bi bi-chevron-right",
-        images: [vesselsAndStorageTanksImage,vesselsAndStorageTanksImage2,vesselsAndStorageTanksImage3,vesselsAndStorageTanksImage4],
+        images: [vesselsAndStorageTanksImage, vesselsAndStorageTanksImage2, vesselsAndStorageTanksImage3, vesselsAndStorageTanksImage4],
         shortDescription:
           "Robust and corrosion-resistant vessels for mixing, storage, and pressure applications.",
 

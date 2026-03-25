@@ -1,4 +1,4 @@
-import aboutImg from '../assets/img/about/about-square-8.webp'
+import aboutImg from '../assets/img/about/Product .png'
 
 const aboutStats = [
   { number: '15+', label: 'Years Experience' },
@@ -30,7 +30,24 @@ export default function About() {
                 achieve their goals while building lasting relationships founded on trust, transparency, and exceptional
                 results.
               </p>
-              <div className="stats-container">
+             
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="image-wrapper">
+              <img src={aboutImg} alt="About Us" className="img-fluid main-image" />
+              {/* <div className="floating-card">
+                <div className="card-content">
+                  <i className="bi bi-award"></i>
+                  <div className="text">
+                    <h5>Excellence Award</h5>
+                    <span>Digital Innovation 2023</span>
+                  </div>
+                </div>
+              </div> */}
+            </div>
+          </div>
+           <div className="stats-container">
                 <div className="row">
                   {aboutStats.map((stat, i) => (
                     <div key={i} className="col-md-4">
@@ -42,26 +59,10 @@ export default function About() {
                   ))}
                 </div>
               </div>
-              <div className="cta-wrapper">
-                <a href="#portfolio" className="btn btn-primary">Discover Our Work</a>
+              <div className="cta-wrapper justify-content-center">
+                <a href="#portfolio" className="btn btn-primary m-auto">Discover Our Work</a>
                 {/* <a href="#team" className="btn btn-outline">Meet Our Team</a> */}
               </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="image-wrapper">
-              <img src={aboutImg} alt="About Us" className="img-fluid main-image" />
-              <div className="floating-card">
-                <div className="card-content">
-                  <i className="bi bi-award"></i>
-                  <div className="text">
-                    <h5>Excellence Award</h5>
-                    <span>Digital Innovation 2023</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

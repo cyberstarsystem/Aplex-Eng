@@ -23,6 +23,32 @@ import portfolio19 from '../assets/img/portfolio/TWIN SCREW.jpeg'
 import portfolio20 from '../assets/img/portfolio/VIBRO-SHIFTER.jpeg'
 import { Link } from 'react-router-dom'
 
+import sprayDryers_3 from '../assets/img/products/SPRAY DRYERS - 3.webp'
+import sprayDryers_2 from '../assets/img/products/SPRAY DRYERS - 2.jpg'
+import closedLoopSprayDryer from '../assets/img/products/Closed-Loop-Spray-Dryer.webp'
+import rotaryDryers from '../assets/img/products/ROTARY DRYERS 2.webp'
+import flashDryers from '../assets/img/products/FLASH DRYERS - 2.jpg'
+import flashDryers1 from '../assets/img/products/FLASH DRYERS - 1.png'
+import hygienic1 from "../assets/img/products/PILOT SPRAY DRYER -1.jpeg"
+import cageMillFlashDryer from '../assets/img/products/CAGE MILL FLASH DRYER - 1.webp'
+import continuousFluidBedDryer from '../assets/img/products/CONTINUOUS FLUID BED DRYER (CFBD) - 1.png'
+import vibratoryFuildBedDryers1 from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD) - 2.webp'
+import hygienic3 from "../assets/img/products/MINI SPRAY DRYERS - 1.jpeg"
+import productSpecificDryer1 from '../assets/img/products/LAB stainless-steel-spray-dryers.webp'
+import hygienic2 from "../assets/img/products/ROTARY DISC ATOMIZATION- 1.webp"
+import hygienic4 from "../assets/img/products/MINI SPRAY DRYERS - 2.webp"
+import sprayNozzleAtomization from '../assets/img/products/SPRAY NOZZLE ATOMIZATION.jpg'
+import zeroLiquidDischargeDryerImage1 from '../assets/img/products/ZERO LIQUID DISCHARGE (ZLD) DRYERS - 2.jpg'
+import zeroLiquidDischargeDryerImage2 from '../assets/img/products/ZERO LIQUID DISCHARGE (ZLD) DRYERS - 3.webp'
+import fallingFilmEvaporatorImage from '../assets/img/products/FALLING FILM EVAPORATOR - 1.jpg'
+import forcedCirculationEvaporatorImage from '../assets/img/products/FORCED CIRCULATION EVAPORATOR -1.webp'
+import multipleEffectEvaporatorImage from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 1.jpeg'
+import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.png'
+import forcedCirculationEvaporatorImage1 from '../assets/img/products/FORCED CIRCULATION EVAPORATOR - 2.webp'
+
+import vesselsAndStorageTanksImage3 from '../assets/img/SPAREPARTPHOTOS/PRESSURE VESSELS - 1.jpg'
+import vesselsAndStorageTanksImage4 from '../assets/img/SPAREPARTPHOTOS/DM WATER STORAGE TANK.webp'
+
 
 const portfolioFilters = [
   { filter: '*', label: 'All' },
@@ -34,13 +60,50 @@ const portfolioFilters = [
 
 const portfolioItems = [
   { img: portrait1, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: sprayDryers_2, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: sprayDryers_3, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: closedLoopSprayDryer, title: 'Closed-Loop Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: rotaryDryers, title: 'Rotary Dryers', category: 'Dryers', filter: 'filter-dryer' },
+  { img: flashDryers, title: 'Flash Dryers', category: 'Dryers', filter: 'filter-dryer' },
+  { img: flashDryers1, title: 'Flash Dryers', category: 'Dryers', filter: 'filter-dryer' },
+  { img: cageMillFlashDryer, title: 'Caga Mill Flash Dryers', category: 'Dryers', filter: 'filter-dryer' },
+  { img: hygienic1, title: 'Pilot Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: continuousFluidBedDryer, title: 'Continuous Fluid Bed Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: vibratoryFuildBedDryers1, title: 'Vibratory Fuild Bed Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: hygienic3, title: 'Hygienic Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: productSpecificDryer1, title: 'Product Specific Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
+  { img: hygienic4, title: 'Mini Spray Dryers', category: 'Dryers', filter: 'filter-dryer' },
+  { img: sprayNozzleAtomization, title: 'Spray Nozzle Atomization', category: 'Dryers', filter: 'filter-dryer' },
+  { img: zeroLiquidDischargeDryerImage1, title: 'Zero Liquid Discharge', category: 'Dryers', filter: 'filter-dryer' },
+  { img: zeroLiquidDischargeDryerImage2, title: 'Zero Liquid Discharge', category: 'Dryers', filter: 'filter-dryer' },
+
+
+  
+
+
+
+
+  { img: fallingFilmEvaporatorImage, title: 'Falling Film Evaporator', category: 'Evaporators', filter: 'filter-evaporators' },
+  { img: forcedCirculationEvaporatorImage, title: 'Forced Circulation Evaporator', category: 'Evaporators', filter: 'filter-evaporators' },
+  { img: multipleEffectEvaporatorImage, title: 'Zero Liquid Discharge', category: 'Evaporators', filter: 'filter-evaporators' },
+ 
+  
+
+  
   { img: portfolio2, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
   // { img: portrait2, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
   { img: portrait4, title: 'Jacketed Process Vessels', category: 'Equipments', filter: 'filter-equipments' },
   { img: portfolio5, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
   { img: portfolio6, title: 'Spray Dryer', category: 'Dryers', filter: 'filter-dryer' },
-  { img: portfolio7, title: 'SS Chemical Reactor Vessel', category: 'Equipments', filter: 'filter-equipments' },
+  // { img: portfolio7, title: 'SS Chemical Reactor Vessel', category: 'Equipments', filter: 'filter-equipments' },
   { img: portfolio8, title: 'Dimple Jacket Vessels', category: 'Equipments', filter: 'filter-equipments' },
+  { img: chemicalReactorsImage1, title: 'Chemical Reactors', category: 'Equipments', filter: 'filter-equipments' },
+
+
+  { img: vesselsAndStorageTanksImage4, title: 'Vessels & Storage Tanks', category: 'Equipments', filter: 'filter-equipments' },
+  { img: forcedCirculationEvaporatorImage1, title: 'Crystallizers', category: 'Equipments', filter: 'filter-equipments' },
+  { img: vesselsAndStorageTanksImage3, title: 'Vessels & Storage Tanks', category: 'Equipments', filter: 'filter-equipments' },
+
   // { img: portfolio9, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
   // { img: portfolio10, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
   // { img: portfolio11, title: 'Digital Experience', category: 'Web Design', filter: 'filter-design' },
