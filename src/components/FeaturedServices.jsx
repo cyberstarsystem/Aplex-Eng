@@ -4,7 +4,7 @@ import { Navigation, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import services9 from '../assets/img/services/services-9.webp'
+import services12 from '../assets/img/services/services-12.png'
 import { Link } from 'react-router-dom'
 
 const featuredServiceCards = [
@@ -88,7 +88,10 @@ export default function FeaturedServices() {
           </div>
           <div className="col-lg-6">
             <div className="services-image">
-              <img src={services9} alt="Business Services" className="img-fluid" />
+              <img src={services12} alt="Business Services" style={{
+                width: "100%",
+                borderRadius: "24px"
+              }} className="img-fluid" />
               <div className="shape-circle"></div>
               <div className="shape-accent"></div>
             </div>
@@ -111,7 +114,7 @@ export default function FeaturedServices() {
                         <h4>
                           <a href="#">{card.title}</a>
                         </h4>
-                        <p style={{fontSize: "17px" }}>{card.desc}</p>
+                        <p style={{ fontSize: "17px" }}>{card.desc}</p>
                         <div className="service-number">{card.num}</div>
                       </div>
                     </div>

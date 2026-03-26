@@ -49,6 +49,10 @@ import forcedCirculationEvaporatorImage1 from '../assets/img/products/FORCED CIR
 import vesselsAndStorageTanksImage3 from '../assets/img/SPAREPARTPHOTOS/PRESSURE VESSELS - 1.jpg'
 import vesselsAndStorageTanksImage4 from '../assets/img/SPAREPARTPHOTOS/DM WATER STORAGE TANK.webp'
 
+import hotAirGenerator16 from '../assets/img/hotAirGenerator/Indirect Fired Hot Air Generator.jpeg'
+import hotAirGenerator11 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator.png'
+import hotAirGenerator17 from '../assets/img/hotAirGenerator/Indirect-Fired-Hot-Air-Generator-1-1.webp'
+
 const portfolioFilters = [
   { filter: '*', label: 'All' },
   { filter: '.filter-dryer', label: 'Dryers' },
@@ -75,6 +79,11 @@ const portfolioItems = [
   { img: sprayNozzleAtomization, title: 'Spray Nozzle Atomization', category: 'Dryers', filter: 'filter-dryer' },
   { img: zeroLiquidDischargeDryerImage1, title: 'Zero Liquid Discharge', category: 'Dryers', filter: 'filter-dryer' },
   { img: zeroLiquidDischargeDryerImage2, title: 'Zero Liquid Discharge', category: 'Dryers', filter: 'filter-dryer' },
+
+  { img: hotAirGenerator16, title: 'Hot Air Generator Components', category: 'Dryers', filter: 'filter-dryer' },
+  { img: hotAirGenerator11, title: 'Hot Air Generator Components', category: 'Dryers', filter: 'filter-dryer' },
+  { img: hotAirGenerator17, title: 'Hot Air Generator Components', category: 'Dryers', filter: 'filter-dryer' },
+
 
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
-import aboutImg from '../assets/img/about/about-square-8.webp'
+import aboutImg from '../assets/img/about/PHOTO - 02.png'
+// import aboutImg from '../assets/img/about/about-square-8.webp'
 
 const OurVision = () => {
     return (
@@ -31,15 +32,7 @@ const OurVision = () => {
                          <div className="col-lg-6">
                             <div className="image-wrapper">
                                 <img src={aboutImg} alt="About Us" className="img-fluid main-image" />
-                                <div className="floating-card">
-                                    <div className="card-content">
-                                        <i className="bi bi-award"></i>
-                                        <div className="text">
-                                            <h5>Excellence Award</h5>
-                                            <span>Digital Innovation 2023</span>
-                                        </div>
-                                    </div>
-                                </div>
+                              
                             </div>
                         </div>
 

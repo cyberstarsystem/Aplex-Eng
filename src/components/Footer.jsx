@@ -72,8 +72,9 @@ export default function Footer() {
           <div className="col-lg-5 col-md-12 footer-contact text-md-start">
             <h4>Contact Us</h4>
             <h6>Head Office</h6>
-            <p>A-1207, Rajyash Rise, Rajyash city, South Vasna, nr. Mukta A2 cinema, </p>
-            <p>Vishala, Ahmedabad, Gujarat 380055</p>
+            {/* <p>A-1207, RAJYASH RISE, VISHALA, AHMEDABAD, GUJARAT 380055, INDIA</p> */}
+            <p>A-1207, Rajyash Rise, Vishala, Ahmedabad, Gujarat 380055, India</p>
+            {/* <p>Vishala, Ahmedabad, Gujarat 380055</p> */}
 
             <p className="mt-4">
               <strong>Phone:</strong> <a href="tel:+918487013321"><span>+91 84870 13321</span></a>
