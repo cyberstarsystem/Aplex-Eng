@@ -25,10 +25,9 @@ export default function Hero() {
           <div className="col-lg-12">
             <div className="hero-content">
               <span className="hero-badge">Innovative Solutions</span>
-              <h1 className="">Welcome to APLEX Engineering Systems</h1>
+              <h1 className="">Welcome to APLEX</h1>
               <p>
-                Experts in Spray Drying & Process Equipment Solutions
-
+Experts in Drying, Evaporation and Process Equipments
               </p>
               <div className="hero-actions">
                 <a href="#services" className="btn-primary">Explore Services</a>
