@@ -5,18 +5,19 @@ const contactCards = [
   {
     icon: 'bi-geo-alt', title: 'Head Office', content: `A-1207, RAJYASH RISE, VISHALA, AHMEDABAD, GUJARAT 380055, INDIA`, mobile: '+91 98250 95243'
   },
-  { icon: 'bi-geo-alt', title: 'Works', 
-    content: `FP-59, SHED NO.2, NR. SHRADDHA IND. ESTATE, BARODA EXP.WAY ROAD, RAMOL HATHIJAN RING-ROAD, VATVA GIDC,AHMEDABAD 382445.GUJARAT, INDIA.`, mobile: '+91 76989 84768' },
+  {
+    icon: 'bi-geo-alt', title: 'Works',
+    content: `FP-59, SHED NO.2, NR. SHRADDHA IND. ESTATE, BARODA EXP.WAY ROAD, RAMOL HATHIJAN RING-ROAD, VATVA GIDC,AHMEDABAD 382445.GUJARAT, INDIA.`, mobile: '+91 76989 84768'
+  },
   { icon: 'bi-envelope', title: 'Email', content: 'sales@aplexengg.com', isEmail: true },
   { icon: 'bi-telephone', title: 'Call', content: '+91 84870 13321 ' },
   // { icon: 'bi-clock', title: 'Open Hours', content: 'Monday-Friday: 9AM - 6PM' },
 ]
 
 const socialLinks = [
-  { href: '#', icon: 'bi-twitter' },
-  { href: '#', icon: 'bi-facebook' },
-  { href: '#', icon: 'bi-instagram' },
-  { href: '#', icon: 'bi-linkedin' },
+  // { href: '#', icon: 'bi-instagram' },
+  { href: 'https://www.indiamart.com/aplexengineeringsystem/', target: '_blank', className: 'indiamart', image: '/images/indiamart.png' },
+
 ]
 
 export default function Contact() {
@@ -197,8 +198,16 @@ export default function Contact() {
 
                   <div className="social-links">
                     {socialLinks.map((s, i) => (
-                      <a key={i} href={s.href}>
-                        <i className={`bi ${s.icon}`}></i>
+                      <a key={i} href={s.href} target={s.target} className={s.className}>
+                        {s.image ? (
+                          <img
+                            src={s.image}
+                            alt="icon"
+                            style={{ width: "20px", height: "20px" }}
+                          />
+                        ) : (
+                          <i className={`bi ${s.icon}`}></i>
+                        )}
                       </a>
                     ))}
                   </div>

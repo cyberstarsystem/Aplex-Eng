@@ -5,14 +5,12 @@ import misc7 from '../assets/img/misc/misc-7.webp'
 import misc12 from '../assets/img/misc/misc-12.webp'
 import misc5 from '../assets/img/misc/misc-5.webp'
 import logo from '../assets/img/logo.png'
+// import indiamartIcon from '../../public/images/indiamart.png';
 
 const socialLinks = [
-  { href: '#', className: 'twitter', icon: 'bi-twitter-x' },
-  { href: '#', className: 'facebook', icon: 'bi-facebook' },
-  { href: '#', className: 'instagram', icon: 'bi-instagram' },
-  { href: '#', className: 'linkedin', icon: 'bi-linkedin' },
-]
-
+  // { href: '#', className: 'instagram', icon: 'bi-instagram' },
+  { href: 'https://www.indiamart.com/aplexengineeringsystem/', target: '_blank', className: 'indiamart', image: '/images/indiamart.png' },
+];
 
 
 export default function Navbar() {
@@ -73,8 +71,16 @@ export default function Navbar() {
           </div>
           <div className="social-links d-none d-md-flex align-items-center">
             {socialLinks.map((s, i) => (
-              <a key={i} href={s.href} className={s.className}>
-                <i className={`bi ${s.icon}`}></i>
+              <a key={i} href={s.href} target={s.target} className={s.className}>
+                {s.image ? (
+                  <img
+                    src={s.image}
+                    alt="icon"
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                ) : (
+                  <i className={`bi ${s.icon}`}></i>
+                )}
               </a>
             ))}
           </div>
@@ -106,9 +112,9 @@ export default function Navbar() {
                 onMouseEnter={() =>
                   document.querySelector('.megamenu-2')?.classList.add('active')
                 }
-              onMouseLeave={() =>
-                document.querySelector('.megamenu-2')?.classList.remove('active')
-              }
+                onMouseLeave={() =>
+                  document.querySelector('.megamenu-2')?.classList.remove('active')
+                }
               >
                 <a href="#"
                 >

@@ -27,7 +27,7 @@ export default function Hero() {
               <span className="hero-badge">Innovative Solutions</span>
               <h1 className="">Welcome to APLEX</h1>
               <p>
-Experts in Drying, Evaporation and Process Equipments
+                Experts in Drying, Evaporation and Process Equipments
               </p>
               <div className="hero-actions">
                 <a href="#services" className="btn-primary">Explore Services</a>
