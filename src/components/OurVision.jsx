@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../assets/img/about/PHOTO - 02.png'
+import aboutImg from '../assets/img/about/Our Vision.png'
 // import aboutImg from '../assets/img/about/about-square-8.webp'
 
 const OurVision = () => {
