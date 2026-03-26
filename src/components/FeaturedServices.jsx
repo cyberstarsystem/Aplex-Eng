@@ -87,9 +87,9 @@ export default function FeaturedServices() {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="services-image">
+            <div className="services-image justify-content-center">
               <img src={services12} alt="Business Services" style={{
-                width: "100%",
+                width: "50%",
                 borderRadius: "24px"
               }} className="img-fluid" />
               <div className="shape-circle"></div>
