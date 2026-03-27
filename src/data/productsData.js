@@ -2259,7 +2259,7 @@ const productsData = [
       {
         id: "industrial-blower",
         slug: "industrial-blower",
-        title: "Industrial Blower System",
+        title: "Industrial Blower",
         icon: "bi bi-chevron-right",
         images: [industrialBlower, industrialBlower1],
         fullDescription:
