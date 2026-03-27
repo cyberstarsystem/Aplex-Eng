@@ -45,7 +45,9 @@ import fallingFilmEvaporatorImage from '../assets/img/products/FALLING FILM EVAP
 import forcedCirculationEvaporatorImage from '../assets/img/products/FORCED CIRCULATION EVAPORATOR -1.webp'
 import multipleEffectEvaporatorImage from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 1.jpeg'
 import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.png'
-import forcedCirculationEvaporatorImage1 from '../assets/img/products/FORCED CIRCULATION EVAPORATOR - 2.webp'
+// import forcedCirculationEvaporatorImage1 from '../assets/img/products/FORCED CIRCULATION EVAPORATOR - 2.webp'
+import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER -1.jpg'
+
 import vesselsAndStorageTanksImage3 from '../assets/img/SPAREPARTPHOTOS/PRESSURE VESSELS - 1.jpg'
 import vesselsAndStorageTanksImage4 from '../assets/img/SPAREPARTPHOTOS/DM WATER STORAGE TANK.webp'
 
@@ -109,7 +111,7 @@ const portfolioItems = [
 
 
   { img: vesselsAndStorageTanksImage4, title: 'Vessels & Storage Tanks', category: 'Equipments', filter: 'filter-equipments' },
-  { img: forcedCirculationEvaporatorImage1, title: 'Crystallizers', category: 'Equipments', filter: 'filter-equipments' },
+  { img: crystallizersImage, title: 'Crystallizers', category: 'Equipments', filter: 'filter-equipments' },
   { img: vesselsAndStorageTanksImage3, title: 'Vessels & Storage Tanks', category: 'Equipments', filter: 'filter-equipments' },
 
   // { img: portfolio9, title: 'Evoporator', category: 'Evaporators', filter: 'filter-evaporators' },
