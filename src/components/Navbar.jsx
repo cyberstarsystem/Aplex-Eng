@@ -89,10 +89,10 @@ export default function Navbar() {
 
       <div className="branding d-flex align-items-cente">
         <div className="container position-relative d-flex align-items-center justify-content-between">
-          <a href="#hero" className="logo d-flex align-items-center">
+          <Link to="/" className="logo d-flex align-items-center">
             <img src={logo} alt="" />
 
-          </a>
+          </Link>
 
           <nav id="navmenu" className="navmenu">
             <ul>
