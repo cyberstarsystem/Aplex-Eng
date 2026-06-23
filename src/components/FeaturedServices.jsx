@@ -107,12 +107,12 @@ export default function FeaturedServices() {
                       <div className="icon-box">
                         <i className={`bi ${card.icon}`}></i>
                       </div>
-                      <a href="#" className="arrow-link">
+                      <Link to="/services" className="arrow-link">
                         <i className="bi bi-arrow-right"></i>
-                      </a>
+                      </Link>
                       <div className="content">
                         <h4>
-                          <a href="#">{card.title}</a>
+                          <Link to="/services">{card.title}</Link>
                         </h4>
                         <p style={{ fontSize: "17px" }}>{card.desc}</p>
                         <div className="service-number">{card.num}</div>

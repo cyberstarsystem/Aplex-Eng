@@ -22,16 +22,20 @@ export default function MainLayout() {
 
       navmenulinks.forEach((navmenulink) => {
         const href = navmenulink.getAttribute('href')
-        if (!href || !href.startsWith('#')) return
+        if (!href || href === '#' || href === '#/' || !href.startsWith('#')) return
 
-        const section = document.querySelector(href)
-        if (!section) return
+        try {
+          const section = document.querySelector(href)
+          if (!section) return
 
-        if (position >= section.offsetTop && position <= section.offsetTop + section.offsetHeight) {
-          document.querySelectorAll('.navmenu a.active').forEach((link) => link.classList.remove('active'))
-          navmenulink.classList.add('active')
-        } else {
-          navmenulink.classList.remove('active')
+          if (position >= section.offsetTop && position <= section.offsetTop + section.offsetHeight) {
+            document.querySelectorAll('.navmenu a.active').forEach((link) => link.classList.remove('active'))
+            navmenulink.classList.add('active')
+          } else {
+            navmenulink.classList.remove('active')
+          }
+        } catch (error) {
+          // Ignore invalid selector errors silently or log warning
         }
       })
     }

@@ -11,12 +11,12 @@ const usefulLinks = [
 ]
 
 const ourServices = [
-  { label: 'AMC Services', href: '#' },
-  { label: 'System Customization', href: '#' },
-  { label: 'Spares Supply', href: '#' },
-  { label: 'Operation Contracts', href: '#' },
-  { label: 'Product Trial Facility', href: '#' },
-  { label: 'Refurbishment Services', href: '#' },
+  { label: 'AMC Services', href: '/services' },
+  { label: 'System Customization', href: '/services' },
+  { label: 'Spares Supply', href: '/services' },
+  { label: 'Operation Contracts', href: '/services' },
+  { label: 'Product Trial Facility', href: '/services' },
+  { label: 'Refurbishment Services', href: '/services' },
 ]
 
 const socialIcons = [
@@ -34,9 +34,9 @@ export default function Footer() {
         <div className="container footer-top">
           <div className="row gy-4">
             <div className="col-lg-3 col-md-12 footer-about">
-              <a href="#hero" className="logo d-flex align-items-center">
+              <Link to="/" className="logo d-flex align-items-center">
                 <img src={logo} alt="Aplex Engineering Systems Logo" className='img-fluid' />
-              </a>
+              </Link>
               <p>
                 We deliver innovative and reliable engineering solutions tailored to meet industrial needs. With a strong commitment to quality, performance, and long-term partnerships, we ensure excellence in every project we undertake.
               </p>

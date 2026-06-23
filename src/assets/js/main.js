@@ -169,15 +169,21 @@
    */
   window.addEventListener('load', function(e) {
     if (window.location.hash) {
-      if (document.querySelector(window.location.hash)) {
-        setTimeout(() => {
-          let section = document.querySelector(window.location.hash);
-          let scrollMarginTop = getComputedStyle(section).scrollMarginTop;
-          window.scrollTo({
-            top: section.offsetTop - parseInt(scrollMarginTop),
-            behavior: 'smooth'
-          });
-        }, 100);
+      const hash = window.location.hash;
+      if (hash === '#' || hash === '#/') return;
+      try {
+        let section = document.querySelector(hash);
+        if (section) {
+          setTimeout(() => {
+            let scrollMarginTop = getComputedStyle(section).scrollMarginTop;
+            window.scrollTo({
+              top: section.offsetTop - parseInt(scrollMarginTop),
+              behavior: 'smooth'
+            });
+          }, 100);
+        }
+      } catch (err) {
+        // Ignore invalid selector
       }
     }
   });
@@ -189,15 +195,20 @@
 
   function navmenuScrollspy() {
     navmenulinks.forEach(navmenulink => {
-      if (!navmenulink.hash) return;
-      let section = document.querySelector(navmenulink.hash);
-      if (!section) return;
-      let position = window.scrollY + 200;
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
-        navmenulink.classList.add('active');
-      } else {
-        navmenulink.classList.remove('active');
+      const hash = navmenulink.hash;
+      if (!hash || hash === '#' || hash === '#/') return;
+      try {
+        let section = document.querySelector(hash);
+        if (!section) return;
+        let position = window.scrollY + 200;
+        if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+          document.querySelectorAll('.navmenu a.active').forEach(link => link.classList.remove('active'));
+          navmenulink.classList.add('active');
+        } else {
+          navmenulink.classList.remove('active');
+        }
+      } catch (err) {
+        // Ignore invalid selector
       }
     })
   }
