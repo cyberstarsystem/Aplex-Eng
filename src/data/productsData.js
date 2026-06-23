@@ -2,13 +2,13 @@ import multistage from '../assets/img/products/multi-stage-spray-dryer-.webp'
 import closedLoop from '../assets/img/products/CLOSED-LOOP SPRAY DRYER - 1.webp'
 import rotaryDryers from '../assets/img/products/ROTARY DRYERS 2.webp'
 import flashDryers from '../assets/img/products/FLASH DRYERS - 2.jpg'
-import flashDryers1 from '../assets/img/products/FLASH DRYERS - 1.png'
+import flashDryers1 from '../assets/img/products/FLASH DRYERS - 1.webp'
 import cageMillFlashDryer from '../assets/img/products/CAGE MILL FLASH DRYER - 1.webp'
 import spinFlashDryer from '../assets/img/products/SPIN FLASH DRYER - 1.jpg'
 import pilotSprayDryer from '../assets/img/products/PILOT SPRAY DRYER - 3.webp'
 import closedLoopSprayDryer from '../assets/img/products/Closed-Loop-Spray-Dryer.webp'
-import continuousFluidBedDryer from '../assets/img/products/CONTINUOUS FLUID BED DRYER (CFBD) - 1.png'
-import vibratoryFuildBedDryers from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD).png'
+import continuousFluidBedDryer from '../assets/img/products/CONTINUOUS FLUID BED DRYER (CFBD) - 1.webp'
+import vibratoryFuildBedDryers from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD).webp'
 import vibratoryFuildBedDryers1 from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD) - 2.webp'
 import hygienicSprayDryer from '../assets/img/products/HYGIENIC SPRAY DRYERS - 1.webp'
 import productSpecificDryer from '../assets/img/products/PRODUCT-SPECIFIC DRYERS- 2.jpg'
@@ -30,12 +30,12 @@ import multipleEffectEvaporatorImage1 from '../assets/img/products/MULTIPLE EFFE
 import atomizerAssembly from '../assets/img/SPAREPARTPHOTOS/ATOMIZER ASSEMBLY - 1.jpeg'
 import atomizerAssembly1 from '../assets/img/SPAREPARTPHOTOS/ATOMIZER ASSEMBLY - 2.jpg'
 // import hotAirGenerator from '../assets/img/SPAREPARTPHOTOS/Hot-Air-Generator.webp'
-import rotaryAirlockValve from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 1.png'
+import rotaryAirlockValve from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 1.webp'
 import rotaryAirlockValve1 from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 2.jpeg'
 import rotaryAirlockValve2 from '../assets/img/SPAREPARTPHOTOS/ROTARY AIR LOCK VALVES - 3.jpg'
 import feedPumpSystem from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 1.jpg'
 import feedPumpSystem1 from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 2.jpeg'
-import feedPumpSystem2 from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 3.png'
+import feedPumpSystem2 from '../assets/img/SPAREPARTPHOTOS/FEED PUMP - 3.webp'
 import industrialBlower from '../assets/img/SPAREPARTPHOTOS/INDUSTRIAL BLOWER - 3.jpg'
 import industrialBlower1 from '../assets/img/SPAREPARTPHOTOS/INDUSTRIAL BLOWER - 1.jpeg'
 import electromagneticHammerSystem from '../assets/img/SPAREPARTPHOTOS/ELECTROMAGNETIC HAMMER - 1.png'
@@ -59,12 +59,12 @@ import cycloneSeparator7 from "../assets/img/SPAREPARTPHOTOS/DISCHARGE VALVE.jfi
 // import bagFilterDustCollector from "../assets/img/SPAREPARTPHOTOS/BAG FILTER DUST COLLECTOR - 1.jpg"
 // import dryingChamberComponents from "../assets/img/SPAREPARTPHOTOS/DRYING CHAMBER - 1.jpeg"
 // import instrumentationControlComponents from "../assets/img/SPAREPARTPHOTOS/INSTRUMENTATION AND CONTROL COMPONENTS - 1.webp"
-import vesselsAndStorageTanksImage from '../assets/img/SPAREPARTPHOTOS/storage-tanks.jpg'
+import vesselsAndStorageTanksImage from '../assets/img/SPAREPARTPHOTOS/storage-tanks.webp'
 import vesselsAndStorageTanksImage2 from '../assets/img/SPAREPARTPHOTOS/STORAGE TANKS.jpeg'
 import vesselsAndStorageTanksImage3 from '../assets/img/SPAREPARTPHOTOS/PRESSURE VESSELS - 1.jpg'
 import vesselsAndStorageTanksImage4 from '../assets/img/SPAREPARTPHOTOS/DM WATER STORAGE TANK.webp'
 import chemicalReactorsImage from '../assets/img/SPAREPARTPHOTOS/chemical-reactor.webp'
-import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.png'
+import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.webp'
 import chemicalReactorsImage2 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR -3.jpeg'
 import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER -1.jpg'
 import crystallizersImage1 from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER - 2.jpg'
@@ -89,7 +89,7 @@ import hotAirGenerator7 from '../assets/img/hotAirGenerator/Fuel Control Valves 
 import hotAirGenerator8 from '../assets/img/hotAirGenerator/Fuel Control Valves 2.webp'
 import hotAirGenerator9 from '../assets/img/hotAirGenerator/Fuel Control Valves.webp'
 import hotAirGenerator10 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator - 3.webp'
-import hotAirGenerator11 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator.png'
+import hotAirGenerator11 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator.webp'
 import hotAirGenerator12 from '../assets/img/hotAirGenerator/Heat Exchanger Tubes 1.webp'
 import hotAirGenerator13 from '../assets/img/hotAirGenerator/Heat Exchanger Tubes 2.jpg'
 import hotAirGenerator14 from '../assets/img/hotAirGenerator/Ignition Electrodes.webp'
@@ -113,7 +113,7 @@ import dryingChamberComponents9 from "../assets/img/DRYING CHAMBER/MANHOLE COVER
 
 import instrumentationControlComponents from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Control Valves - 1.webp"
 import instrumentationControlComponents2 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Control Valves.jpg"
-import instrumentationControlComponents3 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Flow Meters - 1.png"
+import instrumentationControlComponents3 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Flow Meters - 1.webp"
 import instrumentationControlComponents4 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Industrial-Pressure-Transmitters.webp"
 import instrumentationControlComponents5 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Pressure Transmitters  - 4.jpg"
 import instrumentationControlComponents6 from "../assets/img/INSTRUMENTATION AND CONTROL COMPONENTS/Pressure Transmitters - 3.jpg"

@@ -1,4 +1,4 @@
-import aboutImg from '../assets/img/about/Product .png'
+import aboutImg from '../assets/img/about/Product.webp'
 
 const aboutStats = [
   { number: '15+', label: 'Years Experience' },

@@ -2,6 +2,10 @@ import React, { useEffect } from "react";
 import { useParams, Link, NavLink } from "react-router-dom";
 import productsData from "../data/productsData";
 import { useState } from "react";
+import SEO from "../seo/SEO";
+import { getProductSeoMeta } from "../seo/seoConfig";
+import { getBreadcrumbSchema, getProductSchema } from "../seo/schemas";
+import { SITE_URL } from "../seo/seoConfig";
 
 export default function ProductDetails() {
     const { category, slug } = useParams();
@@ -42,8 +46,36 @@ export default function ProductDetails() {
             </div>
         );
     }
+
+    // ── SEO: dynamic metadata + schemas ─────────────────────────────────────
+    const seoMeta = getProductSeoMeta({
+        product,
+        categorySlug: category,
+        categoryName: categoryData.category,
+    });
+
+    const productSchema = getProductSchema({
+        product,
+        categorySlug: category,
+        categoryName: categoryData.category,
+    });
+
+    const breadcrumbSchema = getBreadcrumbSchema([
+        { name: 'Home', url: SITE_URL + '/' },
+        { name: categoryData.category, url: SITE_URL + '/products/' + category + '/' + product.slug },
+        { name: product.title, url: SITE_URL + '/products/' + category + '/' + product.slug },
+    ]);
+    // ────────────────────────────────────────────────────────────────────────
+
     return (
         <main className="main">
+            <SEO
+                title={seoMeta.title}
+                description={seoMeta.description}
+                keywords={seoMeta.keywords}
+                canonical={seoMeta.canonical}
+                schema={[productSchema, breadcrumbSchema]}
+            />
 
             {/* PAGE TITLE */}
             <div className="page-title dark-background">

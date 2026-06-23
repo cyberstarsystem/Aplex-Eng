@@ -4,7 +4,7 @@ import { Navigation, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-import services12 from '../assets/img/services/services-12.png'
+import services12 from '../assets/img/services/services-12.webp'
 import { Link } from 'react-router-dom'
 
 const featuredServiceCards = [

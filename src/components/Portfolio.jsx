@@ -29,10 +29,10 @@ import sprayDryers_2 from '../assets/img/products/SPRAY DRYERS - 2.jpg'
 import closedLoopSprayDryer from '../assets/img/products/Closed-Loop-Spray-Dryer.webp'
 import rotaryDryers from '../assets/img/products/ROTARY DRYERS 2.webp'
 import flashDryers from '../assets/img/products/FLASH DRYERS - 2.jpg'
-import flashDryers1 from '../assets/img/products/FLASH DRYERS - 1.png'
+import flashDryers1 from '../assets/img/products/FLASH DRYERS - 1.webp'
 import hygienic1 from "../assets/img/products/PILOT SPRAY DRYER -1.jpeg"
 import cageMillFlashDryer from '../assets/img/products/CAGE MILL FLASH DRYER - 1.webp'
-import continuousFluidBedDryer from '../assets/img/products/CONTINUOUS FLUID BED DRYER (CFBD) - 1.png'
+import continuousFluidBedDryer from '../assets/img/products/CONTINUOUS FLUID BED DRYER (CFBD) - 1.webp'
 import vibratoryFuildBedDryers1 from '../assets/img/products/VIBRATORY FLUID BED DRYERS (VFBD) - 2.webp'
 import hygienic3 from "../assets/img/products/MINI SPRAY DRYERS - 1.jpeg"
 import productSpecificDryer1 from '../assets/img/products/LAB stainless-steel-spray-dryers.webp'
@@ -44,7 +44,7 @@ import zeroLiquidDischargeDryerImage2 from '../assets/img/products/ZERO LIQUID D
 import fallingFilmEvaporatorImage from '../assets/img/products/FALLING FILM EVAPORATOR - 1.jpg'
 import forcedCirculationEvaporatorImage from '../assets/img/products/FORCED CIRCULATION EVAPORATOR -1.webp'
 import multipleEffectEvaporatorImage from '../assets/img/products/MULTIPLE EFFECT EVAPORATOR (MEE) - 1.jpeg'
-import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.png'
+import chemicalReactorsImage1 from '../assets/img/SPAREPARTPHOTOS/CHEMICAL REACTOR - 1.webp'
 // import forcedCirculationEvaporatorImage1 from '../assets/img/products/FORCED CIRCULATION EVAPORATOR - 2.webp'
 import crystallizersImage from '../assets/img/SPAREPARTPHOTOS/CRYSTALLIZER -1.jpg'
 
@@ -52,7 +52,7 @@ import vesselsAndStorageTanksImage3 from '../assets/img/SPAREPARTPHOTOS/PRESSURE
 import vesselsAndStorageTanksImage4 from '../assets/img/SPAREPARTPHOTOS/DM WATER STORAGE TANK.webp'
 
 import hotAirGenerator16 from '../assets/img/hotAirGenerator/Indirect Fired Hot Air Generator.jpeg'
-import hotAirGenerator11 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator.png'
+import hotAirGenerator11 from '../assets/img/hotAirGenerator/Gas Fired Hot Air Generator.webp'
 import hotAirGenerator17 from '../assets/img/hotAirGenerator/Indirect-Fired-Hot-Air-Generator-1-1.webp'
 
 const portfolioFilters = [

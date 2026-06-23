@@ -1,4 +1,4 @@
-import bg14 from '../assets/img/bg/banner.jpg'
+import bg14 from '../assets/img/bg/banner.webp'
 
 const heroStats = [
   { number: '120+', label: 'Projects Completed' },
@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <section id="hero" className="hero section dark-background">
       <div className="hero-background">
-        <img src={bg14} alt="" data-aos-duration="1000" />
+        <img src={bg14} alt="Aplex Engineering Systems – Industrial Spray Dryer facility" data-aos-duration="1000" />
         <div className="overlay"></div>
       </div>
       <div className="container">
@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="col-lg-12">
             <div className="hero-content">
               <span className="hero-badge">Innovative Solutions</span>
-              <h1 className="">Welcome to APLEX</h1>
+              <h1 className="">Spray Dryers & Industrial Drying Systems Manufacturer in India</h1>
               <p>
                 Experts in Drying, Evaporation and Process Equipments
               </p>

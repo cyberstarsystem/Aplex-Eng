@@ -18,6 +18,7 @@
     "isotope-layout": "^3.0.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet-async": "^3.0.0",
     "react-router-dom": "^7.13.0",
     "swiper": "^11.1.14"
   },
