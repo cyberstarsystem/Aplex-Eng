@@ -75,7 +75,8 @@ export default function Navbar() {
                 {s.image ? (
                   <img
                     src={s.image}
-                    alt="icon"
+                    alt="IndiaMART Profile"
+                    title="IndiaMART Profile"
                     style={{ width: "20px", height: "20px" }}
                   />
                 ) : (
@@ -90,8 +91,11 @@ export default function Navbar() {
       <div className="branding d-flex align-items-cente">
         <div className="container position-relative d-flex align-items-center justify-content-between">
           <Link to="/" className="logo d-flex align-items-center">
-            <img src={logo} alt="" />
-
+            <img
+              src={logo}
+              alt="Aplex Engineering Systems Logo"
+              title="Aplex Engineering Systems"
+            />
           </Link>
 
           <nav id="navmenu" className="navmenu">
