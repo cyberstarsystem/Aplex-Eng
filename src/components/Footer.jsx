@@ -35,7 +35,12 @@ export default function Footer() {
           <div className="row gy-4">
             <div className="col-lg-3 col-md-12 footer-about">
               <Link to="/" className="logo d-flex align-items-center">
-                <img src={logo} alt="Aplex Engineering Systems Logo" className='img-fluid' />
+                <img
+                  src={logo}
+                  alt="Aplex Engineering Systems Logo"
+                  title="Aplex Engineering Systems"
+                  className="img-fluid"
+                />
               </Link>
               <p>
                 We deliver innovative and reliable engineering solutions tailored to meet industrial needs. With a strong commitment to quality, performance, and long-term partnerships, we ensure excellence in every project we undertake.
@@ -46,8 +51,9 @@ export default function Footer() {
                     {s.image ? (
                       <img
                         src={s.image}
-                        alt="icon"
-                        style={{ width: "20px", height: "20px"}}
+                        alt="IndiaMART Profile"
+                        title="IndiaMART Profile"
+                        style={{ width: "20px", height: "20px" }}
                       />
                     ) : (
                       <i className={`bi ${s.icon}`}></i>
