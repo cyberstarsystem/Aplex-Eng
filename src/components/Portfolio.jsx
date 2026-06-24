@@ -131,7 +131,7 @@ const portfolioItems = [
 export default function Portfolio() {
   const isotopeRef = useRef(null)
   const isotopeInstance = useRef(null)
-const lightboxRef = useRef(null)
+  const lightboxRef = useRef(null)
 
   useEffect(() => {
     const container = isotopeRef.current?.querySelector('.isotope-container')
@@ -166,7 +166,7 @@ const lightboxRef = useRef(null)
   return (
     <section id="portfolio" className="portfolio section">
       <div className="container section-title">
-        <h2>Portfolio</h2>
+        <h1>Portfolio</h1>
         <p>Explore our completed industrial projects and engineering solutions.</p>
       </div>
       <div className="container">
@@ -194,7 +194,12 @@ const lightboxRef = useRef(null)
                 className={`col-lg-4 col-md-6 portfolio-item isotope-item ${item.filter}`}
               >
                 <div className="portfolio-wrap">
-                  <img src={item.img} className="img-fluid" alt="Portfolio" loading="lazy" />
+                  <img
+                    src={item.img}
+                    className="img-fluid"
+                    alt={item.title}
+                    loading="lazy"
+                  />
                   <div className="portfolio-info">
                     <h4>{item.title}</h4>
                     <p>{item.category}</p>

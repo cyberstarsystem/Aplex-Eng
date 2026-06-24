@@ -63,8 +63,7 @@ export default function Services() {
   return (
     <section id="services" className="services section">
       <div className="container section-title">
-        <h2>Services</h2>
-
+        <h1>Services</h1>
       </div>
       <div className="container">
         <div className="row gy-4">

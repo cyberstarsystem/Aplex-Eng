@@ -107,6 +107,47 @@ export function getBreadcrumbSchema(items) {
  * @param {string} categorySlug - category URL slug
  * @param {string} categoryName - display name of category
  */
+// export function getProductSchema({ product, categorySlug, categoryName }) {
+//   return {
+//     '@context': 'https://schema.org',
+//     '@type': 'Product',
+
+//     name: product.title,
+//     sku: product.slug,
+//     image: product.images?.[0] || SITE_LOGO,
+
+//     description: product.fullDescription || product.shortDescription,
+
+//     brand: {
+//       '@type': 'Organization',
+//       name: SITE_NAME,
+//     },
+
+//     manufacturer: {
+//       '@type': 'Organization',
+//       name: SITE_NAME,
+//       url: SITE_URL,
+//     },
+
+//     category: categoryName,
+
+//     url: `${SITE_URL}/products/${categorySlug}/${product.slug}`,
+
+//     offers: {
+//       '@type': 'Offer',
+//       priceCurrency: 'INR',
+//       availability: 'https://schema.org/InStock',
+
+//       seller: {
+//         '@type': 'Organization',
+//         name: SITE_NAME,
+//       },
+
+//       url: `${SITE_URL}/contact`,
+//     },
+//   }
+// }
+
 export function getProductSchema({ product, categorySlug, categoryName }) {
   return {
     '@context': 'https://schema.org',
@@ -132,18 +173,5 @@ export function getProductSchema({ product, categorySlug, categoryName }) {
     category: categoryName,
 
     url: `${SITE_URL}/products/${categorySlug}/${product.slug}`,
-
-    offers: {
-      '@type': 'Offer',
-      priceCurrency: 'INR',
-      availability: 'https://schema.org/InStock',
-
-      seller: {
-        '@type': 'Organization',
-        name: SITE_NAME,
-      },
-
-      url: `${SITE_URL}/contact`,
-    },
   }
 }

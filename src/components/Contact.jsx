@@ -59,7 +59,7 @@ export default function Contact() {
   return (
     <section id="contact" className="contact section">
       <div className="container section-title">
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
         <p>We are open for any suggestion or just to have a chat</p>
       </div>
       <div className="container">
@@ -202,7 +202,7 @@ export default function Contact() {
                         {s.image ? (
                           <img
                             src={s.image}
-                            alt="icon"
+                            alt="IndiaMART Profile"
                             style={{ width: "20px", height: "20px" }}
                           />
                         ) : (

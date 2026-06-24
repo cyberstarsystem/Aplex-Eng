@@ -25,7 +25,28 @@ import c19 from "../assets/img/clients/client-19.png";
 import c20 from "../assets/img/clients/client-20.svg";
 
 
-const clientLogos = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20];
+const clientLogos = [
+  { logo: c1, name: "Aries Agro Limited" },
+  { logo: c2, name: "Meghmani Organics Ltd" },
+  { logo: c3, name: "Jay Microcell" },
+  { logo: c4, name: "UMA Group" },
+  { logo: c5, name: "Ashby Chemicals Pvt Ltd" },
+  { logo: c6, name: "Sigachi Industries" },
+  { logo: c7, name: "Accent Bonding Precision" },
+  { logo: c8, name: "Krishna Industries" },
+  { logo: c9, name: "Harsh Organo Chem India Pvt Ltd" },
+  { logo: c10, name: "Chhatral Environment Management System Pvt Ltd" },
+  { logo: c11, name: "Shreeji Enterprise" },
+  { logo: c12, name: "Shree Ambica Geotex Pvt Ltd" },
+  { logo: c13, name: "Meridian" },
+  { logo: c14, name: "Bliss GVS Pharma Limited" },
+  { logo: c15, name: "KBH Polymers Pvt Ltd" },
+  { logo: c16, name: "Sudarshan" },
+  { logo: c17, name: "Client Company Logo" },
+  { logo: c18, name: "Crescent Biotech" },
+  { logo: c19, name: "Anha Biochem Science LLP" },
+  { logo: c20, name: "Sudarshan" }
+]
 
 export default function Clients() {
   const swiperRef = useRef(null);
@@ -67,10 +88,15 @@ export default function Clients() {
       </div>
       <div className="clients-slider swiper" ref={swiperRef}>
         <div className="swiper-wrapper">
-          {logos.map((src, i) => (
+          {logos.map((client, i) => (
             <div key={i} className="swiper-slide">
               <div className="client-logo">
-                <img src={src} className="img-fluid" alt="" />
+                <img
+                  src={client.logo}
+                  className="img-fluid"
+                  alt={`${client.name} Logo`}
+                  title={client.name}
+                />
               </div>
             </div>
           ))}

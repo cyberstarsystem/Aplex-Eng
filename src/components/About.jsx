@@ -12,8 +12,7 @@ export default function About() {
       <div className="container">
         <div className="row align-items-center">
           <div className="container section-title">
-            <h2>About Us</h2>
-
+            <h1>About Us</h1>
           </div>
           <div className="col-lg-6">
             <div className="content">
@@ -30,7 +29,7 @@ export default function About() {
                 achieve their goals while building lasting relationships founded on trust, transparency, and exceptional
                 results.
               </p>
-             
+
             </div>
           </div>
           <div className="col-lg-6">
@@ -47,22 +46,22 @@ export default function About() {
               </div> */}
             </div>
           </div>
-           <div className="stats-container">
-                <div className="row">
-                  {aboutStats.map((stat, i) => (
-                    <div key={i} className="col-md-4">
-                      <div className="stat-item">
-                        <div className="number">{stat.number}</div>
-                        <div className="label">{stat.label}</div>
-                      </div>
-                    </div>
-                  ))}
+          <div className="stats-container">
+            <div className="row">
+              {aboutStats.map((stat, i) => (
+                <div key={i} className="col-md-4">
+                  <div className="stat-item">
+                    <div className="number">{stat.number}</div>
+                    <div className="label">{stat.label}</div>
+                  </div>
                 </div>
-              </div>
-              <div className="cta-wrapper justify-content-center">
-                <a href="#portfolio" className="btn btn-primary m-auto">Discover Our Work</a>
-                {/* <a href="#team" className="btn btn-outline">Meet Our Team</a> */}
-              </div>
+              ))}
+            </div>
+          </div>
+          <div className="cta-wrapper justify-content-center">
+            <a href="#portfolio" className="btn btn-primary m-auto">Discover Our Work</a>
+            {/* <a href="#team" className="btn btn-outline">Meet Our Team</a> */}
+          </div>
         </div>
       </div>
     </section>
