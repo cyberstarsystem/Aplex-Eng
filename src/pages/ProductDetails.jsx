@@ -161,6 +161,8 @@ export default function ProductDetails() {
                                         <img
                                             key={i}
                                             src={img}
+                                            alt={`${product.title} Thumbnail ${i + 1}`}
+                                            title={product.title}
                                             onClick={() => setCurrentIndex(i)}
                                             style={{
                                                 width: "70px",

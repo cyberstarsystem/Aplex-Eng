@@ -142,7 +142,13 @@ export default function Features() {
                       </div>
                       <div className="col-lg-6">
                         <div className="image-box">
-                          <img src={tab.img} alt="" className="img-fluid" loading="lazy" />
+                          <img
+                            src={tab.img}
+                            alt={tab.heading}
+                            title={tab.heading}
+                            className="img-fluid"
+                            loading="lazy"
+                          />
                         </div>
                       </div>
                     </div>
