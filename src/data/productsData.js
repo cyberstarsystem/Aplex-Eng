@@ -131,6 +131,9 @@ import bagFilterDustCollector7 from "../assets/img/BAG FILTER AND DUST COLLECTOR
 import bagFilterDustCollector8 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Venturi Tubes - 1.jfif"
 import bagFilterDustCollector9 from "../assets/img/BAG FILTER AND DUST COLLECTOR COMPONENTS/Venturi Tubes.png"
 
+import milkPowderPlant from "../assets/img/portfolio/SPRAY DRYER PLANT.jpeg";
+import wheyPowderPlant from "../assets/img/portfolio/SD PLANT.jpeg";
+
 const productsData = [
   {
     category: "Drying Systems",
@@ -148,10 +151,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
 
         shortDescription:
-          "High-efficiency spray drying system converting liquid feed into uniform dry powder using hot air atomization.",
+          "Aplex Engineering Systems manufactures high-performance Industrial Spray Dryers for converting liquid feed into uniform free-flowing powder. Ideal for food, dairy, pharmaceutical, chemical, ceramic, and environmental industries.",
 
         fullDescription:
-          "A Spray Dryer is a high-efficiency drying system that converts liquid feed such as slurry, solution, emulsion, or suspension into a dry powder by atomizing the liquid and rapidly evaporating moisture using hot air. It is widely used in food, dairy, pharmaceutical, chemical, ceramic, and environmental industries for producing uniform, free-flowing powders with controlled particle size.",
+          "A Spray Dryer is an advanced industrial drying system designed to convert liquid feed, slurry, solution, emulsion, or suspension into uniform free-flowing powder through rapid hot air atomization. Aplex Engineering Systems manufactures high-performance Spray Dryers with customized capacities for food, dairy, pharmaceutical, chemical, ceramic, and environmental industries. Our energy-efficient systems deliver consistent particle size, superior product quality, reliable performance, and automated operation to meet diverse industrial drying requirements.",
 
         workingPrinciple: [
           "Atomization: Liquid feed is converted into tiny droplets using rotary disc atomizers, pressure nozzles, or two-fluid nozzles.",
@@ -266,9 +269,9 @@ const productsData = [
         icon: "bi bi-chevron-right",
         image: multistage,
         shortDescription:
-          "Advanced spray dryer with integrated fluid bed for improved powder density and solubility.",
+          "Aplex Engineering Systems manufactures Multistage Spray Dryers (MSD) with integrated fluid bed technology for high-quality powders, improved bulk density, enhanced solubility, and efficient industrial drying applications.",
         fullDescription:
-          "A Multistage Spray Dryer (MSD) is an advanced spray drying system engineered for high-quality powders, especially those requiring narrow particle size distribution, excellent instant properties, low dusting, and improved bulk density. Unlike single-stage spray dryers, an MSD uses multiple drying zones—typically a primary drying chambercombined with integrated or external fluidized beds—to achieve controlled drying, agglomeration, and superior powder functionality.",
+          "A Multistage Spray Dryer (MSD) is an advanced industrial drying system designed to produce high-quality powders with excellent particle size distribution, enhanced solubility, improved bulk density, and superior instant properties. Aplex Engineering Systems manufactures customized Multistage Spray Dryers with integrated or external fluidized bed technology, ensuring efficient drying, controlled agglomeration, reduced dust generation, and consistent product quality for dairy, food, pharmaceutical, nutraceutical, and chemical industries.",
         // workingPrinciple: [
         //   "Primary spray drying chamber removes initial moisture.",
         //   "Integrated fluid bed ensures secondary drying and agglomeration.",
@@ -285,7 +288,7 @@ const productsData = [
           "High bulk density or low bulk density based on requirement.",
           "Instantizing options (agglomeration).",
           "Reduced fines and improved powder structure.",
-          "EBetter solubility, dispersibility, and flowability.",
+          "Better solubility, dispersibility, and flowability.",
           "Suitable for large production capacities."
         ],
         applications: [
@@ -316,10 +319,10 @@ const productsData = [
         image: closedLoopSprayDryer,
 
         shortDescription:
-          "Thermal drying system operating under oxygen-free atmosphere for solvent-based and hazardous materials.",
+          "Aplex Engineering Systems manufactures Closed-Loop Spray Dryers for safely drying solvent-based and hazardous materials under an oxygen-free inert gas atmosphere with efficient solvent recovery.",
 
         fullDescription:
-          "A Closed-Loop Spray Dryer is a thermal drying system designed for converting liquid feed (solutions, emulsions, suspensions) into a dry powder under oxygen-free/controlled atmosphere. It operates in a sealed drying chamber, where inert gas (usually nitrogen) circulates in a loop rather than venting to the atmosphere.",
+          "A Closed-Loop Spray Dryer is an advanced industrial drying system designed to convert liquid feed such as solutions, emulsions, and suspensions into high-quality dry powder under a controlled oxygen-free atmosphere. Aplex Engineering Systems manufactures customized Closed-Loop Spray Dryers with inert gas circulation, solvent recovery technology, and explosion-proof design, making them ideal for pharmaceutical, chemical, food, biotechnology, fragrance, and battery industries that require safe, efficient, and contamination-free drying processes.",
 
         workingPrinciple: [
           "Feed Preparation: Liquid feed is pumped to the atomizer.",
@@ -423,10 +426,10 @@ const productsData = [
         image: rotaryDryers,
 
         shortDescription:
-          "Continuous thermal drying system for bulk solids such as minerals, fertilizers, biomass, chemicals, and food materials.",
+          "Aplex Engineering Systems manufactures Industrial Rotary Dryers for continuous drying of minerals, fertilizers, biomass, chemicals, and food materials with high thermal efficiency and reliable performance.",
 
         fullDescription:
-          "A Rotary Dryer is a continuous thermal drying system used for reducing moisture content in bulk solids such as minerals, biomass, chemicals, fertilizers, and food materials. It consists of a rotating cylindrical drum that gently tumbles the feed while hot gas passes through it, enabling uniform and efficient moisture removal. Rotary dryers are known for high durability, ability to process large quantities, and compatibility with coarse, sticky, or abrasive materials.",
+          "A Rotary Dryer is a high-performance industrial drying system designed to efficiently reduce moisture content from bulk solids such as minerals, biomass, fertilizers, chemicals, and food materials. Aplex Engineering Systems manufactures customized Rotary Dryers with robust rotating drum technology, high thermal efficiency, and continuous operation capabilities, ensuring uniform drying, reliable performance, low maintenance, and optimum productivity for demanding industrial applications.",
 
         workingPrinciple: [
           "Material Feeding: Moist solid material is fed into the rotating drum via a feeder or conveyor.",
@@ -547,10 +550,10 @@ const productsData = [
         images: [flashDryers, flashDryers1],
 
         shortDescription:
-          "High-speed convective drying system for rapid moisture removal from powders, cakes, slurries, and pastes.",
+          "Aplex Engineering Systems manufactures Industrial Flash Dryers for rapid drying of powders, cakes, slurries, and pastes with high thermal efficiency, continuous operation, and uniform product quality.",
 
         fullDescription:
-          "A Flash Dryer is a high-speed convective drying system used to rapidly remove surface moisture from powders, pastes, cakes, and slurry-type materials. It uses a stream of high-velocity hot air to suspend and dry fine particles within seconds. Flash dryers are known for ultra-fast drying time, high thermal efficiency, suitability for heat-sensitive materials due to short exposure time, and production of fine, uniform powder.",
+          "A Flash Dryer is a high-performance industrial drying system designed for rapid moisture removal from powders, cakes, slurries, and paste-like materials using a high-velocity hot air stream. Aplex Engineering Systems manufactures customized Flash Dryers that deliver fast drying, high thermal efficiency, continuous operation, and uniform powder quality, making them ideal for food, pharmaceutical, chemical, mineral, and biomass processing industries.",
 
         workingPrinciple: [
           "Material Feeding: Wet material (slurry/cake/paste) is fed to a disperser, screw feeder, or rotary valve.",
@@ -667,10 +670,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         image: cageMillFlashDryer,
         shortDescription:
-          "High-speed flash drying system with integrated cage mill for drying sticky, lumpy, and high-moisture materials.",
+          "Aplex Engineering Systems manufactures Cage Mill Flash Dryers for rapid drying of sticky, lumpy, and high-moisture materials with integrated milling, high thermal efficiency, and continuous industrial operation.",
 
         fullDescription:
-          "A Cage Mill Flash Dryer (also called Spin Flash Dryer with Cage Mill) is a high-speed drying system used to dry pastes, cakes, slurries, and non-free-flowing wet materials. It combines mechanical disintegration (cage mill) and flash drying in one system, making it ideal for difficult-to-dry materials. It handles sticky, lumpy, filter cakes and high moisture materials while producing uniform fine powder with ultra-fast drying within seconds.",
+          "A Cage Mill Flash Dryer is an advanced industrial drying system that combines high-speed flash drying with an integrated cage mill to efficiently process sticky, lumpy, filter cake, slurry, and high-moisture materials. Aplex Engineering Systems manufactures customized Cage Mill Flash Dryers that provide rapid moisture removal, uniform fine powder production, high thermal efficiency, and continuous operation, making them ideal for chemical, pharmaceutical, food, mineral, biomass, and environmental processing industries.",
 
         workingPrinciple: [
           "Material Feeding: Wet feed (cake/paste/slurry) enters through a screw feeder or rotary valve.",
@@ -783,10 +786,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         image: spinFlashDryer,
         shortDescription:
-          "High-speed vertical drying system combining mechanical agitation and flash drying for sticky and non-free-flowing materials.",
+          "Aplex Engineering Systems manufactures Industrial Spin Flash Dryers for rapid drying of sticky, pasty, and non-free-flowing materials with high thermal efficiency and continuous operation.",
 
         fullDescription:
-          "A Spin Flash Dryer is a high-speed drying system designed to dry pastes, cakes, slurries, and non-free-flowing materials into fine, free-flowing powders. It combines mechanical agitation (rotor) and flash drying inside a vertical drying chamber, providing instant moisture removal and uniform particle size. Spin Flash Dryers are known for ultra-fast drying, ability to handle sticky and difficult materials, high thermal efficiency, and compact footprint.",
+          "A Spin Flash Dryer is an advanced industrial drying system designed to rapidly dry sticky pastes, cakes, slurries, and non-free-flowing materials into fine, free-flowing powders. Aplex Engineering Systems manufactures customized Spin Flash Dryers featuring high-speed rotor agitation, efficient flash drying technology, and continuous operation to deliver uniform particle size, high thermal efficiency, low energy consumption, and reliable performance for chemical, pharmaceutical, food, mineral, and environmental processing industries.",
 
         workingPrinciple: [
           "Material Feeding: Wet feed (paste, cake, slurry) is introduced through a screw feeder or rotary airlock.",
@@ -902,10 +905,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [pilotSprayDryer, hygienic1],
         shortDescription:
-          "Compact small-to-medium capacity spray drying system for R&D, sampling, scale-up trials, and formulation development.",
+          "Aplex Engineering Systems manufactures Pilot Spray Dryers for R&D, product development, scale-up trials, and formulation testing with precise process control and high powder recovery.",
 
         fullDescription:
-          "A Pilot Spray Dryer is a compact, small-to-medium capacity spray drying system used for product development, R&D, sampling, and scale-up before full-scale industrial production. It converts liquid feed (solution, slurry, emulsion) into fine, free-flowing powder through atomization and rapid hot-air drying. Pilot spray dryers are known for precise control of particle size and moisture, reproducible drying performance, high thermal efficiency, and flexibility to test various formulations.",
+          "A Pilot Spray Dryer is a compact industrial spray drying system designed for research and development, product formulation, sampling, and process scale-up before full-scale manufacturing. Aplex Engineering Systems manufactures Pilot Spray Dryers with precise temperature control, efficient atomization, and high powder recovery to produce consistent, free-flowing powders for pharmaceutical, food, dairy, biotechnology, and chemical industries. These systems provide reliable process validation, formulation optimization, and seamless transition from laboratory to industrial production.",
 
         workingPrinciple: [
           "Feed Preparation: Solution, suspension, or emulsion is prepared in a feed tank.",
@@ -995,10 +998,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         image: continuousFluidBedDryer,
         shortDescription:
-          "Continuous fluidization-based drying system for powders, granules, pellets, and crystalline materials with precise moisture control.",
+          "Aplex Engineering Systems manufactures Continuous Fluid Bed Dryers (CFBD) for efficient drying of powders, granules, pellets, and crystalline materials with precise moisture control and continuous operation.",
 
         fullDescription:
-          "A Continuous Fluid Bed Dryer (CFBD) is a continuous thermal drying system used for drying powders, granules, pellets, and crystalline materials by suspending them in an upward flow of hot air or gas. In a CFBD, wet material is continuously fed, fluidized, dried, and discharged, making it ideal for large-scale and high-throughput operations requiring uniform moisture removal. CFBDs are known for high drying efficiency, uniform heat and mass transfer, short drying time, continuous automated operation, and excellent final moisture control.",
+          "A Continuous Fluid Bed Dryer (CFBD) is an advanced industrial drying system designed for continuous drying of powders, granules, pellets, and crystalline materials through efficient fluidization using heated air. Aplex Engineering Systems manufactures customized Continuous Fluid Bed Dryers with precise moisture control, excellent heat and mass transfer, energy-efficient operation, and automated continuous processing, making them ideal for pharmaceutical, food, chemical, fertilizer, and mineral processing industries.",
 
         workingPrinciple: [
           "Material Feeding: Wet material is fed continuously using screw feeder, rotary valve, or belt feeder.",
@@ -1106,10 +1109,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [vibratoryFuildBedDryers, vibratoryFuildBedDryers1],
         shortDescription:
-          "Continuous drying system combining fluidization and mechanical vibration for uniform moisture removal and gentle material handling.",
+          "Aplex Engineering Systems manufactures Vibratory Fluid Bed Dryers (VFBD) for continuous drying of powders, granules, and crystalline materials with uniform moisture removal, gentle handling, and high thermal efficiency.",
 
         fullDescription:
-          "A Vibratory Fluid Bed Dryer (VFBD) is a continuous drying system that combines fluidization and mechanical vibration to dry powders, granules, crystals, and particulate solids. Unlike conventional fluid bed dryers, VFBD uses controlled vibration to assist material movement, enabling uniform drying, stable fluidization, and gentle handling, even for difficult-to-fluidize materials. VFBDs are known for continuous operation, uniform moisture removal, controlled residence time, gentle product handling, and compact efficient design.",
+          "A Vibratory Fluid Bed Dryer (VFBD) is an advanced industrial drying system that combines fluidization with controlled mechanical vibration to efficiently dry powders, granules, crystals, and particulate materials. Aplex Engineering Systems manufactures customized Vibratory Fluid Bed Dryers that deliver uniform moisture removal, gentle product handling, precise residence time control, and energy-efficient continuous operation, making them ideal for pharmaceutical, food, chemical, fertilizer, and mineral processing industries.",
 
         workingPrinciple: [
           "Material Feeding: Wet material is fed continuously using screw feeder, rotary valve, or belt feeder.",
@@ -1225,10 +1228,10 @@ const productsData = [
         ],
 
         shortDescription:
-          "Sanitary spray drying system designed for food, dairy, pharmaceutical, and nutraceutical industries with strict hygiene compliance.",
+          "Aplex Engineering Systems manufactures Hygienic Spray Dryers for food, dairy, pharmaceutical, and nutraceutical industries with GMP-compliant design, contamination-free processing, and superior product quality.",
 
         fullDescription:
-          "A Hygienic Spray Dryer is a continuous drying system designed specifically for food, dairy, pharmaceutical, and nutraceutical applications where product safety, cleanliness, and regulatory compliance are critical. It converts liquid or slurry feed into dry powder by atomizing the liquid into fine droplets and instantly drying them with hot, sterile air under strict hygienic conditions. Hygienic Spray Dryers are known for high product purity, sanitary contamination-free operation, rapid drying, uniform particle size, and compliance with GMP, FDA, EHEDG, and 3-A standards.",
+          "A Hygienic Spray Dryer is an advanced industrial spray drying system designed for food, dairy, pharmaceutical, and nutraceutical applications where product safety, hygiene, and regulatory compliance are essential. Aplex Engineering Systems manufactures Hygienic Spray Dryers with GMP-compliant sanitary design, stainless steel construction, HEPA-filtered air systems, and contamination-free processing to deliver high product purity, uniform particle size, excellent drying efficiency, and reliable performance while meeting FDA, EHEDG, and 3-A sanitary standards.",
 
         workingPrinciple: [
           "Feed Preparation: Liquid feed (solution, emulsion, or slurry) is filtered, homogenized if required, and fed at controlled temperature and viscosity.",
@@ -1357,10 +1360,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [productSpecificDryer, productSpecificDryer1],
         shortDescription:
-          "Customized drying systems engineered for specific product characteristics, ensuring optimized performance and quality output.",
+          "Aplex Engineering Systems manufactures customized Product-Specific Dryers engineered to meet unique product characteristics, ensuring optimal drying efficiency, superior product quality, and reliable industrial performance.",
 
         fullDescription:
-          "Product-Specific Dryers are customized drying systems designed to meet the unique physical, chemical, and functional requirements of specific products. These dryers are engineered with specialized atomization, airflow, chamber design, and material handling configurations to ensure optimized drying efficiency, product stability, and consistent quality output.",
+          "Product-Specific Dryers are advanced industrial drying systems custom-engineered to meet the unique physical, chemical, and functional requirements of different products and industries. Aplex Engineering Systems manufactures Product-Specific Dryers with optimized atomization technology, airflow design, drying chambers, and material handling systems to deliver superior drying efficiency, enhanced product stability, consistent quality, and reliable performance for food, dairy, chemical, pharmaceutical, and specialty industrial applications.",
 
         productCategories: [
           {
@@ -1435,10 +1438,10 @@ const productsData = [
           hygienic4
         ],
         shortDescription:
-          "Compact laboratory-scale spray drying system for small batch production, R&D, and educational applications.",
+          "Aplex Engineering Systems manufactures Mini Spray Dryers for laboratory research, product development, small-batch production, and R&D applications with precise temperature control and reliable powder formation.",
 
         fullDescription:
-          "A Mini Spray Dryer is a compact laboratory-scale spray drying system designed for small batch production, research & development, formulation testing, and academic purposes. It converts liquid feed (solution, suspension, or emulsion) into fine dry powder through atomization and rapid hot-air drying. Mini Spray Dryers are known for low feed requirement, precise temperature control, ease of operation, and suitability for heat-sensitive materials.",
+          "A Mini Spray Dryer is a compact laboratory-scale industrial drying system designed for research and development, formulation testing, educational applications, and small-batch powder production. Aplex Engineering Systems manufactures Mini Spray Dryers with advanced atomization technology, precise temperature control, and efficient hot-air drying to produce high-quality, free-flowing powders with excellent repeatability. These systems are ideal for pharmaceutical, food, biotechnology, chemical, and academic laboratories requiring reliable and cost-effective spray drying solutions.",
 
         workingPrinciple: [
           "Feed Preparation: Liquid feed is prepared in small quantities and transferred to feed tank.",
@@ -1550,10 +1553,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [sprayDryers_2, sprayDryers_1],
         shortDescription:
-          "High-speed centrifugal atomization system producing uniform droplets for large-capacity spray drying applications.",
+          "Aplex Engineering Systems manufactures Rotary Disc Atomizers for high-capacity spray drying applications, delivering uniform droplet formation, precise atomization, and reliable industrial performance.",
 
         fullDescription:
-          "A Rotary Disc Atomizer is a high-speed centrifugal atomization device used in spray dryers to convert liquid feed into fine droplets. The liquid is fed onto a rapidly rotating disc or wheel, where centrifugal force spreads it into a thin film and breaks it into uniform droplets. Rotary Disc Atomizers are widely used in large-scale industrial spray dryers due to their ability to handle high feed rates, viscous liquids, and produce consistent particle size distribution.",
+          "A Rotary Disc Atomizer is an advanced centrifugal atomization system designed for industrial spray dryers to convert liquid feed into fine, uniform droplets with exceptional precision. Aplex Engineering Systems manufactures high-performance Rotary Disc Atomizers capable of handling high feed rates, viscous liquids, and continuous production while ensuring consistent particle size distribution, excellent drying efficiency, and reliable operation for food, dairy, pharmaceutical, chemical, ceramic, and environmental industries.",
 
         workingPrinciple: [
           "Liquid Feeding: Liquid feed is supplied to the center of the rotating disc.",
@@ -1657,10 +1660,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         image: sprayNozzleAtomization,
         shortDescription:
-          "Pressure-based atomization system converting liquid feed into controlled droplet sizes for precise spray drying applications.",
+          "Aplex Engineering Systems manufactures Spray Nozzle Atomization systems for precise droplet formation in industrial spray dryers, ensuring consistent particle size, efficient drying, and reliable process performance.",
 
         fullDescription:
-          "Spray Nozzle Atomization is a pressure-based droplet formation system used in spray dryers to convert liquid feed into fine droplets. The liquid is pumped at high pressure through a specially designed nozzle orifice, creating atomized droplets due to hydraulic pressure energy. This method provides precise control over droplet size and is widely used in applications requiring narrow particle size distribution and uniform powder characteristics.",
+          "Spray Nozzle Atomization is an advanced pressure-based atomization technology used in industrial spray dryers to convert liquid feed into fine, uniform droplets with exceptional accuracy. Aplex Engineering Systems manufactures high-performance Spray Nozzle Atomization systems that provide precise droplet size control, consistent powder characteristics, and efficient drying performance for food, dairy, pharmaceutical, chemical, ceramic, and advanced material processing industries. These systems are ideal for applications requiring uniform particle size distribution, high product quality, and reliable continuous operation.",
 
         workingPrinciple: [
           "High-Pressure Pumping: Liquid feed is pressurized using a high-pressure pump.",
@@ -2043,8 +2046,10 @@ const productsData = [
         title: "Atomizer Assembly",
         icon: "bi bi-chevron-right",
         images: [atomizerAssembly, atomizerAssembly1],
+        shortDescription:
+          "Aplex Engineering Systems manufactures high-performance Atomizer Assemblies for industrial spray dryers, ensuring precise droplet formation, uniform powder quality, and reliable continuous operation.",
         fullDescription:
-          "We at Aplex Engineering Systems make and provide high-precision Atomizer Assemblies, which are the core components of any spray dryer system. Atomizers convert liquid feed into fine droplets, allowing rapid evaporation and producing consistent, uniform powder.",
+          "An Atomizer Assembly is a critical component of an industrial spray drying system, responsible for converting liquid feed into fine, uniform droplets for efficient moisture evaporation and consistent powder production. Aplex Engineering Systems manufactures precision-engineered Atomizer Assemblies with robust construction, high-speed performance, and reliable operation to ensure excellent particle size distribution, improved drying efficiency, and long service life for food, dairy, pharmaceutical, chemical, and industrial processing applications.",
 
         workingPrinciple: [
           "Centrifugal Atomizers: The liquid feed is pumped onto a rotating wheel or disc. Centrifugal force spreads the liquid outward, forming fine droplets. The droplet size can be adjusted by varying the wheel speed, feed flow, and liquid viscosity.",
@@ -2116,7 +2121,11 @@ const productsData = [
           hotAirGenerator17,
           hotAirGenerator18
         ],
-        fullDescription: "We at Aplex Engineering Systems make and provide reliable Hot Air Generator components, essential for consistent drying. Hot air provides the thermal energy needed to evaporate moisture from atomized droplets efficiently.",
+        shortDescription:
+          "Aplex Engineering Systems manufactures high-efficiency Hot Air Generator Components for industrial drying systems, ensuring reliable heat generation, precise temperature control, and energy-efficient operation.",
+
+        fullDescription:
+          "A Hot Air Generator is a critical component of industrial drying systems, providing the thermal energy required for efficient moisture evaporation during the spray drying process. Aplex Engineering Systems manufactures high-performance Hot Air Generator Components engineered for reliable heat generation, precise temperature control, high thermal efficiency, and continuous industrial operation. Our systems are widely used in food, dairy, pharmaceutical, chemical, and specialty powder processing industries to ensure consistent drying performance and superior product quality.",
 
         workingPrinciple: [
           "Direct-Fired Hot Air Generators: The fuel is burned in a combustion chamber, and the resulting hot gases mix directly with the drying air.",
@@ -2167,7 +2176,11 @@ const productsData = [
         title: "Rotary Air Lock Valves",
         icon: "bi bi-chevron-right",
         images: [rotaryAirlockValve, rotaryAirlockValve1, rotaryAirlockValve2],
-        fullDescription: "We at Aplex Engineering Systems make and provide Rotary Airlock Valves that allow powder discharge while maintaining chamber air pressure. They are critical in preventing backflow and maintaining airflow balance.",
+        shortDescription:
+          "Aplex Engineering Systems manufactures Rotary Air Lock Valves for efficient powder discharge, airtight sealing, and pressure control in industrial spray drying and pneumatic conveying systems.",
+
+        fullDescription:
+          "A Rotary Air Lock Valve is an essential component of industrial spray drying and powder handling systems, designed to ensure continuous powder discharge while maintaining airtight sealing and system pressure. Aplex Engineering Systems manufactures precision-engineered Rotary Air Lock Valves that prevent air leakage, eliminate backflow, and provide reliable material transfer for cyclone separators, bag filters, and pneumatic conveying systems. Built for durability and continuous operation, our valves deliver efficient performance across food, dairy, pharmaceutical, chemical, and industrial processing applications.",
 
         workingPrinciple: [
           "The rotor has multiple pockets that rotate, allowing powder to drop into the discharge line. The pockets isolate chamber pressure from downstream lines, preventing air leakage."
@@ -2213,7 +2226,12 @@ const productsData = [
         title: "Feed Pump System",
         icon: "bi bi-chevron-right",
         images: [feedPumpSystem, feedPumpSystem1, feedPumpSystem2],
-        fullDescription: "We at Aplex Engineering Systems make and provide industrial feed pumps for controlled delivery of liquid feed. Stable feed flow ensures consistent droplet formation and high quality powder.",
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures industrial Feed Pump Systems for precise liquid feed delivery, stable flow control, and consistent atomization in spray drying applications.",
+
+        fullDescription:
+          "A Feed Pump System is a critical component of industrial spray drying systems, designed to deliver liquid feed at a controlled flow rate and pressure for precise atomization and consistent powder production. Aplex Engineering Systems manufactures high-performance Feed Pump Systems engineered for stable, pulsation-free operation, accurate flow control, and reliable continuous performance. Our feed pumps are suitable for handling solutions, slurries, emulsions, and viscous liquids across food, dairy, pharmaceutical, chemical, and specialty processing industries.",
 
         workingPrinciple: [
           "Progressive cavity pumps: rotor turns inside stator moving liquid without pulsation.",
@@ -2239,7 +2257,7 @@ const productsData = [
           "Food and Beverage",
           "Dairy",
           "Chemical ",
-          "Pharmaceutical Spray Sryers"
+          "Pharmaceutical Spray Dryers"
 
         ],
 
@@ -2262,8 +2280,12 @@ const productsData = [
         title: "Industrial Blower",
         icon: "bi bi-chevron-right",
         images: [industrialBlower, industrialBlower1],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures Industrial Blowers for spray drying systems, providing efficient airflow, precise air circulation, and reliable performance for continuous industrial drying operations.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and provide Industrial Blowers that are essential for Supplying Hot Air to the Drying Chamber and Removing moisture-laden air Efficiently. Proper airflow ensures uniform Drying, Prevents Condensation, and Maintains Powder Quality.",
+          "An Industrial Blower is a vital component of spray drying and industrial drying systems, responsible for supplying hot air, maintaining consistent airflow, and efficiently removing moisture-laden air from the drying chamber. Aplex Engineering Systems manufactures high-performance Industrial Blowers engineered for energy-efficient operation, uniform air distribution, reliable continuous performance, and superior drying efficiency. Our Industrial Blowers are widely used in food, dairy, pharmaceutical, chemical, and specialty powder processing industries to ensure consistent product quality and optimized drying performance.",
 
         workingPrinciple: [
           "Centrifugal Blowers: Air enters the Center of the Impeller and is Accelerated outward, Creating High-Pressure Air-flow.",
@@ -2311,8 +2333,11 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [FeedFiltrationSystem, FeedFiltrationSystem1, FeedFiltrationSystem2, FeedFiltrationSystem3, FeedFiltrationSystem4, FeedFiltrationSystem5],
 
+        shortDescription:
+          "Aplex Engineering Systems manufactures Feed Filtration Systems for efficient removal of impurities from liquid feed, protecting pumps and atomizers while ensuring consistent product quality in industrial spray drying applications.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and provide High-Performance Feed Filtration Systems to remove impurities from Liquid Feed, Protecting Pumps and Atomizers from Damage and ensuring consistent Powder quality.",
+          "A Feed Filtration System is a critical component of industrial spray drying systems, designed to remove suspended particles and contaminants from liquid feed before atomization. Aplex Engineering Systems manufactures high-performance Feed Filtration Systems that protect pumps, atomizers, and nozzles from clogging and wear while ensuring stable liquid flow, consistent powder quality, and reliable continuous operation. Our filtration systems are widely used in food, dairy, pharmaceutical, chemical, and specialty processing industries where product purity and process efficiency are essential.",
 
         workingPrinciple: [
           "Liquid feed passes through Filter elements that remove solids or contaminants.",
@@ -2357,8 +2382,12 @@ const productsData = [
         title: "Electromagnetic Hammer System",
         icon: "bi bi-chevron-right",
         images: [electromagneticHammerSystem, electromagneticHammerSystem1],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures Electromagnetic Hammer Systems for preventing powder buildup in cyclones, ducts, and drying chambers, ensuring uninterrupted operation and improved process efficiency.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and Provide Electromagnetic Hammer Systems that Prevent Powder Buildup Inside Cyclones, Ducts, and Drying Chambers, Reducing Downtime and Cleaning effort.",
+          "An Electromagnetic Hammer System is an essential component of industrial spray drying and powder handling systems, designed to prevent powder buildup, bridging, and material blockage inside cyclones, ducts, drying chambers, and process equipment. Aplex Engineering Systems manufactures high-performance Electromagnetic Hammer Systems that deliver controlled mechanical impact to dislodge accumulated powder, reduce manual cleaning, minimize downtime, and improve overall process efficiency. These systems are widely used in food, dairy, pharmaceutical, chemical, and mineral processing industries to maintain continuous and reliable production.",
 
         workingPrinciple: [
           "An Electromagnetic Coil Activates a Hammer head at Controlled Intervals.",
@@ -2404,8 +2433,12 @@ const productsData = [
         title: "Spray Nozzle Components",
         icon: "bi bi-chevron-right",
         images: [sprayNozzleComponents, sprayNozzleComponents1, sprayNozzleComponents2],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures high-precision Spray Nozzle Components for industrial spray dryers, ensuring accurate droplet formation, uniform spray patterns, and consistent powder quality.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and provide High-Precision Spray Nozzle Components to control Droplet size, Spray Pattern, and ultimately Product quality in spray dryers.",
+          "Spray Nozzle Components are critical parts of industrial spray drying systems, designed to control droplet size, spray pattern, and liquid distribution for efficient drying and consistent powder production. Aplex Engineering Systems manufactures precision-engineered Spray Nozzle Components, including nozzle tips, swirl inserts, orifice plates, and sealing assemblies, to deliver accurate atomization, superior wear resistance, and reliable long-term performance. Our components are widely used in food, dairy, pharmaceutical, chemical, and specialty powder processing industries where high product quality and process efficiency are essential.",
 
         workingPrinciple: [
           "Nozzles Atomize Feed through Mechanical Shearing or Pressure forcing, Producing Uniform Droplets.",
@@ -2453,8 +2486,12 @@ const productsData = [
         title: "Cyclone Separator Components",
         icon: "bi bi-chevron-right",
         images: [cycloneSeparator, cycloneSeparator2, cycloneSeparator3, cycloneSeparator4, cycloneSeparator5, cycloneSeparator6, cycloneSeparator7],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures high-efficiency Cyclone Separator Components for industrial spray drying systems, ensuring maximum powder recovery, efficient air separation, and reduced dust emissions.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and provide Cyclone Separators to efficiently Separate Powder from Exhaust Air Using Centrifugal Force, Maximizing Recovery and Minimizing Dust Emissions.",
+          "Cyclone Separator Components are essential parts of industrial spray drying systems, designed to efficiently separate powder particles from exhaust air using centrifugal force. Aplex Engineering Systems manufactures high-performance Cyclone Separator Components engineered for maximum powder recovery, low pressure drop, reduced dust emissions, and reliable continuous operation. Built with durable, wear-resistant materials, our cyclone systems are widely used in food, dairy, pharmaceutical, chemical, and specialty powder processing industries to improve product recovery, process efficiency, and environmental compliance.",
 
         workingPrinciple: [
           "Air and Powder Enter Tangentially, Creating a Spinning Vortex.",
@@ -2497,9 +2534,22 @@ const productsData = [
         slug: "drying-chamber-components",
         title: "Drying Chamber Components",
         icon: "bi bi-chevron-right",
-        images: [dryingChamberComponents2, dryingChamberComponents3, dryingChamberComponents4, , dryingChamberComponents, dryingChamberComponents1, , dryingChamberComponents7, dryingChamberComponents8, dryingChamberComponents9],
+        images: [
+          dryingChamberComponents2,
+          dryingChamberComponents3,
+          dryingChamberComponents4,
+          dryingChamberComponents,
+          dryingChamberComponents1,
+          dryingChamberComponents7,
+          dryingChamberComponents8,
+          dryingChamberComponents9
+        ],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures high-quality Drying Chamber Components for industrial spray dryers, ensuring uniform airflow, efficient heat transfer, and consistent powder production.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and provide Drying Chamber Components that house Atomized Droplets and Maintain Uniform Airflow for High-Quality Drying.",
+          "Drying Chamber Components are essential parts of industrial spray drying systems, designed to provide a controlled environment for efficient moisture evaporation and uniform powder formation. Aplex Engineering Systems manufactures precision-engineered Drying Chamber Components that ensure optimized airflow distribution, excellent heat transfer, high thermal efficiency, and reliable continuous operation. Built with durable, corrosion-resistant materials, our drying chamber components help improve product quality, reduce energy loss, and deliver consistent performance across food, dairy, pharmaceutical, chemical, and specialty powder processing industries.",
 
         workingPrinciple: [
           "Hot air flows through the chamber, contacting atomized droplets.",
@@ -2537,8 +2587,12 @@ const productsData = [
         title: "Instrumentation and Control Components",
         icon: "bi bi-chevron-right",
         images: [instrumentationControlComponents, instrumentationControlComponents2, instrumentationControlComponents3, instrumentationControlComponents4, instrumentationControlComponents5, instrumentationControlComponents6, instrumentationControlComponents7, instrumentationControlComponents8, instrumentationControlComponents9],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures Instrumentation and Control Components for industrial spray dryers, enabling precise process monitoring, automated control, and reliable system performance.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and Provide Instrumentation and Control Components to Monitor and Regulate Spray Dryer Operations, Ensuring Safety, Quality, and Efficiency.",
+          "Instrumentation and Control Components are essential for monitoring, regulating, and automating industrial spray drying systems to ensure safe, efficient, and consistent operation. Aplex Engineering Systems manufactures high-performance Instrumentation and Control Components, including sensors, transmitters, flow meters, control valves, and electrical control devices, designed to deliver accurate process monitoring, precise parameter control, and improved production efficiency. Our automation solutions help optimize spray dryer performance while maintaining product quality across food, dairy, pharmaceutical, chemical, and specialty powder processing industries.",
 
         components: [
           "Temperature Sensors – Accurate Monitoring of Hot Air and Product",
@@ -2572,9 +2626,13 @@ const productsData = [
         slug: "additional-mechanical-components",
         title: "Additional Mechanical Components",
         icon: "bi bi-chevron-right",
-        image: additionalMechanicalComponents,
+        images: [additionalMechanicalComponents],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures Additional Mechanical Components for industrial spray dryers, ensuring efficient powder handling, reliable material transfer, and smooth continuous plant operation.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and provide Additional Mechanical Components to Support Powder Transport, Handling, and Overall Spray Dryer Efficiency.",
+          "Additional Mechanical Components play a vital role in ensuring the efficient operation of industrial spray drying systems by supporting powder conveying, material handling, airflow management, and post-drying processes. Aplex Engineering Systems manufactures high-quality Additional Mechanical Components, including screw conveyors, vibrating screens, powder discharge valves, fluid bed dryer components, air ducts, dampers, and expansion joints. Engineered for durability, reliable performance, and continuous industrial operation, our components help improve process efficiency, reduce downtime, and ensure smooth production across food, dairy, pharmaceutical, chemical, detergent, and specialty powder processing industries.",
 
         components: [
           "Screw Conveyors – Transfer Powder Between Units",
@@ -2611,8 +2669,12 @@ const productsData = [
         title: "Bag Filter and Dust Collector Components",
         icon: "bi bi-chevron-right",
         images: [bagFilterDustCollector, bagFilterDustCollector1, bagFilterDustCollector2, bagFilterDustCollector3, bagFilterDustCollector4, bagFilterDustCollector5, bagFilterDustCollector6, bagFilterDustCollector7, bagFilterDustCollector8, bagFilterDustCollector9],
+
+        shortDescription:
+          "Aplex Engineering Systems manufactures Bag Filter and Dust Collector Components for industrial spray drying systems, ensuring efficient dust collection, maximum powder recovery, and clean exhaust air.",
+
         fullDescription:
-          "We at Aplex Engineering Systems make and provide Bag Filters and Dust Collectors to capture fine particles from exhaust air, protecting the environment and recovering valuable product.",
+          "Bag Filter and Dust Collector Components are essential for maintaining clean exhaust air and maximizing powder recovery in industrial spray drying systems. Aplex Engineering Systems manufactures high-performance Bag Filter and Dust Collector Components designed to efficiently capture fine particles, minimize dust emissions, and improve environmental compliance. Engineered for reliable continuous operation, our filtration systems enhance product recovery, reduce maintenance requirements, and ensure efficient air pollution control across food, dairy, pharmaceutical, chemical, detergent, and specialty powder processing industries.",
 
         workingPrinciple: [
           "Air Passes Through Filter Bags Supported by Cages.",
@@ -2665,10 +2727,10 @@ const productsData = [
           zeroLiquidDischargeDryerImage2
         ],
         shortDescription:
-          "Advanced drying system designed to convert industrial wastewater into solid residue and recover reusable water, achieving zero liquid discharge.",
+          "Aplex Engineering Systems manufactures advanced Zero Liquid Discharge (ZLD) systems for industrial wastewater treatment, enabling maximum water recovery, solid waste management, and environmental compliance.",
 
         fullDescription:
-          "A Zero Liquid Discharge (ZLD) Dryer is an advanced industrial drying system used to treat industrial effluents and wastewater by converting them into solid residues while recovering clean reusable water. ZLD systems eliminate liquid discharge from the plant, ensuring full environmental compliance and sustainability. These dryers are widely used in chemical, pharmaceutical, textile, power, and food industries to manage high-TDS wastewater streams and minimize environmental impact.",
+          "A Zero Liquid Discharge (ZLD) System is an advanced industrial wastewater treatment solution designed to recover reusable water while converting industrial effluents into solid residue for safe disposal or reuse. Aplex Engineering Systems manufactures high-performance Zero Liquid Discharge (ZLD) systems that integrate evaporation, crystallization, and thermal drying technologies to eliminate liquid discharge, maximize water recovery, and ensure compliance with stringent environmental regulations. Our ZLD solutions are widely used in chemical, pharmaceutical, textile, power generation, food processing, and other industries handling high-TDS wastewater, delivering sustainable operation, reduced environmental impact, and efficient resource utilization.",
 
         workingPrinciple: [
           "Effluent Collection: Industrial wastewater is collected and pre-treated.",
@@ -2777,10 +2839,10 @@ const productsData = [
         image: fallingFilmEvaporatorImage,
 
         shortDescription:
-          "High-efficiency evaporator system for concentrating heat-sensitive liquids with minimal residence time and high energy savings.",
+          "Aplex Engineering Systems manufactures Falling Film Evaporators for efficient concentration of heat-sensitive liquids, delivering high evaporation efficiency, energy savings, and continuous industrial operation.",
 
         fullDescription:
-          "A Falling Film Evaporator (FFE) is an energy-efficient evaporator system used for concentrating liquids by evaporating solvents under controlled conditions. In this system, liquid flows downward as a thin film along the inner walls of vertical tubes while heat is applied externally. Due to thin film formation and short residence time, Falling Film Evaporators are ideal for heat-sensitive products and large-capacity continuous operations. They are widely used in chemical, pharmaceutical, dairy, and food industries for solvent recovery and liquid concentration.",
+          "A Falling Film Evaporator (FFE) is an advanced industrial evaporation system designed to efficiently concentrate heat-sensitive liquids through thin-film evaporation with minimal residence time. Aplex Engineering Systems manufactures high-performance Falling Film Evaporators that provide superior heat transfer, low thermal degradation, high energy efficiency, and reliable continuous operation. Our evaporators are widely used for solvent recovery, liquid concentration, and wastewater treatment in dairy, food, pharmaceutical, chemical, and environmental processing industries, delivering consistent product quality while reducing operating costs.",
 
         workingPrinciple: [
           "Feed Distribution: Liquid feed enters at the top of the evaporator tubes through a distributor.",
@@ -2879,10 +2941,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [forcedCirculationEvaporatorImage, forcedCirculationEvaporatorImage1],
         shortDescription:
-          "Robust evaporator system designed for high-viscosity, scaling, and crystallizing liquids requiring strong circulation and controlled evaporation.",
+          "Aplex Engineering Systems manufactures Forced Circulation Evaporators for processing high-viscosity, scaling, and crystallizing liquids with reliable performance, efficient heat transfer, and continuous operation.",
 
         fullDescription:
-          "A Forced Circulation Evaporator (FCE) is a heavy-duty evaporation system designed for concentrating high-viscosity, scaling, or crystallizing liquids. Unlike falling film systems, this evaporator uses a circulation pump to force liquid through heat exchanger tubes at high velocity, preventing fouling and enabling efficient evaporation. It is widely used in chemical, pharmaceutical, wastewater treatment, and high-salt applications where stable and reliable concentration is required.",
+          "A Forced Circulation Evaporator (FCE) is a high-performance industrial evaporation system engineered to concentrate high-viscosity, scaling, fouling, and crystallizing liquids through continuous forced circulation. Aplex Engineering Systems manufactures robust Forced Circulation Evaporators equipped with high-capacity circulation pumps and advanced heat transfer technology to ensure efficient evaporation, reduced fouling, and reliable operation under demanding process conditions. Our systems are widely used in chemical, pharmaceutical, wastewater treatment, Zero Liquid Discharge (ZLD), food processing, and power industries for handling difficult process liquids while maximizing operational efficiency and product quality.",
 
         workingPrinciple: [
           "Feed Entry: Liquid feed enters the evaporator circulation loop.",
@@ -2982,10 +3044,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [multipleEffectEvaporatorImage, multipleEffectEvaporatorImage1, multipleEffectEvaporatorImage2],
         shortDescription:
-          "Energy-efficient multi-stage evaporation system designed to concentrate liquids using vapor reuse across multiple effects.",
+          "Aplex Engineering Systems manufactures Multiple Effect Evaporators (MEE) for energy-efficient liquid concentration, maximizing steam economy through multi-stage vapor reuse and continuous industrial operation.",
 
         fullDescription:
-          "A Multiple Effect Evaporator (MEE) is an advanced evaporation system designed to improve energy efficiency by utilizing vapor generated from one stage (effect) as the heating medium for the next stage. This cascading vapor reuse significantly reduces steam consumption and operating cost. MEEs are widely used in chemical, pharmaceutical, food, and wastewater treatment industries for large-scale concentration and solvent recovery applications.",
+          "A Multiple Effect Evaporator (MEE) is an advanced industrial evaporation system that maximizes energy efficiency by reusing vapor generated in one effect as the heating source for subsequent effects. Aplex Engineering Systems manufactures high-performance Multiple Effect Evaporators (MEE) designed to reduce steam consumption, lower operating costs, and deliver efficient continuous liquid concentration for large-scale industrial applications. Our MEE systems are widely used in chemical, pharmaceutical, food processing, textile, wastewater treatment, and Zero Liquid Discharge (ZLD) plants for solvent recovery, effluent concentration, and sustainable industrial processing while ensuring reliable performance and environmental compliance.",
 
         workingPrinciple: [
           "Feed Entry: Liquid feed enters the first effect where steam provides heat.",
@@ -3100,10 +3162,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [chemicalReactorsImage, chemicalReactorsImage1, chemicalReactorsImage2],
         shortDescription:
-          "Industrial jacketed reactors designed for controlled chemical reactions, mixing, heating, cooling, and pressure operations.",
+          "Aplex Engineering Systems manufactures industrial Chemical Reactors for efficient mixing, heating, cooling, and controlled chemical processing with reliable performance and superior process control.",
 
         fullDescription:
-          "Chemical Reactors are industrial process vessels designed to carry out controlled chemical reactions under specified temperature, pressure, and mixing conditions. These reactors are widely used in chemical, pharmaceutical, petrochemical, food, and specialty process industries. They are engineered for precise heat transfer, efficient mixing, and safe handling of reactive or hazardous materials. Reactors are available in various configurations including batch, semi-batch, and continuous systems.",
+          "Chemical Reactors are high-performance industrial process vessels designed to carry out controlled chemical reactions under precise temperature, pressure, and mixing conditions. Aplex Engineering Systems manufactures robust Chemical Reactors engineered for efficient heat transfer, uniform mixing, safe process control, and reliable continuous operation across demanding industrial applications. Available in jacketed, limpet coil, glass-lined, stainless steel, batch, and continuous configurations, our reactors are widely used in chemical, pharmaceutical, petrochemical, food processing, and specialty chemical industries for product synthesis, blending, and process optimization while ensuring high productivity and operational safety.",
 
         workingPrinciple: [
           "Charging: Raw materials or reactants are charged into the reactor vessel.",
@@ -3196,10 +3258,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [crystallizersImage, crystallizersImage1],
         shortDescription:
-          "Industrial crystallization systems designed for controlled crystal formation, size uniformity, and high-purity solid product recovery.",
+          "Aplex Engineering Systems manufactures industrial Crystallizers for efficient crystal formation, high-purity product recovery, and seamless integration with evaporator and Zero Liquid Discharge (ZLD) systems.",
 
         fullDescription:
-          "Crystallizers are industrial process vessels designed to convert dissolved substances into solid crystalline form through controlled cooling, evaporation, or chemical reaction. They are widely used in chemical, pharmaceutical, food, fertilizer, and wastewater industries for producing high-purity crystals with uniform particle size. Crystallizers ensure precise control of supersaturation, nucleation, and crystal growth to achieve desired product quality.",
+          "Crystallizers are advanced industrial process equipment designed to convert dissolved substances into high-purity solid crystals through controlled cooling, evaporation, or chemical crystallization. Aplex Engineering Systems manufactures high-performance Crystallizers engineered to provide precise control over supersaturation, nucleation, and crystal growth, ensuring consistent crystal size, maximum product recovery, and reliable continuous operation. Our crystallization systems are widely used in chemical, pharmaceutical, fertilizer, food processing, wastewater treatment, and Zero Liquid Discharge (ZLD) applications for salt recovery, solvent concentration, and high-purity crystal production while delivering excellent process efficiency and environmental compliance.",
 
         workingPrinciple: [
           "Solution Preparation: Saturated or supersaturated solution is prepared.",
@@ -3391,10 +3453,10 @@ const productsData = [
         icon: "bi bi-chevron-right",
         images: [vesselsAndStorageTanksImage, vesselsAndStorageTanksImage2, vesselsAndStorageTanksImage3, vesselsAndStorageTanksImage4],
         shortDescription:
-          "Robust and corrosion-resistant vessels for mixing, storage, and pressure applications.",
+          "Aplex Engineering Systems manufactures industrial Vessels and Storage Tanks for safe storage, mixing, pressure handling, and process applications across diverse industries.",
 
         fullDescription:
-          "Vessels and storage tanks are industrial equipment used for storing, mixing, and handling liquids, gases, and slurries under controlled conditions. These vessels are designed to withstand pressure, temperature variations, and corrosive environments, making them essential in chemical, pharmaceutical, food, petrochemical, and environmental industries.",
+          "Vessels and Storage Tanks are essential industrial process equipment designed for the safe storage, handling, mixing, and transfer of liquids, gases, and slurries under controlled operating conditions. Aplex Engineering Systems manufactures high-quality Vessels and Storage Tanks engineered for superior strength, corrosion resistance, pressure handling, and long-term operational reliability. Available in atmospheric, pressure-rated, jacketed, agitated, vertical, and horizontal configurations, our storage solutions are widely used in chemical, pharmaceutical, food processing, petrochemical, environmental, and water treatment industries to ensure safe product storage, efficient process integration, and consistent production performance.",
 
         workingPrinciple: [
           "Containment: Provides a secure enclosure for liquids, gases, or slurries.",
@@ -3475,6 +3537,59 @@ const productsData = [
         ]
       }
     ],
+  },
+
+  {
+    category: "Complete Drying Plants",
+    categorySlug: "complete-drying-plants",
+    icon: "bi bi-chevron-right",
+    items: [
+      {
+        title: "Milk Powder Plant",
+        slug: "milk-powder-plant",
+        icon: "bi bi-chevron-right",
+        images: [milkPowderPlant],
+  
+        shortDescription:
+          "Complete turnkey milk powder plant for efficient processing of liquid milk into premium-quality milk powder.",
+  
+        fullDescription:
+          "...",
+  
+        workingPrinciple: [],
+  
+        features: [],
+  
+        applications: {},
+  
+        advantages: [],
+  
+        keySelectionParameters: []
+      },
+  
+      {
+        title: "Whey Powder Plant",
+        slug: "whey-powder-plant",
+        icon: "bi bi-chevron-right",
+        images: [wheyPowderPlant],
+  
+        shortDescription:
+          "Complete whey powder production plant for converting liquid whey into high-quality powder.",
+  
+        fullDescription:
+          "...",
+  
+        workingPrinciple: [],
+  
+        features: [],
+  
+        applications: {},
+  
+        advantages: [],
+  
+        keySelectionParameters: []
+      }
+    ]
   },
 
   // {
