@@ -1184,6 +1184,7 @@ section,
   position: relative;
 }
 
+.section-title h1,
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
@@ -1192,6 +1193,7 @@ section,
   position: relative;
 }
 
+.section-title h1:before,
 .section-title h2:before {
   content: "";
   position: absolute;
@@ -1205,6 +1207,7 @@ section,
   margin: auto;
 }
 
+.section-title h1::after,
 .section-title h2::after {
   content: "";
   position: absolute;
