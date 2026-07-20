@@ -11,6 +11,10 @@ export default function ProductDetails() {
     const { category, slug } = useParams();
     const [currentIndex, setCurrentIndex] = useState(0)
 
+    useEffect(() => {
+        setCurrentIndex(0);
+    }, [slug]);
+
     // Client-side permanent redirect logic for outdated URLs
     if (category === "drying-systems" && slug === "zero-liquid-discharge-dryers") {
         return <Navigate to="/products/zld-dryers/zld-dryers" replace />;
@@ -67,10 +71,6 @@ export default function ProductDetails() {
             </main>
         );
     }
-
-    useEffect(() => {
-        setCurrentIndex(0);
-    }, [slug]);
 
     if (!product || images.length === 0) {
         return (
