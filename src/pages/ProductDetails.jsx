@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useParams, Link, NavLink } from "react-router-dom";
+import { useParams, Link, NavLink, Navigate } from "react-router-dom";
 import productsData from "../data/productsData";
 import { useState } from "react";
 import SEO from "../seo/SEO";
@@ -11,6 +11,13 @@ export default function ProductDetails() {
     const { category, slug } = useParams();
     const [currentIndex, setCurrentIndex] = useState(0)
 
+    // Client-side permanent redirect logic for outdated URLs
+    if (category === "drying-systems" && slug === "zero-liquid-discharge-dryers") {
+        return <Navigate to="/products/zld-dryers/zld-dryers" replace />;
+    }
+    if (category === "evaporation-systems" && slug === "falling-film-evaporator") {
+        return <Navigate to="/products/evaporators/falling-film-evaporator" replace />;
+    }
 
     const categoryData = productsData.find(
         (cat) => cat.categorySlug === category
@@ -29,9 +36,35 @@ export default function ProductDetails() {
 
     if (!product) {
         return (
-            <div className="container py-5">
-                <h2>Product Not Found</h2>
-            </div>
+            <main className="main">
+                <SEO
+                    title="Product Not Found | Aplex Engineering Systems"
+                    description="The requested industrial equipment model could not be found. Please contact us for consultation or custom requirements."
+                    canonical={`${SITE_URL}/404`}
+                    noindex={true}
+                />
+                <div className="page-title dark-background">
+                    <div className="container position-relative">
+                        <h1>Product Not Found</h1>
+                        <nav className="breadcrumbs">
+                            <ol>
+                                <li><Link to="/">Home</Link></li>
+                                <li className="current">404</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <section className="section py-5">
+                    <div className="container text-center py-5">
+                        <h2 className="display-4 fw-bold text-danger">404 - Equipment Model Not Found</h2>
+                        <p className="lead mt-3">The industrial processing equipment model you are looking for does not exist or has been relocated.</p>
+                        <div className="mt-4">
+                            <Link to="/" className="btn btn-primary me-2">Back to Homepage</Link>
+                            <Link to="/contact" className="btn btn-outline-primary ms-2">Request Custom Quote</Link>
+                        </div>
+                    </div>
+                </section>
+            </main>
         );
     }
 

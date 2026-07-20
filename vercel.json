@@ -1,4 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/products/drying-systems/zero-liquid-discharge-dryers",
+      "destination": "/products/zld-dryers/zld-dryers",
+      "permanent": true
+    },
+    {
+      "source": "/products/evaporation-systems/falling-film-evaporator",
+      "destination": "/products/evaporators/falling-film-evaporator",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
