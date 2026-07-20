@@ -27,6 +27,14 @@ export default function SEO({
     description ||
     'Aplex Engineering Systems – Leading manufacturer of Spray Dryers, Evaporators, Flash Dryers, Fluid Bed Dryers, and ZLD systems in India.'
 
+  // Resolve Open Graph and Twitter image path to an absolute URL
+  const resolveAbsoluteUrl = (url) => {
+    if (!url || typeof url !== 'string') return SITE_LOGO
+    if (url.startsWith('http://') || url.startsWith('https://')) return url
+    return `${SITE_URL}${url.startsWith('/') ? '' : '/'}${url}`
+  }
+  const absoluteOgImage = resolveAbsoluteUrl(ogImage)
+
   return (
     <Helmet>
       {/* ─── Core Meta ──────────────────────────────────────────────────────── */}
@@ -42,14 +50,14 @@ export default function SEO({
       <meta property="og:description" content={metaDesc} />
       <meta property="og:url" content={canonical || SITE_URL} />
       <meta property="og:site_name" content={SITE_NAME} />
-      <meta property="og:image" content={ogImage} />
+      <meta property="og:image" content={absoluteOgImage} />
       <meta property="og:locale" content="en_IN" />
 
       {/* ─── Twitter Card ───────────────────────────────────────────────────── */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={metaDesc} />
-      <meta name="twitter:image" content={ogImage} />
+      <meta name="twitter:image" content={absoluteOgImage} />
 
       {/* ─── JSON-LD Structured Data ─────────────────────────────────────────── */}
       {schema && (

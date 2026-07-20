@@ -2,7 +2,7 @@
  * JSON-LD Schema Markup for Aplex Engineering Systems
  * https://www.aplexengg.com
  *
- * Provides: Organization, LocalBusiness, WebSite, BreadcrumbList, Product schemas
+ * Provides: Organization, LocalBusiness, WebSite, BreadcrumbList, ProductModel schemas
  */
 
 import { SITE_URL, SITE_NAME, SITE_PHONE, SITE_EMAIL, SITE_ADDRESS, SITE_LOGO } from './seoConfig'
@@ -12,11 +12,14 @@ export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: SITE_NAME,
+  legalName: 'Aplex Engineering Systems',
   url: SITE_URL,
   logo: SITE_LOGO,
+  image: SITE_LOGO,
   description:
     'Aplex Engineering Systems is a leading manufacturer of Spray Dryers, Evaporators, Flash Dryers, Fluid Bed Dryers, and Zero Liquid Discharge (ZLD) systems based in Ahmedabad, India.',
   foundingDate: '2020',
+  isicV4: '28', // Manufacture of machinery and equipment n.e.c.
   contactPoint: [
     {
       '@type': 'ContactPoint',
@@ -49,6 +52,7 @@ export const localBusinessSchema = {
   telephone: SITE_PHONE,
   email: SITE_EMAIL,
   priceRange: '$$',
+  isicV4: '28', // Manufacture of machinery and equipment n.e.c.
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'A-1207, Rajyash Rise, Vishala',
@@ -107,60 +111,35 @@ export function getBreadcrumbSchema(items) {
  * @param {string} categorySlug - category URL slug
  * @param {string} categoryName - display name of category
  */
-// export function getProductSchema({ product, categorySlug, categoryName }) {
-//   return {
-//     '@context': 'https://schema.org',
-//     '@type': 'Product',
-
-//     name: product.title,
-//     sku: product.slug,
-//     image: product.images?.[0] || SITE_LOGO,
-
-//     description: product.fullDescription || product.shortDescription,
-
-//     brand: {
-//       '@type': 'Organization',
-//       name: SITE_NAME,
-//     },
-
-//     manufacturer: {
-//       '@type': 'Organization',
-//       name: SITE_NAME,
-//       url: SITE_URL,
-//     },
-
-//     category: categoryName,
-
-//     url: `${SITE_URL}/products/${categorySlug}/${product.slug}`,
-
-//     offers: {
-//       '@type': 'Offer',
-//       priceCurrency: 'INR',
-//       availability: 'https://schema.org/InStock',
-
-//       seller: {
-//         '@type': 'Organization',
-//         name: SITE_NAME,
-//       },
-
-//       url: `${SITE_URL}/contact`,
-//     },
-//   }
-// }
-
 export function getProductSchema({ product, categorySlug, categoryName }) {
-  return {
+  // Format image URLs as absolute using the SITE_URL base safely
+  const resolveImageUrl = (img) => {
+    if (!img || typeof img !== 'string') {
+      return null
+    }
+    if (img.startsWith('http://') || img.startsWith('https://')) {
+      return img
+    }
+    return `${SITE_URL}${img.startsWith('/') ? '' : '/'}${img}`
+  }
+
+  const rawImages = product.images || (product.image ? [product.image] : [])
+  const imagesArray = Array.isArray(rawImages) ? rawImages : [rawImages]
+  const imageUrls = imagesArray
+    .map(resolveImageUrl)
+    .filter(Boolean)
+
+  const resolvedImages = imageUrls.length > 0 ? imageUrls : [SITE_LOGO]
+
+  const schema = {
     '@context': 'https://schema.org',
-    '@type': 'Product',
-
+    '@type': 'ProductModel',
     name: product.title,
-    sku: product.slug,
-    image: product.images?.[0] || SITE_LOGO,
-
     description: product.fullDescription || product.shortDescription,
-
+    image: resolvedImages,
+    
     brand: {
-      '@type': 'Organization',
+      '@type': 'Brand',
       name: SITE_NAME,
     },
 
@@ -168,10 +147,73 @@ export function getProductSchema({ product, categorySlug, categoryName }) {
       '@type': 'Organization',
       name: SITE_NAME,
       url: SITE_URL,
+      logo: SITE_LOGO,
     },
 
     category: categoryName,
-
     url: `${SITE_URL}/products/${categorySlug}/${product.slug}`,
   }
+
+  // Improve ProductModel schema by adding optional properties only when available
+  if (product.additionalType) {
+    schema.additionalType = product.additionalType
+  }
+  if (product.isSimilarTo) {
+    schema.isSimilarTo = product.isSimilarTo
+  }
+  if (product.keywords) {
+    schema.keywords = product.keywords
+  }
+  if (product.audience) {
+    schema.audience = product.audience
+  }
+  if (product.material) {
+    schema.material = product.material
+  } else if (product.materials) {
+    schema.material = Array.isArray(product.materials) ? product.materials.join(', ') : product.materials
+  }
+  if (product.productionDate) {
+    schema.productionDate = product.productionDate
+  }
+
+  // Additional specifications for industrial equipment
+  const additionalProperty = []
+
+  if (product.features && product.features.length > 0) {
+    additionalProperty.push({
+      '@type': 'PropertyValue',
+      name: 'Key Features',
+      value: product.features.join(', '),
+    })
+  }
+
+  if (product.industries && product.industries.length > 0) {
+    additionalProperty.push({
+      '@type': 'PropertyValue',
+      name: 'Industries Served',
+      value: product.industries.join(', '),
+    })
+  }
+
+  if (product.materials && product.materials.length > 0) {
+    additionalProperty.push({
+      '@type': 'PropertyValue',
+      name: 'Materials of Construction',
+      value: product.materials.join(', '),
+    })
+  }
+
+  if (product.mainComponents && product.mainComponents.length > 0) {
+    additionalProperty.push({
+      '@type': 'PropertyValue',
+      name: 'Main Components',
+      value: product.mainComponents.join(', '),
+    })
+  }
+
+  if (additionalProperty.length > 0) {
+    schema.additionalProperty = additionalProperty
+  }
+
+  return schema
 }
