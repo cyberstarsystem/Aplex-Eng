@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/white-logo.svg'
+import logo from '../assets/img/aplex-newlogo.svg'
 import DownloadCTA from './DownloadCTA'
 
 const usefulLinks = [

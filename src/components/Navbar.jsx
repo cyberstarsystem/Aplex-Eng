@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 import misc7 from '../assets/img/misc/misc-7.webp'
 import misc12 from '../assets/img/misc/misc-12.webp'
 import misc5 from '../assets/img/misc/misc-5.webp'
-import logo from '../assets/img/logo.png'
+import logo from '../assets/img/aplex-newlogo.svg'
 // import indiamartIcon from '../../public/images/indiamart.png';
 
 const socialLinks = [
