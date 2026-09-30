@@ -25,10 +25,8 @@ export default function Hero() {
           <div className="col-lg-12">
             <div className="hero-content">
               <span className="hero-badge">Innovative Solutions</span>
-              <h1 className="">Spray Dryers & Industrial Drying Systems Manufacturer in India</h1>
-              <p>
-                Experts in Drying, Evaporation and Process Equipments
-              </p>
+              <h1 className="">Expert in drying evaporation and process equipment manufacturer in india and abroad</h1>
+             
               <div className="hero-actions">
                 <a href="#services" className="btn-primary">Explore Services</a>
                 <a href="https://www.youtube.com/watch?v=ZKCk7K4Ew7c&t=1s" className="btn-secondary glightbox">
